@@ -114,7 +114,7 @@ class MyTagger(tagger.PerceptronTagger):
             extract("current_next", tokens[i], tokens[i+1])
             extract("next_word", tokens[i+1])
         
-            if re.match("""[!?,".']""", tokens[i+1]):
+            if re.match("[!?,\".']", tokens[i+1]):
                 extract("separators", "__separator__")
             if re.match("dje$", tokens[i]):
                 extract("forsta", "__COUNT__")
@@ -140,7 +140,7 @@ class MyTagger(tagger.PerceptronTagger):
 
         
 
-
+        
 
 
         return features
