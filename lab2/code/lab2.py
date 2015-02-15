@@ -50,11 +50,13 @@ class MyTagger(tagger.PerceptronTagger):
             tagged = list(self.tag(list(zip(*sentence))[0]))
             for i,x in enumerate(sentence):
                 matrix[tagged[i][1]][x[1]] += 1
-             
-        strs=""
-        for i,a in enumerate(matrix.keys()):
-            strs+="{"+str(i)+":<6}"
 
+
+
+
+        strs="{0:<6}"
+        for i,a in enumerate(matrix.keys()):
+            strs+="{"+str(i+1)+":<6}"
         print(strs.format(" ", *sorted(matrix)))
 
         for x in sorted(matrix):
@@ -101,7 +103,7 @@ class MyTagger(tagger.PerceptronTagger):
         features = []
 
         extract("current_word", tokens[i])
-        
+        """
         extract("end_of_word_2", tokens[i][-2:])
         extract("end_of_word_3", tokens[i][-3:])
         extract("end_of_word_4", tokens[i][-4:])
@@ -138,7 +140,7 @@ class MyTagger(tagger.PerceptronTagger):
             extract("pred_before_before", pred_tags[i-1], pred_tags[i-2])
             extract("word_before_before", tokens[i-1], tokens[i-2])
 
-        
+        """
 
         
 
