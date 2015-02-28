@@ -19,7 +19,7 @@
 3	man	_	PN	PN	UTR|SIN|IND|SUB	2	SS	_	_
 4	oberoende	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	2	AA	_	_
 5	av	_	PP	PP	_	4	HD	_	_
-6	tidigare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	7	DT	_	_
+6	tidigare	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	7	DT	_	_
 7	arbetsinkomst	_	NN	NN	UTR|SIN|IND|NOM	4	PA	_	_
 8	.	_	MAD	MAD	_	2	IP	_	_
 
@@ -101,7 +101,7 @@
 6	som	_	HP	HP	-|-|-	7	SS	_	_
 7	fastställs	_	VB	VB	PRS|SFO	4	ET	_	_
 8	för	_	PP	PP	_	7	OA	_	_
-9	en	_	RG	RG	UTR|SIN|IND|NOM	10	DT	_	_
+9	en	_	DT	DT	UTR|SIN|IND|NOM	10	DT	_	_
 10	månad	_	NN	NN	UTR|SIN|IND|NOM	8	PA	_	_
 11	i	_	PP	PP	_	10	ET	_	_
 12	taget	_	NN	NN	NEU|SIN|DEF|NOM	11	HD	_	_
@@ -115,9 +115,9 @@
 20	centralbyrån	_	NN	NN	UTR|SIN|DEF|NOM	18	PA	_	_
 21	.	_	MAD	MAD	_	2	IP	_	_
 
-1	Allt	_	AB	AB	_	7	TA	_	_
+1	Allt	_	PN	PN	_	7	TA	_	_
 2	efter	_	PP	PP	_	1	HD	_	_
-3	som	_	HA	HA	_	1	HD	_	_
+3	som	_	HP	HP	_	1	HD	_	_
 4	prisläget	_	NN	NN	NEU|SIN|DEF|NOM	5	SS	_	_
 5	förändras	_	VB	VB	PRS|SFO	1	UA	_	_
 6	,	_	MID	MID	_	7	IK	_	_
@@ -182,14 +182,14 @@
 
 1	Folkpension	_	NN	NN	UTR|SIN|IND|NOM	4	OO	_	_
 2	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
-3	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
-4	få	_	VB	VB	INF|AKT	2	VG	_	_
+3	den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
+4	få	_	JJ	JJ	INF|AKT	2	VG	_	_
 5	som	_	HP	HP	-|-|-	6	SS	_	_
 6	är	_	VB	VB	PRS|AKT	9	MS	_	_
 7	svensk	_	JJ	JJ	POS|UTR|SIN|IND|NOM	8	AT	_	_
 8	medborgare	_	NN	NN	UTR|SIN|IND|NOM	6	SP	_	_
 9	och	_	KN	KN	_	3	ET	_	_
-10	bosatt	_	PC	PC	PRF|UTR|SIN|IND|NOM	9	+F	_	_
+10	bosatt	_	JJ	JJ	PRF|UTR|SIN|IND|NOM	9	+F	_	_
 11	här	_	AB	AB	_	10	RA	_	_
 12	i	_	PP	PP	_	11	RA	_	_
 13	landet	_	NN	NN	NEU|SIN|DEF|NOM	12	PA	_	_
@@ -201,7 +201,7 @@
 4	medborgare	_	NN	NN	UTR|SIN|IND|NOM	6	SS	_	_
 5	inte	_	AB	AB	_	6	NA	_	_
 6	är	_	VB	VB	PRS|AKT	1	UA	_	_
-7	bosatt	_	PC	PC	PRF|UTR|SIN|IND|NOM	6	SP	_	_
+7	bosatt	_	JJ	JJ	PRF|UTR|SIN|IND|NOM	6	SP	_	_
 8	här	_	AB	AB	_	6	RA	_	_
 9	,	_	MID	MID	_	10	IK	_	_
 10	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
@@ -213,7 +213,7 @@
 16	om	_	SN	SN	_	13	AA	_	_
 17	han	_	PN	PN	UTR|SIN|DEF|SUB	18	SS	_	_
 18	varit	_	VB	VB	SUP|AKT	16	UA	_	_
-19	mantalsskriven	_	PC	PC	PRF|UTR|SIN|IND|NOM	18	SP	_	_
+19	mantalsskriven	_	NN	NN	PRF|UTR|SIN|IND|NOM	18	SP	_	_
 20	här	_	AB	AB	_	18	RA	_	_
 21	det	_	DT	DT	NEU|SIN|DEF	22	DT	_	_
 22	år	_	NN	NN	NEU|SIN|IND|NOM	26	CJ	_	_
@@ -243,7 +243,7 @@
 6	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 7	i	_	PP	PP	_	9	RA	_	_
 8	Sverige	_	PM	PM	NOM	7	PA	_	_
-9	bosatta	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	10	AT	_	_
+9	bosatta	_	JJ	JJ	PRF|UTR/NEU|PLU|IND/DEF|NOM	10	AT	_	_
 10	medborgare	_	NN	NN	UTR|PLU|IND|NOM	6	SS	_	_
 11	från	_	PP	PP	_	10	ET	_	_
 12	dessa	_	DT	DT	UTR/NEU|PLU|DEF	13	DT	_	_
@@ -266,10 +266,10 @@
 4	ATP	_	PM	PM	NOM	3	OO	_	_
 5	?	_	MAD	MAD	_	2	I?	_	_
 
-1	ATP	_	PM	PM	NOM	4	OO	_	_
+1	ATP	_	NN	NN	NOM	4	OO	_	_
 2	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
-3	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
-4	få	_	VB	VB	INF|AKT	2	VG	_	_
+3	den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
+4	få	_	JJ	JJ	INF|AKT	2	VG	_	_
 5	,	_	MID	MID	_	4	IK	_	_
 6	som	_	HP	HP	-|-|-	7	SS	_	_
 7	har	_	VB	VB	PRS|AKT	3	ET	_	_
@@ -354,7 +354,7 @@
 
 1	Såväl	_	KN	KN	_	3	VA	_	_
 2	folkpensioneringen	_	NN	NN	UTR|SIN|DEF|NOM	3	CJ	_	_
-3	som	_	KN	KN	_	5	SS	_	_
+3	som	_	HP	HP	_	5	SS	_	_
 4	ATP	_	PM	PM	NOM	3	CJ	_	_
 5	ger	_	VB	VB	PRS|AKT	0	ROOT	_	_
 6	möjligheter	_	NN	NN	UTR|PLU|IND|NOM	5	OO	_	_
@@ -407,15 +407,15 @@
 6	betyder	_	VB	VB	PRS|AKT	0	ROOT	_	_
 7	,	_	MID	MID	_	6	IK	_	_
 8	att	_	SN	SN	_	6	OO	_	_
-9	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	10	SS	_	_
+9	den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	10	SS	_	_
 10	minskas	_	VB	VB	PRS|SFO	11	MS	_	_
 11	eller	_	KN	KN	_	8	UA	_	_
 12	inte	_	AB	AB	_	14	NA	_	_
 13	alls	_	AB	AB	_	14	AA	_	_
 14	utgår	_	VB	VB	PRS|AKT	11	+F	_	_
-15	om	_	SN	SN	_	11	AA	_	_
+15	om	_	PP	PP	_	11	AA	_	_
 16	den	_	DT	DT	UTR|SIN|DEF	17	DT	_	_
-17	försäkrades	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|GEN	18	DT	_	_
+17	försäkrades	_	VB	VB	PRF|UTR/NEU|PLU|IND/DEF|GEN	18	DT	_	_
 18	inkomst	_	NN	NN	UTR|SIN|IND|NOM	19	SS	_	_
 19	överstiger	_	VB	VB	PRS|AKT	15	UA	_	_
 20	vissa	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	21	DT	_	_
@@ -489,7 +489,7 @@
 8	pensionstillskott	_	NN	NN	NEU|SIN|IND|NOM	7	PA	_	_
 9	.	_	MAD	MAD	_	3	IP	_	_
 
-1	Helt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	2	DT	_	_
+1	Helt	_	AB	AB	POS|NEU|SIN|IND|NOM	2	DT	_	_
 2	pensionstillskott	_	NN	NN	NEU|SIN|IND|NOM	3	SS	_	_
 3	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 4	i	_	PP	PP	_	3	TA	_	_
@@ -542,7 +542,7 @@
 19	åren	_	NN	NN	NEU|PLU|DEF|NOM	15	PA	_	_
 20	(	_	PAD	PAD	_	4	IR	_	_
 21	se	_	VB	VB	IMP|AKT	4	MS	_	_
-22	sid	_	NN	NN	AN	23	DT	_	_
+22	sid	_	AB	AB	AN	23	DT	_	_
 23	7	_	RG	RG	NOM	21	RA	_	_
 24	'	_	PAD	PAD	_	25	IC	_	_
 25	ATP	_	PM	PM	NOM	21	OO	_	_
@@ -568,7 +568,7 @@
 3	pensionsgrundande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	4	AT	_	_
 4	inkomst	_	NN	NN	UTR|SIN|IND|NOM	1	OO	_	_
 5	för	_	PP	PP	_	1	OA	_	_
-6	mindre	_	AB	AB	KOM	8	AA	_	_
+6	mindre	_	JJ	JJ	KOM	8	AA	_	_
 7	än	_	KN	KN	_	6	HD	_	_
 8	30	_	RG	RG	NOM	9	DT	_	_
 9	år	_	NN	NN	NEU|PLU|IND|NOM	5	PA	_	_
@@ -606,7 +606,7 @@
 10	som	_	HP	HP	-|-|-	11	SS	_	_
 11	registreras	_	VB	VB	PRS|SFO	8	ET	_	_
 12	på	_	PP	PP	_	11	RA	_	_
-13	Ert	_	PS	PS	NEU|SIN|DEF	14	DT	_	_
+13	Ert	_	PM	PM	NEU|SIN|DEF	14	DT	_	_
 14	poängkort	_	NN	NN	NEU|SIN|IND|NOM	12	PA	_	_
 15	hos	_	PP	PP	_	14	ET	_	_
 16	försäkringskassan	_	NN	NN	UTR|SIN|DEF|NOM	15	PA	_	_
@@ -761,7 +761,7 @@
 6	,	_	MID	MID	_	7	IK	_	_
 7	blir	_	VB	VB	PRS|AKT	0	ROOT	_	_
 8	full	_	JJ	JJ	POS|UTR|SIN|IND|NOM	9	AT	_	_
-9	ATP	_	PM	PM	NOM	7	SS	_	_
+9	ATP	_	NN	NN	NOM	7	SS	_	_
 10	av	_	PP	PP	_	7	SP	_	_
 11	följande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	12	DT	_	_
 12	storlek	_	NN	NN	UTR|SIN|IND|NOM	10	PA	_	_
@@ -798,13 +798,13 @@
 17	åren	_	NN	NN	NEU|PLU|DEF|NOM	14	HD	_	_
 18	'	_	PAD	PAD	_	14	JC	_	_
 19	,	_	MID	MID	_	12	IK	_	_
-20	sid	_	NN	NN	AN	21	DT	_	_
+20	sid	_	AB	AB	AN	21	DT	_	_
 21	7	_	RG	RG	NOM	12	RA	_	_
 22	.	_	MAD	MAD	_	12	IP	_	_
 
 1	Pensionsålder	_	NN	NN	UTR|SIN|IND|NOM	0	ROOT	_	_
 
-1	Rätt	_	NN	NN	UTR|SIN|IND|NOM	4	OO	_	_
+1	Rätt	_	AB	AB	UTR|SIN|IND|NOM	4	OO	_	_
 2	till	_	PP	PP	_	1	ET	_	_
 3	ålderspension	_	NN	NN	UTR|SIN|IND|NOM	2	PA	_	_
 4	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
@@ -865,7 +865,7 @@
 
 1	Har	_	VB	VB	PRS|AKT	9	AA	_	_
 2	man	_	PN	PN	UTR|SIN|IND|SUB	1	SS	_	_
-3	rätt	_	NN	NN	UTR|SIN|IND|NOM	1	OO	_	_
+3	rätt	_	AB	AB	UTR|SIN|IND|NOM	1	OO	_	_
 4	till	_	PP	PP	_	1	OA	_	_
 5	både	_	KN	KN	_	4	VA	_	_
 6	folkpension	_	NN	NN	UTR|SIN|IND|NOM	7	CJ	_	_
@@ -890,16 +890,16 @@
 1	Ålderspensionen	_	NN	NN	UTR|SIN|DEF|NOM	2	SS	_	_
 2	blir	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	alltid	_	AB	AB	_	2	TA	_	_
-4	mindre	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	2	SP	_	_
+4	mindre	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	2	SP	_	_
 5	vid	_	PP	PP	_	2	AA	_	_
 6	förtida	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	7	AT	_	_
 7	uttag	_	NN	NN	NEU|SIN|IND|NOM	5	PA	_	_
 8	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Och	_	KN	KN	_	0	ROOT	_	_
-2	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	3	SS	_	_
+2	den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	3	SS	_	_
 3	förblir	_	VB	VB	PRS|AKT	1	MS	_	_
-4	mindre	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	3	SP	_	_
+4	mindre	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	3	SP	_	_
 5	livet	_	NN	NN	NEU|SIN|DEF|NOM	3	TA	_	_
 6	ut	_	AB	AB	_	5	ET	_	_
 7	.	_	MAD	MAD	_	3	IP	_	_
@@ -911,7 +911,7 @@
 5	för	_	PP	PP	_	2	OA	_	_
 6	varje	_	DT	DT	UTR/NEU|SIN|IND	7	DT	_	_
 7	månad	_	NN	NN	UTR|SIN|IND|NOM	5	PA	_	_
-8	som	_	HA	HA	_	13	AA	_	_
+8	som	_	HP	HP	_	13	AA	_	_
 9	man	_	PN	PN	UTR|SIN|IND|SUB	12	SS	_	_
 10	vid	_	PP	PP	_	12	TA	_	_
 11	uttaget	_	NN	NN	NEU|SIN|DEF|NOM	10	PA	_	_
@@ -977,7 +977,7 @@
 12	!	_	MAD	MAD	_	1	IU	_	_
 
 1	(	_	PAD	PAD	_	4	IR	_	_
-2	Om	_	PP	PP	_	6	OA	_	_
+2	Om	_	SN	SN	_	6	OA	_	_
 3	förtidspension	_	NN	NN	UTR|SIN|IND|NOM	2	PA	_	_
 4	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 5	Ni	_	PN	PN	UTR|SIN|DEF|SUB	4	SS	_	_
@@ -991,7 +991,7 @@
 13	.	_	MAD	MAD	_	4	IP	_	_
 14	)	_	PAD	PAD	_	6	JR	_	_
 
-1	Uppskjutet	_	PC	PC	PRF|NEU|SIN|IND|NOM	2	AT	_	_
+1	Uppskjutet	_	NN	NN	PRF|NEU|SIN|IND|NOM	2	AT	_	_
 2	uttag	_	NN	NN	NEU|SIN|IND|NOM	3	SS	_	_
 3	ger	_	VB	VB	PRS|AKT	0	ROOT	_	_
 4	högre	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	5	AT	_	_
@@ -1047,12 +1047,12 @@
 13	procent	_	NN	NN	UTR|PLU|IND|NOM	10	PA	_	_
 14	.	_	MAD	MAD	_	2	IP	_	_
 
-1	ATP	_	PM	PM	NOM	0	ROOT	_	_
+1	ATP	_	SN	SN	NOM	0	ROOT	_	_
 2	de	_	DT	DT	UTR/NEU|PLU|DEF	4	DT	_	_
 3	första	_	RO	RO	NOM	4	DT	_	_
 4	åren	_	NN	NN	NEU|PLU|DEF|NOM	1	TA	_	_
 
-1	ATP	_	PM	PM	NOM	2	SS	_	_
+1	ATP	_	NN	NN	NOM	2	SS	_	_
 2	infördes	_	VB	VB	PRT|SFO	0	ROOT	_	_
 3	1960	_	RG	RG	NOM	2	TA	_	_
 4	.	_	MAD	MAD	_	2	IP	_	_
@@ -1064,7 +1064,7 @@
 5	dessförinnan	_	AB	AB	_	4	TA	_	_
 6	ger	_	VB	VB	PRS|AKT	0	ROOT	_	_
 7	inte	_	AB	AB	_	6	NA	_	_
-8	rätt	_	NN	NN	UTR|SIN|IND|NOM	6	OO	_	_
+8	rätt	_	AB	AB	UTR|SIN|IND|NOM	6	OO	_	_
 9	till	_	PP	PP	_	6	OA	_	_
 10	ATP	_	PM	PM	NOM	9	PA	_	_
 11	.	_	MAD	MAD	_	6	IP	_	_
@@ -1131,7 +1131,7 @@
 15	att	_	IE	IE	_	14	PA	_	_
 16	få	_	VB	VB	INF|AKT	15	IF	_	_
 17	full	_	JJ	JJ	POS|UTR|SIN|IND|NOM	18	AT	_	_
-18	ATP	_	PM	PM	NOM	16	OO	_	_
+18	ATP	_	NN	NN	NOM	16	OO	_	_
 19	,	_	MID	MID	_	2	IK	_	_
 20	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	25	SS	_	_
 21	som	_	HP	HP	-|-|-	22	SS	_	_
@@ -1179,7 +1179,7 @@
 4	inte	_	AB	AB	_	2	NA	_	_
 5	få	_	VB	VB	INF|AKT	2	VG	_	_
 6	full	_	JJ	JJ	POS|UTR|SIN|IND|NOM	7	AT	_	_
-7	ATP	_	PM	PM	NOM	5	OO	_	_
+7	ATP	_	NN	NN	NOM	5	OO	_	_
 8	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Årsklass	_	NN	NN	UTR|SIN|IND|NOM	2	DT	_	_
@@ -1208,7 +1208,7 @@
 24	13/20	_	RG	RG	NOM	22	OO	_	_
 25	.	_	MAD	MAD	_	21	IP	_	_
 
-1	Särskilda	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	2	AT	_	_
+1	Särskilda	_	JJ	JJ	PRF|UTR/NEU|PLU|IND/DEF|NOM	2	AT	_	_
 2	folkpensionsförmåner	_	NN	NN	UTR|PLU|IND|NOM	0	ROOT	_	_
 
 1	Kommunalt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	2	AT	_	_
@@ -1249,7 +1249,7 @@
 3	att	_	SN	SN	_	2	OO	_	_
 4	bostadstillägget	_	NN	NN	NEU|SIN|DEF|NOM	5	SS	_	_
 5	minskas	_	VB	VB	PRS|SFO	3	UA	_	_
-6	om	_	SN	SN	_	5	AA	_	_
+6	om	_	PP	PP	_	5	AA	_	_
 7	inkomsterna	_	NN	NN	UTR|PLU|DEF|NOM	10	SS	_	_
 8	utöver	_	PP	PP	_	7	ET	_	_
 9	folkpensionen	_	NN	NN	UTR|SIN|DEF|NOM	8	PA	_	_
@@ -1294,7 +1294,7 @@
 
 1	Hustrutillägg	_	NN	NN	NEU|SIN|IND|NOM	2	SS	_	_
 2	utgår	_	VB	VB	PRS|AKT	0	ROOT	_	_
-3	om	_	SN	SN	_	2	AA	_	_
+3	om	_	PP	PP	_	2	AA	_	_
 4	hustru	_	NN	NN	UTR|SIN|IND|NOM	7	SS	_	_
 5	till	_	PP	PP	_	4	ET	_	_
 6	pensionär	_	NN	NN	UTR|SIN|IND|NOM	5	PA	_	_
@@ -1319,7 +1319,7 @@
 9	5	_	RG	RG	NOM	10	DT	_	_
 10	år	_	NN	NN	NEU|PLU|IND|NOM	8	PA	_	_
 11	för	_	PP	PP	_	2	AA	_	_
-12	att	_	SN	SN	_	11	HD	_	_
+12	att	_	IE	IE	_	11	HD	_	_
 13	hustrutillägg	_	NN	NN	NEU|SIN|IND|NOM	14	SS	_	_
 14	skall	_	VB	VB	PRS|AKT	11	UA	_	_
 15	kunna	_	VB	VB	INF|AKT	14	VG	_	_
@@ -1358,14 +1358,14 @@
 6	så	_	AB	AB	_	7	AA	_	_
 7	stort	_	JJ	JJ	POS|NEU|SIN|IND|NOM	8	AT	_	_
 8	belopp	_	NN	NN	NEU|SIN|IND|NOM	5	PA	_	_
-9	att	_	SN	SN	_	8	ET	_	_
+9	att	_	IE	IE	_	8	ET	_	_
 10	makarna	_	NN	NN	UTR|PLU|DEF|NOM	12	SS	_	_
 11	tillsammans	_	AB	AB	_	10	ET	_	_
 12	får	_	VB	VB	PRS|AKT	9	UA	_	_
 13	lika	_	AB	AB	_	14	AA	_	_
 14	stor	_	JJ	JJ	POS|UTR|SIN|IND|NOM	15	AT	_	_
 15	folkpension	_	NN	NN	UTR|SIN|IND|NOM	12	OO	_	_
-16	som	_	KN	KN	_	15	ET	_	_
+16	som	_	HP	HP	_	15	ET	_	_
 17	två	_	RG	RG	NOM	19	DT	_	_
 18	pensionsberättigade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	19	AT	_	_
 19	makar	_	NN	NN	UTR|PLU|IND|NOM	16	UA	_	_
@@ -1399,7 +1399,7 @@
 9	eller	_	KN	KN	_	11	DT	_	_
 10	hustruns	_	NN	NN	UTR|SIN|DEF|GEN	9	CJ	_	_
 11	barn	_	NN	NN	NEU|SIN|IND|NOM	7	OO	_	_
-12	under	_	AB	AB	_	13	AA	_	_
+12	under	_	PP	PP	_	13	AA	_	_
 13	16	_	RG	RG	NOM	14	DT	_	_
 14	år	_	NN	NN	NEU|PLU|IND|NOM	11	ET	_	_
 15	i	_	PP	PP	_	7	RA	_	_
@@ -1432,7 +1432,7 @@
 17	kr	_	NN	NN	AN	9	AN	_	_
 18	för	_	PP	PP	_	20	OA	_	_
 19	år	_	NN	NN	NEU|SIN|IND|NOM	18	PA	_	_
-20	räknat	_	PC	PC	PRF|NEU|SIN|IND|NOM	17	AA	_	_
+20	räknat	_	VB	VB	PRF|NEU|SIN|IND|NOM	17	AA	_	_
 21	)	_	PAD	PAD	_	9	JR	_	_
 22	.	_	MAD	MAD	_	2	IP	_	_
 
@@ -1455,11 +1455,11 @@
 5	fall	_	NN	NN	NEU|PLU|IND|NOM	3	PA	_	_
 6	ålderspension	_	NN	NN	UTR|SIN|IND|NOM	2	OO	_	_
 7	,	_	MID	MID	_	2	IK	_	_
-8	om	_	SN	SN	_	2	AA	_	_
+8	om	_	PP	PP	_	2	AA	_	_
 9	pensionären	_	NN	NN	UTR|SIN|DEF|NOM	11	SS	_	_
 10	inte	_	AB	AB	_	11	NA	_	_
 11	kan	_	VB	VB	PRS|AKT	15	MS	_	_
-12	reda	_	VB	VB	INF|AKT	11	VG	_	_
+12	reda	_	PL	PL	INF|AKT	11	VG	_	_
 13	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	12	OO	_	_
 14	själv	_	JJ	JJ	POS|UTR|SIN|IND|NOM	13	PT	_	_
 15	och	_	KN	KN	_	8	UA	_	_
@@ -1491,10 +1491,10 @@
 4	blind	_	JJ	JJ	POS|UTR|SIN|IND|NOM	3	SP	_	_
 5	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 6	alltid	_	AB	AB	_	5	TA	_	_
-7	rätt	_	NN	NN	UTR|SIN|IND|NOM	5	OO	_	_
+7	rätt	_	AB	AB	UTR|SIN|IND|NOM	5	OO	_	_
 8	till	_	PP	PP	_	5	OA	_	_
 9	invaliditetstillägg	_	NN	NN	NEU|SIN|IND|NOM	8	PA	_	_
-10	om	_	SN	SN	_	5	AA	_	_
+10	om	_	PP	PP	_	5	AA	_	_
 11	blindheten	_	NN	NN	UTR|SIN|DEF|NOM	12	SS	_	_
 12	inträffat	_	VB	VB	SUP|AKT	10	UA	_	_
 13	före	_	PP	PP	_	12	TA	_	_
@@ -1518,11 +1518,11 @@
 14	kr	_	NN	NN	AN	11	SP	_	_
 15	för	_	PP	PP	_	17	OA	_	_
 16	år	_	NN	NN	NEU|SIN|IND|NOM	15	PA	_	_
-17	räknat	_	PC	PC	PRF|NEU|SIN|IND|NOM	11	AA	_	_
+17	räknat	_	VB	VB	PRF|NEU|SIN|IND|NOM	11	AA	_	_
 18	)	_	PAD	PAD	_	2	JR	_	_
 19	.	_	MAD	MAD	_	2	IP	_	_
 
-1	Om	_	PP	PP	_	11	OA	_	_
+1	Om	_	SN	SN	_	11	OA	_	_
 2	förtidspension	_	NN	NN	UTR|SIN|IND|NOM	3	CJ	_	_
 3	eller	_	KN	KN	_	5	CJ	_	_
 4	sjukbidrag	_	NN	NN	NEU|SIN|IND|NOM	3	CJ	_	_
@@ -1664,7 +1664,7 @@
 8	att	_	SN	SN	_	7	SS	_	_
 9	bruttonationalprodukten	_	NN	NN	UTR|SIN|DEF|NOM	17	SS	_	_
 10	(	_	PAD	PAD	_	9	IR	_	_
-11	BNP	_	NN	NN	AN	9	AN	_	_
+11	BNP	_	PM	PM	AN	9	AN	_	_
 12	)	_	PAD	PAD	_	9	JR	_	_
 13	per	_	PP	PP	_	9	ET	_	_
 14	person	_	NN	NN	UTR|SIN|IND|NOM	15	CJ	_	_
@@ -1680,7 +1680,7 @@
 2	nämns	_	VB	VB	PRS|SFO	0	ROOT	_	_
 3	2000	_	RG	RG	NOM	4	DT	_	_
 4	kronor	_	NN	NN	UTR|PLU|IND|NOM	2	SS	_	_
-5	som	_	KN	KN	_	2	SP	_	_
+5	som	_	HP	HP	_	2	SP	_	_
 6	gräns	_	NN	NN	UTR|SIN|IND|NOM	5	UA	_	_
 7	;	_	MID	MID	_	2	IS	_	_
 8	länder	_	NN	NN	NEU|PLU|IND|NOM	12	SS	_	_
@@ -1695,7 +1695,7 @@
 17	i	_	PP	PP	_	19	RA	_	_
 18	Sverige	_	PM	PM	NOM	17	PA	_	_
 19	är	_	VB	VB	PRS|AKT	2	MS	_	_
-20	BNP	_	NN	NN	AN	19	SS	_	_
+20	BNP	_	PM	PM	AN	19	SS	_	_
 21	/	_	MID	MID	_	20	ET	_	_
 22	person	_	NN	NN	UTR|SIN|IND|NOM	21	PA	_	_
 23	ca	_	AB	AB	AN	24	AA	_	_
@@ -1717,11 +1717,11 @@
 11	d_v_s	_	AB	AB	AN	12	CA	_	_
 12	brist	_	NN	NN	UTR|SIN|IND|NOM	9	AN	_	_
 13	på	_	PP	PP	_	12	ET	_	_
-14	läs-	_	VB	VB	SMS	15	CJ	_	_
+14	läs-	_	NN	NN	SMS	15	CJ	_	_
 15	och	_	KN	KN	_	13	PA	_	_
 16	skrivkunnighet	_	NN	NN	UTR|SIN|IND|NOM	15	CJ	_	_
 17	;	_	MID	MID	_	6	SP	_	_
-18	låg	_	JJ	JJ	POS|UTR|SIN|IND|NOM	19	AT	_	_
+18	låg	_	VB	VB	POS|UTR|SIN|IND|NOM	19	AT	_	_
 19	medellivslängd	_	NN	NN	UTR|SIN|IND|NOM	17	CJ	_	_
 20	.	_	MAD	MAD	_	6	IP	_	_
 
@@ -1735,7 +1735,7 @@
 8	med	_	PP	PP	_	4	AA	_	_
 9	sådana	_	JJ	JJ	POS|UTR/NEU|PLU|IND|NOM	10	DT	_	_
 10	mått	_	NN	NN	NEU|PLU|IND|NOM	8	PA	_	_
-11	som	_	KN	KN	_	10	ET	_	_
+11	som	_	HP	HP	_	10	ET	_	_
 12	antal	_	NN	NN	NEU|SIN|IND|NOM	11	UA	_	_
 13	läkare	_	NN	NN	UTR|PLU|IND|NOM	24	CJ	_	_
 14	,	_	MID	MID	_	24	IK	_	_
@@ -1771,18 +1771,18 @@
 14	.	_	MAD	MAD	_	12	IP	_	_
 
 1	I	_	PP	PP	_	6	OA	_	_
-2	BNP	_	NN	NN	AN	1	PA	_	_
+2	BNP	_	PM	PM	AN	1	PA	_	_
 3	,	_	MID	MID	_	2	IK	_	_
 4	exempelvis	_	AB	AB	_	2	CA	_	_
 5	,	_	MID	MID	_	2	IK	_	_
 6	inräknas	_	VB	VB	PRS|SFO	10	MS	_	_
 7	inte	_	AB	AB	_	6	NA	_	_
-8	oavlönat	_	PC	PC	PRF|NEU|SIN|IND|NOM	9	AT	_	_
+8	oavlönat	_	JJ	JJ	PRF|NEU|SIN|IND|NOM	9	AT	_	_
 9	arbete	_	NN	NN	NEU|SIN|IND|NOM	6	SS	_	_
 10	och	_	KN	KN	_	0	ROOT	_	_
 11	bara	_	AB	AB	_	10	+F	_	_
 12	ytterst	_	AB	AB	SUV	13	AA	_	_
-13	ungefärligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	11	AA	_	_
+13	ungefärligt	_	AB	AB	POS|NEU|SIN|IND|NOM	11	AA	_	_
 14	de	_	DT	DT	UTR/NEU|PLU|DEF	15	DT	_	_
 15	varor	_	NN	NN	UTR|PLU|IND|NOM	11	SS	_	_
 16	som	_	HP	HP	-|-|-	17	SS	_	_
@@ -1800,7 +1800,7 @@
 7	av	_	PP	PP	_	6	ET	_	_
 8	resurserna	_	NN	NN	UTR|PLU|DEF|NOM	7	PA	_	_
 9	,	_	MID	MID	_	2	OA	_	_
-10	om	_	PP	PP	_	9	CJ	_	_
+10	om	_	SN	SN	_	9	CJ	_	_
 11	livet	_	NN	NN	NEU|SIN|DEF|NOM	10	PA	_	_
 12	för	_	PP	PP	_	11	ET	_	_
 13	de	_	DT	DT	UTR/NEU|PLU|DEF	15	DT	_	_
@@ -1845,7 +1845,7 @@
 5	i	_	PP	PP	_	7	RA	_	_
 6	USA	_	PM	PM	NOM	5	PA	_	_
 7	ökar	_	VB	VB	PRS|AKT	2	MS	_	_
-8	BNP	_	NN	NN	AN	7	SS	_	_
+8	BNP	_	PM	PM	AN	7	SS	_	_
 9	varje	_	DT	DT	UTR/NEU|SIN|IND	10	DT	_	_
 10	år	_	NN	NN	NEU|SIN|IND|NOM	7	TA	_	_
 11	med	_	PP	PP	_	7	AA	_	_
@@ -1926,7 +1926,7 @@
 7	geografi	_	NN	NN	UTR|SIN|IND|NOM	8	CJ	_	_
 8	eller	_	KN	KN	_	2	OO	_	_
 9	kultur	_	NN	NN	UTR|SIN|IND|NOM	8	CJ	_	_
-10	som	_	KN	KN	_	8	ET	_	_
+10	som	_	HP	HP	_	8	ET	_	_
 11	Tanzania	_	PM	PM	NOM	10	UA	_	_
 12	.	_	MAD	MAD	_	2	IP	_	_
 
@@ -2006,7 +2006,7 @@
 
 1	I	_	PP	PP	_	5	RA	_	_
 2	oljeländer	_	NN	NN	NEU|PLU|IND|NOM	1	PA	_	_
-3	som	_	KN	KN	_	4	CA	_	_
+3	som	_	HP	HP	_	4	CA	_	_
 4	Saudi-Arabien	_	PM	PM	NOM	2	AN	_	_
 5	lever	_	VB	VB	PRS|AKT	0	ROOT	_	_
 6	en	_	DT	DT	UTR|SIN|IND	7	DT	_	_
@@ -2049,7 +2049,7 @@
 1	I	_	PP	PP	_	3	RA	_	_
 2	Indien	_	PM	PM	NOM	1	PA	_	_
 3	finns	_	VB	VB	PRS|SFO	0	ROOT	_	_
-4	845	_	RG	RG	NOM	7	DT	_	_
+4	845	_	AB	AB	NOM	7	DT	_	_
 5	skilda	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	7	AT	_	_
 6	språk	_	NN	NN	NEU|PLU|IND|NOM	7	CJ	_	_
 7	och	_	KN	KN	_	3	SS	_	_
@@ -2089,10 +2089,10 @@
 9	Egypten	_	PM	PM	NOM	8	PA	_	_
 10	,	_	MID	MID	_	13	IK	_	_
 11	i	_	PP	PP	_	13	CJ	_	_
-12	Mesopotamien	_	PM	PM	NOM	11	PA	_	_
+12	Mesopotamien	_	NN	NN	NOM	11	PA	_	_
 13	och	_	KN	KN	_	5	RA	_	_
 14	i	_	PP	PP	_	13	CJ	_	_
-15	Indusdalen	_	PM	PM	NOM	14	PA	_	_
+15	Indusdalen	_	NN	NN	NOM	14	PA	_	_
 16	-	_	MID	MID	_	5	IT	_	_
 17	5000	_	RG	RG	NOM	18	DT	_	_
 18	år	_	NN	NN	NEU|PLU|IND|NOM	19	AA	_	_
@@ -2112,7 +2112,7 @@
 6	tillbaka	_	PL	PL	_	5	PL	_	_
 7	till	_	PP	PP	_	5	TA	_	_
 8	3000	_	RG	RG	NOM	7	PA	_	_
-9	f	_	PP	PP	AN	8	ET	_	_
+9	f	_	NN	NN	AN	8	ET	_	_
 10	Kr	_	PM	PM	NOM	9	PA	_	_
 11	.	_	MAD	MAD	_	4	IP	_	_
 
@@ -2196,18 +2196,18 @@
 16	av	_	PP	PP	_	15	ET	_	_
 17	de	_	DT	DT	UTR/NEU|PLU|DEF	20	DT	_	_
 18	mera	_	AB	AB	KOM	19	AA	_	_
-19	genomgripande	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	20	AT	_	_
+19	genomgripande	_	PC	PC	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	20	AT	_	_
 20	händelserna	_	NN	NN	UTR|PLU|DEF|NOM	16	PA	_	_
 21	i	_	PP	PP	_	20	ET	_	_
 22	världshistorien	_	NN	NN	UTR|SIN|DEF|NOM	21	PA	_	_
 23	.	_	MAD	MAD	_	12	IP	_	_
 
-1	Att	_	IE	IE	_	5	SS	_	_
+1	Att	_	SN	SN	_	5	SS	_	_
 2	kolonisera	_	VB	VB	INF|AKT	1	IF	_	_
 3	ett	_	DT	DT	NEU|SIN|IND	4	DT	_	_
 4	land	_	NN	NN	NEU|SIN|IND|NOM	2	OO	_	_
 5	betyder	_	VB	VB	PRS|AKT	0	ROOT	_	_
-6	att	_	IE	IE	_	9	MS	_	_
+6	att	_	SN	SN	_	9	MS	_	_
 7	erövra	_	VB	VB	INF|AKT	6	IF	_	_
 8	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	7	OO	_	_
 9	och	_	KN	KN	_	5	OO	_	_
@@ -2346,7 +2346,7 @@
 14	del	_	NN	NN	UTR|SIN|IND|NOM	12	PA	_	_
 15	fortfarande	_	AB	AB	_	16	TA	_	_
 16	gäller	_	VB	VB	PRS|AKT	6	ET	_	_
-17	:	_	MAD	MAD	_	4	IQ	_	_
+17	:	_	MID	MID	_	4	IQ	_	_
 18	industriländerna	_	NN	NN	NEU|PLU|DEF|NOM	24	SS	_	_
 19	(	_	PAD	PAD	_	18	IR	_	_
 20	'	_	PAD	PAD	_	21	IC	_	_
@@ -2398,7 +2398,7 @@
 6	3,6	_	RG	RG	NOM	7	DT	_	_
 7	miljarder	_	NN	NN	UTR|PLU|IND|NOM	2	+F	_	_
 8	,	_	MID	MID	_	2	IK	_	_
-9	om	_	PP	PP	_	14	TA	_	_
+9	om	_	SN	SN	_	14	TA	_	_
 10	30	_	RG	RG	NOM	11	DT	_	_
 11	år	_	NN	NN	NEU|PLU|IND|NOM	9	PA	_	_
 12	dubbelt	_	AB	AB	POS	13	AA	_	_
@@ -2425,8 +2425,8 @@
 17	och	_	KN	KN	_	14	PA	_	_
 18	industri	_	NN	NN	UTR|SIN|IND|NOM	17	CJ	_	_
 19	den	_	DT	DT	UTR|SIN|DEF	21	DT	_	_
-20	bäst	_	AB	AB	SUV	21	AA	_	_
-21	utnyttjade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	12	+F	_	_
+20	bäst	_	JJ	JJ	SUV	21	AA	_	_
+21	utnyttjade	_	VB	VB	PRF|UTR/NEU|PLU|IND/DEF|NOM	12	+F	_	_
 22	-	_	MID	MID	_	23	JT	_	_
 23	världsdelen	_	NN	NN	UTR|SIN|DEF|NOM	6	SP	_	_
 24	med	_	PP	PP	_	12	AA	_	_
@@ -2482,7 +2482,7 @@
 10	slut	_	NN	NN	NEU|SIN|IND|NOM	8	PA	_	_
 11	6-7	_	RG	RG	NOM	12	DT	_	_
 12	miljarder	_	NN	NN	UTR|PLU|IND|NOM	2	+F	_	_
-13	om	_	SN	SN	_	12	AA	_	_
+13	om	_	PP	PP	_	12	AA	_	_
 14	den	_	DT	DT	UTR|SIN|DEF	16	DT	_	_
 15	nuvarande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	16	AT	_	_
 16	takten	_	NN	NN	UTR|SIN|DEF|NOM	19	SS	_	_
@@ -2583,17 +2583,17 @@
 4	jorden	_	NN	NN	UTR|SIN|DEF|NOM	3	SS	_	_
 5	en	_	DT	DT	UTR|SIN|IND	7	DT	_	_
 6	väldig	_	JJ	JJ	POS|UTR|SIN|IND|NOM	7	AT	_	_
-7	försörjningsbörda	_	NN	NN	UTR|SIN|IND|NOM	3	OO	_	_
+7	försörjningsbörda	_	PC	PC	UTR|SIN|IND|NOM	3	OO	_	_
 8	,	_	MID	MID	_	7	IK	_	_
 9	där	_	HA	HA	_	16	RA	_	_
-10	än	_	AB	AB	_	16	TA	_	_
+10	än	_	KN	KN	_	16	TA	_	_
 11	så	_	AB	AB	_	10	HD	_	_
 12	länge	_	AB	AB	POS	10	HD	_	_
 13	de	_	DT	DT	UTR/NEU|PLU|DEF	15	DT	_	_
 14	fattiga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	15	AT	_	_
 15	länderna	_	NN	NN	NEU|PLU|DEF|NOM	16	SS	_	_
 16	bär	_	VB	VB	PRS|AKT	7	ET	_	_
-17	det	_	DT	DT	NEU|SIN|DEF	19	DT	_	_
+17	det	_	PN	PN	NEU|SIN|DEF	19	DT	_	_
 18	tyngsta	_	JJ	JJ	SUV|UTR/NEU|SIN/PLU|DEF|NOM	19	AT	_	_
 19	lasset	_	NN	NN	NEU|SIN|DEF|NOM	16	OO	_	_
 20	.	_	MAD	MAD	_	3	IP	_	_
@@ -2608,7 +2608,7 @@
 8	,	_	MID	MID	_	4	IK	_	_
 9	att	_	SN	SN	_	4	KA	_	_
 10	barn	_	NN	NN	NEU|PLU|IND|NOM	14	SS	_	_
-11	under	_	AB	AB	_	12	AA	_	_
+11	under	_	PP	PP	_	12	AA	_	_
 12	15	_	RG	RG	NOM	13	DT	_	_
 13	år	_	NN	NN	NEU|PLU|IND|NOM	10	ET	_	_
 14	utgör	_	VB	VB	PRS|AKT	9	UA	_	_
@@ -2623,7 +2623,7 @@
 2	bygga	_	VB	VB	INF|AKT	1	IF	_	_
 3	skolor	_	NN	NN	UTR|PLU|IND|NOM	2	OO	_	_
 4	,	_	MID	MID	_	2	IK	_	_
-5	utbilda	_	VB	VB	INF|AKT	1	+F	_	_
+5	utbilda	_	PC	PC	INF|AKT	1	+F	_	_
 6	lärare	_	NN	NN	UTR|PLU|IND|NOM	5	OO	_	_
 7	och	_	KN	KN	_	13	SS	_	_
 8	producera	_	VB	VB	INF|AKT	7	+F	_	_
@@ -2639,7 +2639,7 @@
 18	.	_	MAD	MAD	_	13	IP	_	_
 
 1	Ett	_	DT	DT	NEU|SIN|IND	4	DT	_	_
-2	snabbt	_	AB	AB	POS	3	AA	_	_
+2	snabbt	_	JJ	JJ	POS	3	AA	_	_
 3	växande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	4	AT	_	_
 4	antal	_	NN	NN	NEU|SIN|IND|NOM	5	DT	_	_
 5	människor	_	NN	NN	UTR|PLU|IND|NOM	9	SS	_	_
@@ -2729,7 +2729,7 @@
 8	blir	_	VB	VB	PRS|AKT	0	ROOT	_	_
 9	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	8	SS	_	_
 10	inte	_	AB	AB	_	8	NA	_	_
-11	tillräckligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	8	SP	_	_
+11	tillräckligt	_	AB	AB	POS|NEU|SIN|IND|NOM	8	SP	_	_
 12	för	_	PP	PP	_	8	OA	_	_
 13	var	_	PN	PN	UTR|SIN|IND|SUB/OBJ	12	PA	_	_
 14	och	_	KN	KN	_	13	HD	_	_
@@ -2791,15 +2791,15 @@
 1	Många	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	3	DT	_	_
 2	svåra	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	3	AT	_	_
 3	sjukdomar	_	NN	NN	UTR|PLU|IND|NOM	10	SS	_	_
-4	som	_	KN	KN	_	8	CA	_	_
+4	som	_	HP	HP	_	8	CA	_	_
 5	malaria	_	NN	NN	UTR|SIN|IND|NOM	8	CJ	_	_
 6	,	_	MID	MID	_	8	IK	_	_
 7	smittkoppor	_	NN	NN	UTR|PLU|IND|NOM	8	CJ	_	_
 8	och	_	KN	KN	_	3	AN	_	_
-9	spetälska	_	NN	NN	UTR|SIN|IND|NOM	8	CJ	_	_
+9	spetälska	_	JJ	JJ	UTR|SIN|IND|NOM	8	CJ	_	_
 10	trängs	_	VB	VB	PRS|SFO	0	ROOT	_	_
 11	alltmer	_	AB	AB	_	10	AA	_	_
-12	tillbaka	_	PL	PL	_	10	PL	_	_
+12	tillbaka	_	AB	AB	_	10	PL	_	_
 13	genom	_	PP	PP	_	10	AA	_	_
 14	aktiva	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	15	AT	_	_
 15	hälsovårdsinsatser	_	NN	NN	UTR|PLU|IND|NOM	13	PA	_	_
@@ -2819,7 +2819,7 @@
 12	10	_	RG	RG	NOM	13	DT	_	_
 13	milj	_	NN	NN	AN	2	+F	_	_
 14	i	_	PP	PP	_	13	VS	_	_
-15	spetälska	_	NN	NN	UTR|SIN|IND|NOM	14	PA	_	_
+15	spetälska	_	JJ	JJ	UTR|SIN|IND|NOM	14	PA	_	_
 16	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Uppskattningsvis	_	AB	AB	_	2	AA	_	_
@@ -2845,7 +2845,7 @@
 12	och	_	KN	KN	_	8	PA	_	_
 13	Latinamerika	_	PM	PM	NOM	12	CJ	_	_
 14	och	_	KN	KN	_	0	ROOT	_	_
-15	nedsätter	_	VB	VB	PRS|AKT	14	+F	_	_
+15	nedsätter	_	AB	AB	PRS|AKT	14	+F	_	_
 16	starkt	_	AB	AB	POS	15	AA	_	_
 17	arbetsförmågan	_	NN	NN	UTR|SIN|DEF|NOM	15	OO	_	_
 18	.	_	MAD	MAD	_	14	IP	_	_
@@ -2971,7 +2971,7 @@
 15	i	_	PP	PP	_	14	ET	_	_
 16	världen	_	NN	NN	UTR|SIN|DEF|NOM	15	PA	_	_
 17	tredubblas	_	VB	VB	INF|SFO	10	VG	_	_
-18	fram	_	AB	AB	_	17	TA	_	_
+18	fram	_	PL	PL	_	17	TA	_	_
 19	till	_	PP	PP	_	18	TA	_	_
 20	år	_	NN	NN	NEU|SIN|IND|NOM	21	DT	_	_
 21	2000	_	RG	RG	NOM	19	PA	_	_
@@ -2982,7 +2982,7 @@
 3	undersökningar	_	NN	NN	UTR|PLU|IND|NOM	4	SS	_	_
 4	tyder	_	VB	VB	PRS|AKT	0	ROOT	_	_
 5	på	_	PP	PP	_	4	OA	_	_
-6	att	_	SN	SN	_	5	PA	_	_
+6	att	_	IE	IE	_	5	PA	_	_
 7	brist	_	NN	NN	UTR|SIN|IND|NOM	12	SS	_	_
 8	på	_	PP	PP	_	7	ET	_	_
 9	äggvita	_	NN	NN	UTR|SIN|IND|NOM	8	PA	_	_
@@ -3162,7 +3162,7 @@
 1	Den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	7	SS	_	_
 2	som	_	HP	HP	-|-|-	3	SS	_	_
 3	är	_	VB	VB	PRS|AKT	1	ET	_	_
-4	under	_	AB	AB	_	5	AA	_	_
+4	under	_	PP	PP	_	5	AA	_	_
 5	20	_	RG	RG	NOM	6	DT	_	_
 6	år	_	NN	NN	NEU|PLU|IND|NOM	3	SP	_	_
 7	ska	_	VB	VB	PRS|AKT	0	ROOT	_	_
@@ -3179,7 +3179,7 @@
 2	han	_	PN	PN	UTR|SIN|DEF|SUB	3	CJ	_	_
 3	eller	_	KN	KN	_	1	SS	_	_
 4	hon	_	PN	PN	UTR|SIN|DEF|SUB	3	CJ	_	_
-5	under	_	AB	AB	_	6	AA	_	_
+5	under	_	PP	PP	_	6	AA	_	_
 6	18	_	RG	RG	NOM	7	DT	_	_
 7	år	_	NN	NN	NEU|PLU|IND|NOM	1	SP	_	_
 8	behövs	_	VB	VB	PRS|SFO	0	ROOT	_	_
@@ -3224,17 +3224,17 @@
 3	giftorätt	_	NN	NN	UTR|SIN|IND|NOM	2	SS	_	_
 4	.	_	MAD	MAD	_	2	IP	_	_
 
-1	Denna	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
+1	Denna	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
 2	innebär	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	bl.a.	_	AB	AB	AN	2	CA	_	_
 4	att	_	SN	SN	_	2	OO	_	_
-5	vardera	_	DT	DT	UTR/NEU|SIN|DEF	6	DT	_	_
+5	vardera	_	VB	VB	UTR/NEU|SIN|DEF	6	DT	_	_
 6	maken	_	NN	NN	UTR|SIN|DEF|NOM	10	SS	_	_
 7	vid	_	PP	PP	_	10	AA	_	_
 8	äktenskapets	_	NN	NN	NEU|SIN|DEF|GEN	9	DT	_	_
 9	upplösning	_	NN	NN	UTR|SIN|IND|NOM	7	PA	_	_
 10	har	_	VB	VB	PRS|AKT	4	UA	_	_
-11	rätt	_	NN	NN	UTR|SIN|IND|NOM	10	OO	_	_
+11	rätt	_	AB	AB	UTR|SIN|IND|NOM	10	OO	_	_
 12	till	_	PP	PP	_	11	ET	_	_
 13	hälften	_	NN	NN	UTR|SIN|DEF|NOM	12	PA	_	_
 14	av	_	PP	PP	_	13	ET	_	_
@@ -3301,7 +3301,7 @@
 8	barnen	_	NN	NN	NEU|PLU|DEF|NOM	7	PA	_	_
 9	.	_	MAD	MAD	_	2	IP	_	_
 
-1	De	_	PN	PN	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
+1	De	_	DT	DT	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
 2	företräder	_	VB	VB	PRS|AKT	8	MS	_	_
 3	barnen	_	NN	NN	NEU|PLU|DEF|NOM	2	OO	_	_
 4	utåt	_	AB	AB	_	2	AA	_	_
@@ -3321,15 +3321,15 @@
 18	.	_	MAD	MAD	_	10	IP	_	_
 
 1	Se	_	VB	VB	IMP|AKT	9	MS	_	_
-2	Arv	_	NN	NN	NEU|SIN|IND|NOM	1	OO	_	_
+2	Arv	_	PM	PM	NEU|SIN|IND|NOM	1	OO	_	_
 3	sida	_	NN	NN	UTR|SIN|IND|NOM	4	DT	_	_
 4	5	_	RG	RG	NOM	1	RA	_	_
 5	,	_	MID	MID	_	1	IK	_	_
-6	Förmyndare	_	NN	NN	UTR|SIN|IND|NOM	1	+F	_	_
+6	Förmyndare	_	JJ	JJ	UTR|SIN|IND|NOM	1	+F	_	_
 7	sida	_	NN	NN	UTR|SIN|IND|NOM	8	DT	_	_
 8	12	_	RG	RG	NOM	6	RA	_	_
 9	och	_	KN	KN	_	0	ROOT	_	_
-10	Testamente	_	NN	NN	NEU|SIN|IND|NOM	9	+F	_	_
+10	Testamente	_	PM	PM	NEU|SIN|IND|NOM	9	+F	_	_
 11	sida	_	NN	NN	UTR|SIN|IND|NOM	12	DT	_	_
 12	22	_	RG	RG	NOM	10	RA	_	_
 13	.	_	MAD	MAD	_	9	IP	_	_
@@ -3389,7 +3389,7 @@
 8	att	_	SN	SN	_	7	UA	_	_
 9	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	10	SS	_	_
 10	är	_	VB	VB	PRS|AKT	8	UA	_	_
-11	överens	_	AB	AB	_	10	SP	_	_
+11	överens	_	PL	PL	_	10	SP	_	_
 12	om	_	PP	PP	_	10	OA	_	_
 13	att	_	IE	IE	_	12	PA	_	_
 14	inte	_	AB	AB	_	15	NA	_	_
@@ -3458,7 +3458,7 @@
 4	börjat	_	VB	VB	SUP|AKT	3	VG	_	_
 5	samlevnaden	_	NN	NN	UTR|SIN|DEF|NOM	4	OO	_	_
 6	på	_	PP	PP	_	4	AA	_	_
-7	nytt	_	AB	AB	POS	6	HD	_	_
+7	nytt	_	JJ	JJ	POS	6	HD	_	_
 8	under	_	PP	PP	_	4	TA	_	_
 9	hemskillnadstiden	_	NN	NN	UTR|SIN|DEF|NOM	8	PA	_	_
 10	,	_	MID	MID	_	4	IK	_	_
@@ -3469,7 +3469,7 @@
 15	,	_	MID	MID	_	16	IK	_	_
 16	upphävs	_	VB	VB	PRS|SFO	0	ROOT	_	_
 17	hemskillnaden	_	NN	NN	UTR|SIN|DEF|NOM	16	SS	_	_
-18	utom	_	KN	KN	_	16	AA	_	_
+18	utom	_	PP	PP	_	16	AA	_	_
 19	i	_	PP	PP	_	18	PA	_	_
 20	fråga	_	NN	NN	UTR|SIN|IND|NOM	19	HD	_	_
 21	om	_	PP	PP	_	19	HD	_	_
@@ -3483,11 +3483,11 @@
 2	makarna	_	NN	NN	UTR|PLU|DEF|NOM	3	SS	_	_
 3	har	_	VB	VB	PRS|AKT	1	UA	_	_
 4	levt	_	VB	VB	SUP|AKT	3	VG	_	_
-5	var	_	PN	PN	UTR|SIN|IND|SUB/OBJ	4	SP	_	_
+5	var	_	VB	VB	UTR|SIN|IND|SUB/OBJ	4	SP	_	_
 6	för	_	PP	PP	_	5	HD	_	_
 7	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	5	HD	_	_
 8	(	_	PAD	PAD	_	5	IC	_	_
-9	hemskilda	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	5	AN	_	_
+9	hemskilda	_	PC	PC	POS|UTR/NEU|PLU|IND/DEF|NOM	5	AN	_	_
 10	)	_	PAD	PAD	_	5	JC	_	_
 11	under	_	PP	PP	_	4	TA	_	_
 12	minst	_	AB	AB	SUV	13	AA	_	_
@@ -3497,7 +3497,7 @@
 16	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 17	en	_	PN	PN	UTR|SIN|IND|SUB/OBJ	18	CJ	_	_
 18	eller	_	KN	KN	_	16	SS	_	_
-19	båda	_	PN	PN	UTR/NEU|PLU|DEF|SUB/OBJ	18	CJ	_	_
+19	båda	_	JJ	JJ	UTR/NEU|PLU|DEF|SUB/OBJ	18	CJ	_	_
 20	begära	_	VB	VB	INF|AKT	16	VG	_	_
 21	att	_	SN	SN	_	20	OO	_	_
 22	domstolen	_	NN	NN	UTR|SIN|DEF|NOM	23	SS	_	_
@@ -3525,7 +3525,7 @@
 10	omedelbar	_	JJ	JJ	POS|UTR|SIN|IND|NOM	11	AT	_	_
 11	äktenskapsskillnad	_	NN	NN	UTR|SIN|IND|NOM	9	PA	_	_
 12	utan	_	PP	PP	_	8	AA	_	_
-13	föregående	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	14	AT	_	_
+13	föregående	_	JJ	JJ	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	14	AT	_	_
 14	hemskillnad	_	NN	NN	UTR|SIN|IND|NOM	12	PA	_	_
 15	.	_	MAD	MAD	_	6	IP	_	_
 
@@ -3585,11 +3585,11 @@
 
 1	Se	_	VB	VB	IMP|AKT	6	MS	_	_
 2	också	_	AB	AB	_	1	+A	_	_
-3	Förmyndare	_	NN	NN	UTR|SIN|IND|NOM	1	OO	_	_
+3	Förmyndare	_	JJ	JJ	UTR|SIN|IND|NOM	1	OO	_	_
 4	sida	_	NN	NN	UTR|SIN|IND|NOM	5	DT	_	_
 5	12	_	RG	RG	NOM	1	RA	_	_
 6	och	_	KN	KN	_	0	ROOT	_	_
-7	Underhållsbidrag	_	NN	NN	NEU|SIN|IND|NOM	6	+F	_	_
+7	Underhållsbidrag	_	JJ	JJ	NEU|SIN|IND|NOM	6	+F	_	_
 8	sida	_	NN	NN	UTR|SIN|IND|NOM	9	DT	_	_
 9	23	_	RG	RG	NOM	7	RA	_	_
 10	.	_	MAD	MAD	_	6	IP	_	_
@@ -3606,7 +3606,7 @@
 10	eller	_	KN	KN	_	14	CJ	_	_
 11	rådhusrätt	_	NN	NN	UTR|SIN|IND|NOM	10	CJ	_	_
 12	,	_	MID	MID	_	14	IK	_	_
-13	rättshjälpsanstalt	_	NN	NN	UTR|SIN|IND|NOM	14	CJ	_	_
+13	rättshjälpsanstalt	_	AB	AB	UTR|SIN|IND|NOM	14	CJ	_	_
 14	eller	_	KN	KN	_	4	PA	_	_
 15	advokat	_	NN	NN	UTR|SIN|IND|NOM	14	CJ	_	_
 16	.	_	MAD	MAD	_	2	IP	_	_
@@ -3640,7 +3640,7 @@
 7	ofta	_	AB	AB	POS	4	TA	_	_
 8	mindre	_	AB	AB	KOM	9	AA	_	_
 9	glad	_	JJ	JJ	POS|UTR|SIN|IND|NOM	4	OP	_	_
-10	än	_	SN	SN	_	4	KA	_	_
+10	än	_	KN	KN	_	4	KA	_	_
 11	hon	_	PN	PN	UTR|SIN|DEF|SUB	12	SS	_	_
 12	hade	_	VB	VB	PRT|AKT	10	UA	_	_
 13	trott	_	VB	VB	SUP|AKT	12	VG	_	_
@@ -3651,16 +3651,16 @@
 3	vara	_	VB	VB	INF|AKT	2	IF	_	_
 4	trött	_	JJ	JJ	POS|UTR|SIN|IND|NOM	5	CJ	_	_
 5	och	_	KN	KN	_	3	SP	_	_
-6	nedstämd	_	JJ	JJ	POS|UTR|SIN|IND|NOM	5	CJ	_	_
+6	nedstämd	_	PC	PC	POS|UTR|SIN|IND|NOM	5	CJ	_	_
 7	efter	_	PP	PP	_	3	TA	_	_
 8	förlossningen	_	NN	NN	UTR|SIN|DEF|NOM	7	PA	_	_
 9	är	_	VB	VB	PRS|AKT	13	MS	_	_
-10	normalt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	11	CJ	_	_
+10	normalt	_	AB	AB	POS|NEU|SIN|IND|NOM	11	CJ	_	_
 11	och	_	KN	KN	_	9	SP	_	_
-12	naturligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	11	CJ	_	_
+12	naturligt	_	AB	AB	POS|NEU|SIN|IND|NOM	11	CJ	_	_
 13	och	_	KN	KN	_	1	MS	_	_
 14	går	_	VB	VB	PRS|AKT	13	+F	_	_
-15	över	_	PL	PL	_	14	PL	_	_
+15	över	_	PP	PP	_	14	PL	_	_
 16	allteftersom	_	SN	SN	_	14	TA	_	_
 17	krafterna	_	NN	NN	UTR|PLU|DEF|NOM	18	SS	_	_
 18	återvänder	_	VB	VB	PRS|AKT	16	UA	_	_
@@ -3679,7 +3679,7 @@
 11	man	_	PN	PN	UTR|SIN|IND|SUB	12	SS	_	_
 12	fått	_	VB	VB	SUP|AKT	19	MS	_	_
 13	pyssla	_	VB	VB	INF|AKT	12	VG	_	_
-14	om	_	PL	PL	_	13	PL	_	_
+14	om	_	PP	PP	_	13	PL	_	_
 15	sitt	_	PS	PS	NEU|SIN|DEF	16	DT	_	_
 16	barn	_	NN	NN	NEU|SIN|IND|NOM	13	OO	_	_
 17	en	_	DT	DT	UTR|SIN|IND	18	DT	_	_
@@ -3833,8 +3833,8 @@
 11	utan	_	KN	KN	_	0	ROOT	_	_
 12	också	_	AB	AB	_	13	+A	_	_
 13	på	_	PP	PP	_	11	+F	_	_
-14	sådant	_	PN	PN	NEU|SIN|IND|SUB/OBJ	13	PA	_	_
-15	som	_	KN	KN	_	14	ET	_	_
+14	sådant	_	JJ	JJ	NEU|SIN|IND|SUB/OBJ	13	PA	_	_
+15	som	_	HP	HP	_	14	ET	_	_
 16	t.ex.	_	AB	AB	AN	15	UA	_	_
 17	begåvning	_	NN	NN	UTR|SIN|IND|NOM	18	CJ	_	_
 18	och	_	KN	KN	_	16	SS	_	_
@@ -3849,7 +3849,7 @@
 6	som	_	KN	KN	_	3	AA	_	_
 7	människa	_	NN	NN	UTR|SIN|IND|NOM	6	UA	_	_
 8	,	_	MID	MID	_	15	IK	_	_
-9	vilka	_	HD	HD	UTR/NEU|PLU|IND	10	DT	_	_
+9	vilka	_	HP	HP	UTR/NEU|PLU|IND	10	DT	_	_
 10	egenskaper	_	NN	NN	UTR|PLU|IND|NOM	14	OO	_	_
 11	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	12	SS	_	_
 12	kommer	_	VB	VB	PRS|AKT	15	CJ	_	_
@@ -3913,7 +3913,7 @@
 19	och	_	KN	KN	_	16	SP	_	_
 20	vänliga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	19	CJ	_	_
 21	mot	_	PP	PP	_	16	OA	_	_
-22	andra	_	PN	PN	UTR/NEU|PLU|IND|SUB/OBJ	21	PA	_	_
+22	andra	_	JJ	JJ	UTR/NEU|PLU|IND|SUB/OBJ	21	PA	_	_
 23	än	_	KN	KN	_	22	ET	_	_
 24	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	23	UA	_	_
 25	som	_	HP	HP	-|-|-	27	SS	_	_
@@ -3963,7 +3963,7 @@
 3	trygg	_	JJ	JJ	POS|UTR|SIN|IND|NOM	4	AT	_	_
 4	omvårdnad	_	NN	NN	UTR|SIN|IND|NOM	5	CJ	_	_
 5	och	_	KN	KN	_	2	OO	_	_
-6	mycket	_	JJ	JJ	POS|NEU|SIN|IND|NOM	7	DT	_	_
+6	mycket	_	AB	AB	POS|NEU|SIN|IND|NOM	7	DT	_	_
 7	ömhet	_	NN	NN	UTR|SIN|IND|NOM	5	CJ	_	_
 8	för	_	PP	PP	_	2	AA	_	_
 9	att	_	IE	IE	_	8	PA	_	_
@@ -3997,9 +3997,9 @@
 25	början	_	NN	NN	UTR|SIN|DEF|NOM	24	PA	_	_
 26	känner	_	VB	VB	PRS|AKT	21	UA	_	_
 27	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	26	OO	_	_
-28	tryggt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	29	CJ	_	_
+28	tryggt	_	AB	AB	POS|NEU|SIN|IND|NOM	29	CJ	_	_
 29	och	_	KN	KN	_	26	OP	_	_
-30	ompysslat	_	JJ	JJ	POS|NEU|SIN|IND|NOM	29	CJ	_	_
+30	ompysslat	_	VB	VB	POS|NEU|SIN|IND|NOM	29	CJ	_	_
 31	.	_	MAD	MAD	_	2	IP	_	_
 
 1	En	_	DT	DT	UTR|SIN|IND	2	DT	_	_
@@ -4056,7 +4056,7 @@
 
 1	Naturligtvis	_	AB	AB	_	2	MA	_	_
 2	måste	_	VB	VB	PRS|AKT	10	MS	_	_
-3	allt	_	DT	DT	NEU|SIN|IND/DEF	5	DT	_	_
+3	allt	_	AB	AB	NEU|SIN|IND/DEF	5	DT	_	_
 4	praktiskt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	5	AT	_	_
 5	arbete	_	NN	NN	NEU|SIN|IND|NOM	2	SS	_	_
 6	i	_	PP	PP	_	5	ET	_	_
@@ -4084,7 +4084,7 @@
 7	barnet	_	NN	NN	NEU|SIN|DEF|NOM	8	SS	_	_
 8	har	_	VB	VB	PRS|AKT	6	UA	_	_
 9	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	8	OO	_	_
-10	bra	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	8	OP	_	_
+10	bra	_	AB	AB	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	8	OP	_	_
 11	på	_	PP	PP	_	8	TA	_	_
 12	dagarna	_	NN	NN	UTR|PLU|DEF|NOM	11	PA	_	_
 13	,	_	MID	MID	_	8	IK	_	_
@@ -4098,7 +4098,7 @@
 21	ett	_	DT	DT	NEU|SIN|IND	22	DT	_	_
 22	familjedaghem	_	NN	NN	NEU|SIN|IND|NOM	20	PA	_	_
 23	eller	_	KN	KN	_	14	UA	_	_
-24	någon	_	PN	PN	UTR|SIN|IND|SUB/OBJ	25	SS	_	_
+24	någon	_	DT	DT	UTR|SIN|IND|SUB/OBJ	25	SS	_	_
 25	sköter	_	VB	VB	PRS|AKT	23	+F	_	_
 26	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	25	OO	_	_
 27	hemma	_	AB	AB	_	25	RA	_	_
@@ -4231,7 +4231,7 @@
 4	är	_	VB	VB	PRS|AKT	6	MS	_	_
 5	tidiga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	4	SP	_	_
 6	och	_	KN	KN	_	0	ROOT	_	_
-7	andra	_	PN	PN	UTR/NEU|PLU|IND|SUB/OBJ	6	+F	_	_
+7	andra	_	JJ	JJ	UTR/NEU|PLU|IND|SUB/OBJ	6	+F	_	_
 8	sena	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	7	SP	_	_
 9	,	_	MID	MID	_	6	IK	_	_
 10	skillnaderna	_	NN	NN	UTR|PLU|DEF|NOM	11	SS	_	_
@@ -4252,7 +4252,7 @@
 6	ett	_	DT	DT	NEU|SIN|IND	7	DT	_	_
 7	barn	_	NN	NN	NEU|SIN|IND|NOM	8	SS	_	_
 8	är	_	VB	VB	PRS|AKT	26	MS	_	_
-9	tidigt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	8	SP	_	_
+9	tidigt	_	AB	AB	POS|NEU|SIN|IND|NOM	8	SP	_	_
 10	på	_	PP	PP	_	8	AA	_	_
 11	ett	_	DT	DT	NEU|SIN|IND	12	DT	_	_
 12	område	_	NN	NN	NEU|SIN|IND|NOM	10	PA	_	_
@@ -4265,7 +4265,7 @@
 19	gå	_	VB	VB	INF|AKT	18	IF	_	_
 20	,	_	MID	MID	_	8	IK	_	_
 21	men	_	KN	KN	_	8	+F	_	_
-22	senare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	21	SP	_	_
+22	senare	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	21	SP	_	_
 23	med	_	PP	PP	_	21	OA	_	_
 24	att	_	IE	IE	_	23	PA	_	_
 25	tala	_	VB	VB	INF|AKT	24	IF	_	_
@@ -4280,7 +4280,7 @@
 5	genom	_	PP	PP	_	2	AA	_	_
 6	att	_	IE	IE	_	5	PA	_	_
 7	skynda	_	VB	VB	INF|AKT	6	IF	_	_
-8	på	_	PL	PL	_	7	PL	_	_
+8	på	_	PP	PP	_	7	PL	_	_
 9	dess	_	PS	PS	UTR/NEU|SIN/PLU|DEF	7	OO	_	_
 10	utveckling	_	NN	NN	UTR|SIN|IND|NOM	9	HD	_	_
 11	.	_	MAD	MAD	_	2	IP	_	_
@@ -4299,7 +4299,7 @@
 3	första	_	RO	RO	NOM	4	DT	_	_
 4	året	_	NN	NN	NEU|SIN|DEF|NOM	1	PA	_	_
 5	visar	_	VB	VB	PRS|AKT	0	ROOT	_	_
-6	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	5	SS	_	_
+6	det	_	DT	DT	NEU|SIN|DEF|SUB/OBJ	5	SS	_	_
 7	nya	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	8	AT	_	_
 8	färdigheter	_	NN	NN	UTR|PLU|IND|NOM	5	OO	_	_
 9	varje	_	DT	DT	UTR/NEU|SIN|IND	10	DT	_	_
@@ -4308,7 +4308,7 @@
 12	sedan	_	AB	AB	_	13	TA	_	_
 13	går	_	VB	VB	PRS|AKT	5	MS	_	_
 14	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	13	SS	_	_
-15	långsammare	_	AB	AB	KOM	13	AA	_	_
+15	långsammare	_	JJ	JJ	KOM	13	AA	_	_
 16	.	_	MAD	MAD	_	5	IP	_	_
 
 1	Lugna	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	2	AT	_	_
@@ -4494,13 +4494,13 @@
 13	kan	_	VB	VB	PRS|AKT	10	MS	_	_
 14	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	13	SS	_	_
 15	inte	_	AB	AB	_	13	NA	_	_
-16	förrän	_	PP	PP	_	17	CA	_	_
+16	förrän	_	AB	AB	_	17	CA	_	_
 17	vid	_	PP	PP	_	13	TA	_	_
 18	8-10	_	RG	RG	NOM	19	DT	_	_
 19	månader	_	NN	NN	UTR|PLU|IND|NOM	17	PA	_	_
 20	.	_	MAD	MAD	_	10	IP	_	_
 
-1	De	_	PN	PN	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
+1	De	_	DT	DT	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
 2	griper	_	VB	VB	PRS|AKT	11	MS	_	_
 3	efter	_	PP	PP	_	2	OA	_	_
 4	alla	_	DT	DT	UTR/NEU|PLU|IND/DEF	5	DT	_	_
@@ -4538,7 +4538,7 @@
 12	.	_	MAD	MAD	_	7	IP	_	_
 
 1	Under	_	PP	PP	_	4	RA	_	_
-2	andra	_	RO	RO	NOM	3	DT	_	_
+2	andra	_	JJ	JJ	NOM	3	DT	_	_
 3	halvåret	_	NN	NN	NEU|SIN|DEF|NOM	1	PA	_	_
 4	börjar	_	VB	VB	PRS|AKT	0	ROOT	_	_
 5	de	_	DT	DT	UTR/NEU|PLU|DEF	7	DT	_	_
@@ -4546,27 +4546,27 @@
 7	barn	_	NN	NN	NEU|PLU|IND|NOM	4	SS	_	_
 8	resa	_	VB	VB	INF|AKT	11	MS	_	_
 9	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	8	OO	_	_
-10	upp	_	AB	AB	_	8	RA	_	_
+10	upp	_	PL	PL	_	8	RA	_	_
 11	och	_	KN	KN	_	4	OO	_	_
 12	stå	_	VB	VB	INF|AKT	11	+F	_	_
 13	.	_	MAD	MAD	_	4	IP	_	_
 
 1	En	_	DT	DT	UTR|SIN|IND	2	DT	_	_
 2	del	_	NN	NN	UTR|SIN|IND|NOM	4	SS	_	_
-3	kryper	_	VB	VB	PRS|AKT	4	CJ	_	_
+3	kryper	_	NN	NN	PRS|AKT	4	CJ	_	_
 4	eller	_	KN	KN	_	0	ROOT	_	_
 5	hasar	_	VB	VB	PRS|AKT	4	CJ	_	_
-6	omkring	_	PL	PL	_	4	PL	_	_
+6	omkring	_	AB	AB	_	4	PL	_	_
 7	på	_	PP	PP	_	4	RA	_	_
 8	stjärten	_	NN	NN	UTR|SIN|DEF|NOM	7	PA	_	_
 9	.	_	MAD	MAD	_	4	IP	_	_
 
-1	De	_	PN	PN	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
+1	De	_	DT	DT	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
 2	undersöker	_	VB	VB	PRS|AKT	7	MS	_	_
 3	allt	_	PN	PN	NEU|SIN|IND|SUB/OBJ	2	OO	_	_
 4	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	5	SS	_	_
 5	kommer	_	VB	VB	PRS|AKT	3	ET	_	_
-6	åt	_	AB	AB	_	5	OA	_	_
+6	åt	_	PL	PL	_	5	OA	_	_
 7	och	_	KN	KN	_	0	ROOT	_	_
 8	nu	_	AB	AB	_	9	TA	_	_
 9	börjar	_	VB	VB	PRS|AKT	7	MS	_	_
@@ -4607,7 +4607,7 @@
 18	deras	_	PS	PS	UTR/NEU|SIN/PLU|DEF	20	DT	_	_
 19	rörelsefrihet	_	NN	NN	UTR|SIN|IND|NOM	20	CJ	_	_
 20	och	_	KN	KN	_	17	PA	_	_
-21	upptäckariver	_	NN	NN	UTR|SIN|IND|NOM	20	CJ	_	_
+21	upptäckariver	_	VB	VB	UTR|SIN|IND|NOM	20	CJ	_	_
 22	.	_	MAD	MAD	_	7	IP	_	_
 
 1	Omkring	_	PP	PP	_	3	TA	_	_
@@ -4627,7 +4627,7 @@
 15	brukar	_	VB	VB	PRS|AKT	12	MS	_	_
 16	inte	_	AB	AB	_	15	NA	_	_
 17	gå	_	VB	VB	INF|AKT	15	OO	_	_
-18	förrän	_	AB	AB	_	21	CA	_	_
+18	förrän	_	PP	PP	_	21	CA	_	_
 19	några	_	DT	DT	UTR/NEU|PLU|IND	20	DT	_	_
 20	månader	_	NN	NN	UTR|PLU|IND|NOM	21	AA	_	_
 21	senare	_	AB	AB	KOM	15	TA	_	_
@@ -4691,7 +4691,7 @@
 14	-	_	MID	MID	_	11	JT	_	_
 15	då	_	HA	HA	_	18	TA	_	_
 16	barnet	_	NN	NN	NEU|SIN|DEF|NOM	18	SS	_	_
-17	liksom	_	AB	AB	_	18	XA	_	_
+17	liksom	_	PP	PP	_	18	XA	_	_
 18	leker	_	VB	VB	PRS|AKT	11	ET	_	_
 19	med	_	PP	PP	_	18	OA	_	_
 20	olika	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	21	AT	_	_
@@ -4715,7 +4715,7 @@
 
 1	Att	_	IE	IE	_	7	CJ	_	_
 2	följa	_	VB	VB	INF|AKT	1	IF	_	_
-3	med	_	PP	PP	_	2	OA	_	_
+3	med	_	PL	PL	_	2	OA	_	_
 4	hur	_	HA	HA	_	6	AA	_	_
 5	barnet	_	NN	NN	NEU|SIN|DEF|NOM	6	SS	_	_
 6	utvecklas	_	VB	VB	PRS|SFO	3	PA	_	_
@@ -4738,7 +4738,7 @@
 1	Det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	SS	_	_
 2	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	så	_	AB	AB	_	4	AA	_	_
-4	mycket	_	PN	PN	NEU|SIN|IND|SUB/OBJ	2	XX	_	_
+4	mycket	_	AB	AB	NEU|SIN|IND|SUB/OBJ	2	XX	_	_
 5	som	_	HP	HP	-|-|-	6	SS	_	_
 6	händer	_	VB	VB	PRS|AKT	4	EF	_	_
 7	under	_	PP	PP	_	6	TA	_	_
@@ -4814,10 +4814,10 @@
 
 1	Men	_	KN	KN	_	0	ROOT	_	_
 2	-	_	MID	MID	_	15	IT	_	_
-3	om	_	SN	SN	_	15	AA	_	_
+3	om	_	PP	PP	_	15	AA	_	_
 4	mamman	_	NN	NN	UTR|SIN|DEF|NOM	5	SS	_	_
 5	har	_	VB	VB	PRS|AKT	9	MS	_	_
-6	dåligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	5	OO	_	_
+6	dåligt	_	AB	AB	POS|NEU|SIN|IND|NOM	5	OO	_	_
 7	med	_	PP	PP	_	6	ET	_	_
 8	mjölk	_	NN	NN	UTR|SIN|IND|NOM	7	PA	_	_
 9	eller	_	KN	KN	_	3	UA	_	_
@@ -4845,7 +4845,7 @@
 5	på	_	PP	PP	_	2	AA	_	_
 6	en	_	DT	DT	UTR|SIN|IND	9	DT	_	_
 7	rätt	_	JJ	JJ	POS|UTR|SIN|IND|NOM	8	AA	_	_
-8	skött	_	PC	PC	PRF|UTR|SIN|IND|NOM	9	AT	_	_
+8	skött	_	NN	NN	PRF|UTR|SIN|IND|NOM	9	AT	_	_
 9	flaskuppfödning	_	NN	NN	UTR|SIN|IND|NOM	5	PA	_	_
 10	och	_	KN	KN	_	0	ROOT	_	_
 11	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	12	FS	_	_
@@ -4874,7 +4874,7 @@
 1	Det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	FS	_	_
 2	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	viktigt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	2	SP	_	_
-4	att	_	SN	SN	_	2	ES	_	_
+4	att	_	IE	IE	_	2	ES	_	_
 5	flaskmatningen	_	NN	NN	UTR|SIN|DEF|NOM	6	SS	_	_
 6	blir	_	VB	VB	PRS|AKT	4	UA	_	_
 7	så	_	AB	AB	_	8	AA	_	_
@@ -4887,7 +4887,7 @@
 1	Det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	FS	_	_
 2	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	därför	_	AB	AB	_	2	AA	_	_
-4	bäst	_	JJ	JJ	SUV|UTR/NEU|SIN/PLU|IND|NOM	2	SP	_	_
+4	bäst	_	AB	AB	SUV|UTR/NEU|SIN/PLU|IND|NOM	2	SP	_	_
 5	om	_	SN	SN	_	2	ES	_	_
 6	barnet	_	NN	NN	NEU|SIN|DEF|NOM	7	SS	_	_
 7	ligger	_	VB	VB	PRS|AKT	5	UA	_	_
@@ -4930,7 +4930,7 @@
 21	dessutom	_	AB	AB	_	22	+A	_	_
 22	känner	_	VB	VB	PRS|AKT	15	ET	_	_
 23	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	22	OO	_	_
-24	avundsjuka	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	22	OP	_	_
+24	avundsjuka	_	NN	NN	POS|UTR/NEU|PLU|IND/DEF|NOM	22	OP	_	_
 25	på	_	PP	PP	_	22	OA	_	_
 26	den	_	DT	DT	UTR|SIN|DEF	27	DT	_	_
 27	minste	_	JJ	JJ	SUV|MAS|SIN|DEF|NOM	25	PA	_	_
@@ -4944,7 +4944,7 @@
 35	själv	_	JJ	JJ	POS|UTR|SIN|IND|NOM	34	PT	_	_
 36	,	_	MID	MID	_	37	IK	_	_
 37	men	_	KN	KN	_	0	ROOT	_	_
-38	om	_	SN	SN	_	50	AA	_	_
+38	om	_	PP	PP	_	50	AA	_	_
 39	matningen	_	NN	NN	UTR|SIN|DEF|NOM	40	SS	_	_
 40	kan	_	VB	VB	PRS|AKT	38	UA	_	_
 41	ordnas	_	VB	VB	INF|SFO	40	VG	_	_
@@ -4966,7 +4966,7 @@
 57	barn	_	NN	NN	NEU|SIN|IND|NOM	56	CJ	_	_
 58	.	_	MAD	MAD	_	37	IP	_	_
 
-1	Anpassa	_	VB	VB	IMP|AKT	0	ROOT	_	_
+1	Anpassa	_	JJ	JJ	IMP|AKT	0	ROOT	_	_
 2	måltiderna	_	NN	NN	UTR|PLU|DEF|NOM	1	OO	_	_
 3	någorlunda	_	AB	AB	_	1	AA	_	_
 4	efter	_	PP	PP	_	1	OA	_	_
@@ -5008,7 +5008,7 @@
 13	tills	_	SN	SN	_	12	TA	_	_
 14	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	15	SS	_	_
 15	vaknar	_	VB	VB	PRS|AKT	13	UA	_	_
-16	av	_	PP	PP	_	15	AA	_	_
+16	av	_	PL	PL	_	15	AA	_	_
 17	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	16	PA	_	_
 18	självt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	17	PT	_	_
 19	.	_	MAD	MAD	_	10	IP	_	_
@@ -5047,7 +5047,7 @@
 
 1	Man	_	PN	PN	UTR|SIN|IND|SUB	2	SS	_	_
 2	undgår	_	VB	VB	PRS|AKT	15	MS	_	_
-3	mycket	_	JJ	JJ	POS|NEU|SIN|IND|NOM	4	DT	_	_
+3	mycket	_	AB	AB	POS|NEU|SIN|IND|NOM	4	DT	_	_
 4	skrik	_	NN	NN	NEU|SIN|IND|NOM	5	CJ	_	_
 5	och	_	KN	KN	_	2	OO	_	_
 6	onödig	_	JJ	JJ	POS|UTR|SIN|IND|NOM	7	AT	_	_
@@ -5107,7 +5107,7 @@
 7	eller	_	KN	KN	_	5	PA	_	_
 8	flaskan	_	NN	NN	UTR|SIN|DEF|NOM	7	CJ	_	_
 9	,	_	MID	MID	_	3	IK	_	_
-10	andra	_	PN	PN	UTR/NEU|PLU|IND|SUB/OBJ	11	SS	_	_
+10	andra	_	JJ	JJ	UTR/NEU|PLU|IND|SUB/OBJ	11	SS	_	_
 11	hittar	_	VB	VB	PRS|AKT	15	MS	_	_
 12	dessutom	_	AB	AB	_	11	+A	_	_
 13	sin	_	PS	PS	UTR|SIN|DEF	14	DT	_	_
@@ -5115,7 +5115,7 @@
 15	eller	_	KN	KN	_	3	MS	_	_
 16	tycker	_	VB	VB	PRS|AKT	15	+F	_	_
 17	kanske	_	AB	AB	_	16	MA	_	_
-18	om	_	PL	PL	_	16	PL	_	_
+18	om	_	PP	PP	_	16	PL	_	_
 19	en	_	DT	DT	UTR|SIN|IND	20	DT	_	_
 20	tröstnapp	_	NN	NN	UTR|SIN|IND|NOM	16	OO	_	_
 21	.	_	MAD	MAD	_	3	IP	_	_
@@ -5171,7 +5171,7 @@
 1	Det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	FS	_	_
 2	är	_	VB	VB	PRS|AKT	9	MS	_	_
 3	oundvikligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	2	SP	_	_
-4	att	_	SN	SN	_	2	ES	_	_
+4	att	_	IE	IE	_	2	ES	_	_
 5	spädbarn	_	NN	NN	NEU|PLU|IND|NOM	6	SS	_	_
 6	skriker	_	VB	VB	PRS|AKT	4	UA	_	_
 7	ibland	_	AB	AB	_	6	TA	_	_
@@ -5192,8 +5192,8 @@
 22	för	_	PP	PP	_	20	OA	_	_
 23	.	_	MAD	MAD	_	9	IP	_	_
 
-1	Skriker	_	VB	VB	PRS|AKT	4	AA	_	_
-2	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	1	SS	_	_
+1	Skriker	_	NN	NN	PRS|AKT	4	AA	_	_
+2	de	_	DT	DT	UTR/NEU|PLU|DEF|SUB	1	SS	_	_
 3	ihärdigt	_	AB	AB	POS	1	AA	_	_
 4	finns	_	VB	VB	PRS|SFO	0	ROOT	_	_
 5	alltid	_	AB	AB	_	4	TA	_	_
@@ -5201,7 +5201,7 @@
 7	orsak	_	NN	NN	UTR|SIN|IND|NOM	4	SS	_	_
 8	,	_	MID	MID	_	4	IK	_	_
 9	fast	_	SN	SN	_	4	AA	_	_
-10	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	13	SS	_	_
+10	den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	13	SS	_	_
 11	många	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	12	DT	_	_
 12	gånger	_	NN	NN	UTR|PLU|IND|NOM	13	TA	_	_
 13	kan	_	VB	VB	PRS|AKT	9	UA	_	_
@@ -5224,10 +5224,10 @@
 1	De	_	PN	PN	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
 2	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	vara	_	VB	VB	INF|AKT	2	VG	_	_
-4	för	_	AB	AB	_	5	AA	_	_
+4	för	_	PP	PP	_	5	AA	_	_
 5	varma	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	6	CJ	_	_
 6	eller	_	KN	KN	_	3	SP	_	_
-7	för	_	AB	AB	_	8	AA	_	_
+7	för	_	PP	PP	_	8	AA	_	_
 8	kalla	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	6	CJ	_	_
 9	.	_	MAD	MAD	_	2	IP	_	_
 
@@ -5244,10 +5244,10 @@
 1	De	_	PN	PN	UTR/NEU|PLU|DEF|SUB	3	SS	_	_
 2	kanske	_	AB	AB	_	3	MA	_	_
 3	ligger	_	VB	VB	PRS|AKT	10	MS	_	_
-4	obekvämt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	3	AA	_	_
+4	obekvämt	_	AB	AB	POS|NEU|SIN|IND|NOM	3	AA	_	_
 5	,	_	MID	MID	_	3	IK	_	_
 6	har	_	VB	VB	PRS|AKT	3	+F	_	_
-7	ont	_	JJ	JJ	POS|NEU|SIN|IND|NOM	6	OO	_	_
+7	ont	_	AB	AB	POS|NEU|SIN|IND|NOM	6	OO	_	_
 8	i	_	PP	PP	_	6	RA	_	_
 9	magen	_	NN	NN	UTR|SIN|DEF|NOM	8	PA	_	_
 10	eller	_	KN	KN	_	0	ROOT	_	_
@@ -5282,8 +5282,8 @@
 21	stund	_	NN	NN	UTR|SIN|IND|NOM	16	TA	_	_
 22	.	_	MAD	MAD	_	5	IP	_	_
 
-1	Att	_	IE	IE	_	8	SS	_	_
-2	trösta	_	VB	VB	INF|AKT	1	IF	_	_
+1	Att	_	SN	SN	_	8	SS	_	_
+2	trösta	_	PC	PC	INF|AKT	1	IF	_	_
 3	barn	_	NN	NN	NEU|PLU|IND|NOM	2	OO	_	_
 4	när	_	HA	HA	_	6	TA	_	_
 5	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	6	SS	_	_
@@ -5321,20 +5321,20 @@
 7	stunderna	_	NN	NN	UTR|PLU|DEF|NOM	3	SP	_	_
 8	.	_	MAD	MAD	_	3	IP	_	_
 
-1	Försök	_	VB	VB	IMP|AKT	13	MS	_	_
+1	Försök	_	NN	NN	IMP|AKT	13	MS	_	_
 2	ta	_	VB	VB	INF|AKT	1	OO	_	_
 3	god	_	JJ	JJ	POS|UTR|SIN|IND|NOM	4	AT	_	_
 4	tid	_	NN	NN	UTR|SIN|IND|NOM	2	OO	_	_
 5	vid	_	PP	PP	_	2	TA	_	_
 6	skötningen	_	NN	NN	UTR|SIN|DEF|NOM	5	PA	_	_
 7	,	_	MID	MID	_	13	IK	_	_
-8	lek	_	VB	VB	IMP|AKT	9	CJ	_	_
+8	lek	_	NN	NN	IMP|AKT	9	CJ	_	_
 9	och	_	KN	KN	_	13	MS	_	_
 10	kela	_	VB	VB	IMP|AKT	9	CJ	_	_
 11	med	_	PP	PP	_	9	OA	_	_
 12	barnet	_	NN	NN	NEU|SIN|DEF|NOM	11	PA	_	_
 13	och	_	KN	KN	_	0	ROOT	_	_
-14	njut	_	VB	VB	IMP|AKT	13	MS	_	_
+14	njut	_	NN	NN	IMP|AKT	13	MS	_	_
 15	av	_	PP	PP	_	14	OA	_	_
 16	att	_	IE	IE	_	15	PA	_	_
 17	vara	_	VB	VB	INF|AKT	16	IF	_	_
@@ -5351,12 +5351,12 @@
 6	inte	_	AB	AB	_	4	NA	_	_
 7	få	_	VB	VB	INF|AKT	4	VG	_	_
 8	för	_	AB	AB	_	9	AA	_	_
-9	mycket	_	AB	AB	POS	7	OO	_	_
+9	mycket	_	PN	PN	POS	7	OO	_	_
 10	av	_	PP	PP	_	7	OA	_	_
 11	.	_	MAD	MAD	_	4	IP	_	_
 
 1	Mänsklighetens	_	NN	NN	UTR|SIN|DEF|GEN	2	DT	_	_
-2	lämmeltåg	_	NN	NN	NEU|SIN|IND|NOM	3	SS	_	_
+2	lämmeltåg	_	VB	VB	NEU|SIN|IND|NOM	3	SS	_	_
 3	rusar	_	VB	VB	PRS|AKT	0	ROOT	_	_
 4	mot	_	PP	PP	_	3	RA	_	_
 5	förintelsen	_	NN	NN	UTR|SIN|DEF|NOM	4	PA	_	_
@@ -5370,7 +5370,7 @@
 6	än	_	KN	KN	_	5	HD	_	_
 7	100	_	RG	RG	NOM	8	DT	_	_
 8	år	_	NN	NN	NEU|PLU|IND|NOM	4	OO	_	_
-9	om	_	SN	SN	_	4	AA	_	_
+9	om	_	PP	PP	_	4	AA	_	_
 10	allting	_	PN	PN	NEU|SIN|IND|SUB/OBJ	11	SS	_	_
 11	fortsätter	_	VB	VB	PRS|AKT	9	UA	_	_
 12	så	_	AB	AB	_	11	AA	_	_
@@ -5410,7 +5410,7 @@
 3	bara	_	AB	AB	_	2	CA	_	_
 4	fortare	_	AB	AB	KOM	5	CJ	_	_
 5	och	_	KN	KN	_	2	AA	_	_
-6	fortare	_	AB	AB	KOM	5	CJ	_	_
+6	fortare	_	NN	NN	KOM	5	CJ	_	_
 7	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Under	_	PP	PP	_	3	TA	_	_
@@ -5426,7 +5426,7 @@
 11	.	_	MAD	MAD	_	3	IP	_	_
 
 1	Inte	_	AB	AB	_	3	NA	_	_
-2	förrän	_	AB	AB	_	3	CA	_	_
+2	förrän	_	PP	PP	_	3	CA	_	_
 3	1850	_	RG	RG	NOM	4	TA	_	_
 4	noterades	_	VB	VB	PRT|SFO	0	ROOT	_	_
 5	den	_	DT	DT	UTR|SIN|DEF	7	DT	_	_
@@ -5448,7 +5448,7 @@
 6	senare	_	AB	AB	KOM	1	AN	_	_
 7	-	_	MID	MID	_	1	JT	_	_
 8	var	_	VB	VB	PRT|AKT	0	ROOT	_	_
-9	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	8	SS	_	_
+9	det	_	DT	DT	NEU|SIN|DEF|SUB/OBJ	8	SS	_	_
 10	två	_	RG	RG	NOM	11	DT	_	_
 11	miljarder	_	NN	NN	UTR|PLU|IND|NOM	8	SP	_	_
 12	.	_	MAD	MAD	_	8	IP	_	_
@@ -5461,7 +5461,7 @@
 6	senare	_	AB	AB	KOM	1	AN	_	_
 7	-	_	MID	MID	_	1	JT	_	_
 8	var	_	VB	VB	PRT|AKT	0	ROOT	_	_
-9	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	8	SS	_	_
+9	det	_	DT	DT	NEU|SIN|DEF|SUB/OBJ	8	SS	_	_
 10	tre	_	RG	RG	NOM	11	DT	_	_
 11	miljarder	_	NN	NN	UTR|PLU|IND|NOM	8	SP	_	_
 12	.	_	MAD	MAD	_	8	IP	_	_
@@ -5495,7 +5495,7 @@
 3	hör	_	VB	VB	PRS|AKT	1	MS	_	_
 4	till	_	PP	PP	_	3	OA	_	_
 5	saken	_	NN	NN	UTR|SIN|DEF|NOM	4	PA	_	_
-6	att	_	SN	SN	_	3	ES	_	_
+6	att	_	IE	IE	_	3	ES	_	_
 7	verkligheten	_	NN	NN	UTR|SIN|DEF|NOM	9	SS	_	_
 8	hittills	_	AB	AB	_	9	TA	_	_
 9	har	_	VB	VB	PRS|AKT	6	UA	_	_
@@ -5549,7 +5549,7 @@
 4	balans	_	NN	NN	UTR|SIN|IND|NOM	2	OO	_	_
 5	så	_	AB	AB	_	6	AA	_	_
 6	radikalt	_	AB	AB	POS	2	AA	_	_
-7	att	_	SN	SN	_	2	KA	_	_
+7	att	_	IE	IE	_	2	KA	_	_
 8	endast	_	AB	AB	_	10	CA	_	_
 9	en	_	DT	DT	UTR|SIN|IND	10	DT	_	_
 10	tredjedel	_	NN	NN	UTR|SIN|IND|NOM	11	SS	_	_
@@ -5599,7 +5599,7 @@
 8	faran	_	NN	NN	UTR|SIN|DEF|NOM	7	OO	_	_
 9	.	_	MAD	MAD	_	2	IP	_	_
 
-1	Kräva	_	VB	VB	INF|AKT	0	ROOT	_	_
+1	Kräva	_	JJ	JJ	INF|AKT	0	ROOT	_	_
 2	bevis	_	NN	NN	NEU|SIN|IND|NOM	1	OO	_	_
 3	?	_	MAD	MAD	_	1	I?	_	_
 
@@ -5638,7 +5638,7 @@
 23	.	_	MAD	MAD	_	11	IP	_	_
 
 1	Eller	_	KN	KN	_	0	ROOT	_	_
-2	som	_	HA	HA	_	1	MS	_	_
+2	som	_	KN	KN	_	1	MS	_	_
 3	professor	_	NN	NN	UTR|SIN|IND|NOM	4	DT	_	_
 4	Göran	_	PM	PM	NOM	6	SS	_	_
 5	Löfroth	_	PM	PM	NOM	4	HD	_	_
@@ -5659,7 +5659,7 @@
 10	vi	_	PN	PN	UTR|PLU|DEF|SUB	11	SS	_	_
 11	gör	_	VB	VB	PRS|AKT	9	UA	_	_
 12	något	_	PN	PN	NEU|SIN|IND|SUB/OBJ	11	OO	_	_
-13	?	_	MAD	MAD	_	2	I?	_	_
+13	?	_	MID	MID	_	2	I?	_	_
 14	'	_	PAD	PAD	_	4	JC	_	_
 
 1	Den	_	DT	DT	UTR|SIN|DEF	3	DT	_	_
@@ -5680,7 +5680,7 @@
 16	49:50	_	RG	RG	NOM	10	AN	_	_
 17	)	_	PAD	PAD	_	10	JR	_	_
 18	samlat	_	VB	VB	SUP|AKT	7	VG	_	_
-19	alla	_	DT	DT	UTR/NEU|PLU|IND/DEF	23	DT	_	_
+19	alla	_	PN	PN	UTR/NEU|PLU|IND/DEF	23	DT	_	_
 20	den	_	DT	DT	UTR|SIN|DEF	22	DT	_	_
 21	globala	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	22	AT	_	_
 22	miljöförstöringens	_	NN	NN	UTR|SIN|DEF|GEN	23	DT	_	_
@@ -5740,7 +5740,7 @@
 3	att	_	SN	SN	_	9	MS	_	_
 4	jorden	_	NN	NN	UTR|SIN|DEF|NOM	5	SS	_	_
 5	går	_	VB	VB	PRS|AKT	3	UA	_	_
-6	under	_	PL	PL	_	5	PL	_	_
+6	under	_	PP	PP	_	5	PL	_	_
 7	precis	_	AB	AB	_	3	CA	_	_
 8	,	_	MID	MID	_	9	IK	_	_
 9	men	_	KN	KN	_	0	ROOT	_	_
@@ -5768,7 +5768,7 @@
 31	och	_	KN	KN	_	25	PA	_	_
 32	anhopningar	_	NN	NN	UTR|PLU|IND|NOM	31	CJ	_	_
 33	av	_	PP	PP	_	32	ET	_	_
-34	allsköns	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	35	DT	_	_
+34	allsköns	_	NN	NN	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	35	DT	_	_
 35	djävligheter	_	NN	NN	UTR|PLU|IND|NOM	33	PA	_	_
 36	att	_	SN	SN	_	16	KA	_	_
 37	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	38	SS	_	_
@@ -5805,7 +5805,7 @@
 11	avgifta	_	VB	VB	INF|AKT	22	CJ	_	_
 12	marken	_	NN	NN	UTR|SIN|DEF|NOM	11	OO	_	_
 13	,	_	MID	MID	_	22	IK	_	_
-14	rena	_	VB	VB	INF|AKT	22	CJ	_	_
+14	rena	_	JJ	JJ	INF|AKT	22	CJ	_	_
 15	luften	_	NN	NN	UTR|SIN|DEF|NOM	14	OO	_	_
 16	så	_	AB	AB	_	14	AA	_	_
 17	pass	_	NN	NN	NEU|SIN|IND|NOM	16	HD	_	_
@@ -5814,7 +5814,7 @@
 20	kan	_	VB	VB	PRS|AKT	18	UA	_	_
 21	andas	_	VB	VB	INF|SFO	20	VG	_	_
 22	och	_	KN	KN	_	10	OA	_	_
-23	rena	_	VB	VB	INF|AKT	22	CJ	_	_
+23	rena	_	JJ	JJ	INF|AKT	22	CJ	_	_
 24	åtminstone	_	AB	AB	_	23	CA	_	_
 25	några	_	DT	DT	UTR/NEU|PLU|IND	26	DT	_	_
 26	vattendrag	_	NN	NN	NEU|PLU|IND|NOM	23	OO	_	_
@@ -5873,7 +5873,7 @@
 39	och	_	KN	KN	_	37	PA	_	_
 40	lugn	_	NN	NN	NEU|SIN|IND|NOM	39	CJ	_	_
 41	,	_	MID	MID	_	36	ET	_	_
-42	utan	_	PP	PP	_	41	CJ	_	_
+42	utan	_	KN	KN	_	41	CJ	_	_
 43	gröna	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	45	CJ	_	_
 44	fält	_	NN	NN	NEU|PLU|IND|NOM	43	HD	_	_
 45	och	_	KN	KN	_	42	PA	_	_
@@ -5904,7 +5904,7 @@
 11	vi	_	PN	PN	UTR|PLU|DEF|SUB	12	SS	_	_
 12	skall	_	VB	VB	PRS|AKT	49	MS	_	_
 13	flyga	_	VB	VB	INF|AKT	12	VG	_	_
-14	omkring	_	PL	PL	_	13	PL	_	_
+14	omkring	_	PP	PP	_	13	PL	_	_
 15	vart	_	HA	HA	_	13	RA	_	_
 16	som	_	KN	KN	_	15	HD	_	_
 17	helst	_	AB	AB	SUV	15	HD	_	_
@@ -5912,8 +5912,8 @@
 19	tusensitsiga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	20	AT	_	_
 20	överljudsplan	_	NN	NN	NEU|PLU|IND|NOM	18	PA	_	_
 21	,	_	MID	MID	_	13	IK	_	_
-22	ringa	_	VB	VB	INF|AKT	12	+F	_	_
-23	hem	_	AB	AB	_	22	RA	_	_
+22	ringa	_	JJ	JJ	INF|AKT	12	+F	_	_
+23	hem	_	NN	NN	_	22	RA	_	_
 24	från	_	PP	PP	_	22	RA	_	_
 25	djungeln	_	NN	NN	UTR|SIN|DEF|NOM	24	PA	_	_
 26	tack	_	NN	NN	NEU|SIN|IND|NOM	22	AA	_	_
@@ -6037,7 +6037,7 @@
 4	resurser	_	NN	NN	UTR|PLU|IND|NOM	5	SS	_	_
 5	skulle	_	VB	VB	PRT|AKT	1	UA	_	_
 6	fördelas	_	VB	VB	INF|SFO	5	VG	_	_
-7	rättvist	_	AB	AB	POS	8	CJ	_	_
+7	rättvist	_	JJ	JJ	POS	8	CJ	_	_
 8	och	_	KN	KN	_	6	AA	_	_
 9	upp	_	AB	AB	_	10	AA	_	_
 10	till	_	PP	PP	_	8	CJ	_	_
@@ -6066,7 +6066,7 @@
 4	i	_	PP	PP	_	3	ET	_	_
 5	USA	_	PM	PM	NOM	4	PA	_	_
 6	om	_	PP	PP	_	2	OA	_	_
-7	att	_	IE	IE	_	14	MS	_	_
+7	att	_	SN	SN	_	14	MS	_	_
 8	tre-	_	RG	RG	SMS	9	CJ	_	_
 9	eller	_	KN	KN	_	7	IF	_	_
 10	fyrdubbla	_	VB	VB	INF|AKT	9	CJ	_	_
@@ -6130,7 +6130,7 @@
 6	av	_	PP	PP	_	5	ET	_	_
 7	en	_	DT	DT	UTR|SIN|IND	8	DT	_	_
 8	omfattning	_	NN	NN	UTR|SIN|IND|NOM	6	PA	_	_
-9	som	_	HA	HA	_	14	OO	_	_
+9	som	_	HP	HP	_	14	OO	_	_
 10	världen	_	NN	NN	UTR|SIN|DEF|NOM	13	SS	_	_
 11	hittills	_	AB	AB	_	13	TA	_	_
 12	aldrig	_	AB	AB	_	13	NA	_	_
@@ -6149,7 +6149,7 @@
 2	utgår	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	från	_	PP	PP	_	2	OA	_	_
 4	tumregeln	_	NN	NN	UTR|SIN|DEF|NOM	3	PA	_	_
-5	att	_	SN	SN	_	4	ET	_	_
+5	att	_	IE	IE	_	4	ET	_	_
 6	u-ländernas	_	NN	NN	NEU|PLU|DEF|GEN	7	DT	_	_
 7	befolkning	_	NN	NN	UTR|SIN|IND|NOM	8	SS	_	_
 8	är	_	VB	VB	PRS|AKT	15	MS	_	_
@@ -6220,7 +6220,7 @@
 14	miljoner	_	NN	NN	UTR|PLU|IND|NOM	12	PA	_	_
 15	.	_	MAD	MAD	_	2	IP	_	_
 
-1	Turkiets	_	PM	PM	GEN	2	DT	_	_
+1	Turkiets	_	NN	NN	GEN	2	DT	_	_
 2	folkmängd	_	NN	NN	UTR|SIN|IND|NOM	3	SS	_	_
 3	ökar	_	VB	VB	PRS|AKT	9	MS	_	_
 4	med	_	PP	PP	_	3	AA	_	_
@@ -6386,7 +6386,7 @@
 
 1	20-30	_	RG	RG	NOM	2	DT	_	_
 2	personer	_	NN	NN	UTR|PLU|IND|NOM	3	SS	_	_
-3	delar	_	VB	VB	PRS|AKT	0	ROOT	_	_
+3	delar	_	NN	NN	PRS|AKT	0	ROOT	_	_
 4	på	_	PP	PP	_	3	OA	_	_
 5	en	_	DT	DT	UTR|SIN|IND	6	DT	_	_
 6	kallvattenskran	_	NN	NN	UTR|SIN|IND|NOM	4	PA	_	_
@@ -6409,8 +6409,8 @@
 15	avföring	_	NN	NN	UTR|SIN|IND|NOM	16	CJ	_	_
 16	och	_	KN	KN	_	14	SS	_	_
 17	matrester	_	NN	NN	UTR|PLU|IND|NOM	16	CJ	_	_
-18	omkring	_	PL	PL	_	14	PL	_	_
-19	var	_	HA	HA	_	14	RA	_	_
+18	omkring	_	PP	PP	_	14	PL	_	_
+19	var	_	PN	PN	_	14	RA	_	_
 20	som	_	KN	KN	_	19	HD	_	_
 21	helst	_	AB	AB	SUV	19	HD	_	_
 22	.	_	MAD	MAD	_	9	IP	_	_
@@ -6428,12 +6428,12 @@
 11	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Städer	_	NN	NN	UTR|PLU|IND|NOM	4	SS	_	_
-2	som	_	KN	KN	_	1	ET	_	_
+2	som	_	HP	HP	_	1	ET	_	_
 3	Kalkutta	_	PM	PM	NOM	2	UA	_	_
 4	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 5	näppeligen	_	AB	AB	_	4	NA	_	_
 6	bli	_	VB	VB	INF|AKT	4	VG	_	_
-7	annat	_	PN	PN	NEU|SIN|IND|SUB/OBJ	9	CA	_	_
+7	annat	_	JJ	JJ	NEU|SIN|IND|SUB/OBJ	9	CA	_	_
 8	än	_	KN	KN	_	7	HD	_	_
 9	djungler	_	NN	NN	UTR|PLU|IND|NOM	6	SP	_	_
 10	,	_	MID	MID	_	9	IK	_	_
@@ -6445,7 +6445,7 @@
 16	,	_	MID	MID	_	15	IK	_	_
 17	farsoterna	_	NN	NN	UTR|PLU|DEF|NOM	18	SS	_	_
 18	får	_	VB	VB	PRS|AKT	14	+F	_	_
-19	fritt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	20	AT	_	_
+19	fritt	_	AB	AB	POS|NEU|SIN|IND|NOM	20	AT	_	_
 20	spelrum	_	NN	NN	NEU|SIN|IND|NOM	18	OO	_	_
 21	och	_	KN	KN	_	9	ET	_	_
 22	folk	_	NN	NN	NEU|PLU|IND|NOM	24	SS	_	_
@@ -6456,7 +6456,7 @@
 27	gatorna	_	NN	NN	UTR|PLU|DEF|NOM	26	PA	_	_
 28	utan	_	PP	PP	_	24	AA	_	_
 29	att	_	SN	SN	_	28	PA	_	_
-30	någon	_	PN	PN	UTR|SIN|IND|SUB/OBJ	31	SS	_	_
+30	någon	_	DT	DT	UTR|SIN|IND|SUB/OBJ	31	SS	_	_
 31	bryr	_	VB	VB	PRS|AKT	29	UA	_	_
 32	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	31	OO	_	_
 33	om	_	PP	PP	_	31	OA	_	_
@@ -6471,7 +6471,7 @@
 6	'	_	PAD	PAD	_	7	JC	_	_
 7	stadskärnan	_	NN	NN	UTR|SIN|DEF|NOM	2	PA	_	_
 8	är	_	VB	VB	PRS|AKT	20	MS	_	_
-9	sedan	_	PP	PP	_	8	TA	_	_
+9	sedan	_	AB	AB	_	8	TA	_	_
 10	länge	_	AB	AB	POS	9	PA	_	_
 11	ett	_	DT	DT	NEU|SIN|IND	12	DT	_	_
 12	faktum	_	NN	NN	NEU|SIN|IND|NOM	8	SP	_	_
@@ -6564,7 +6564,7 @@
 17	när	_	HA	HA	_	19	TA	_	_
 18	allt	_	PN	PN	NEU|SIN|IND|SUB/OBJ	19	SS	_	_
 19	kommer	_	VB	VB	PRS|AKT	21	MA	_	_
-20	omkring	_	PL	PL	_	19	PL	_	_
+20	omkring	_	AB	AB	_	19	PL	_	_
 21	är	_	VB	VB	PRS|AKT	14	UA	_	_
 22	grundorsaken	_	NN	NN	UTR|SIN|DEF|NOM	21	SP	_	_
 23	till	_	PP	PP	_	21	OA	_	_
@@ -6577,7 +6577,7 @@
 
 1	Allt	_	DT	DT	NEU|SIN|IND/DEF	3	DT	_	_
 2	det	_	DT	DT	NEU|SIN|DEF	3	DT	_	_
-3	andra	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	21	SS	_	_
+3	andra	_	RO	RO	POS|UTR/NEU|PLU|IND/DEF|NOM	21	SS	_	_
 4	,	_	MID	MID	_	3	IK	_	_
 5	miljöförstöringen	_	NN	NN	UTR|SIN|DEF|NOM	3	AN	_	_
 6	i	_	PP	PP	_	5	ET	_	_
@@ -6658,17 +6658,17 @@
 25	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	31	SS	_	_
 26	sedan	_	AB	AB	_	31	TA	_	_
 27	med	_	PP	PP	_	31	AA	_	_
-28	tvetydigt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	30	AT	_	_
-29	officiellt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	30	AT	_	_
+28	tvetydigt	_	AB	AB	POS|NEU|SIN|IND|NOM	30	AT	_	_
+29	officiellt	_	AB	AB	POS|NEU|SIN|IND|NOM	30	AT	_	_
 30	fikonspråk	_	NN	NN	NEU|SIN|IND|NOM	27	PA	_	_
 31	justerar	_	VB	VB	PRS|AKT	23	CJ	_	_
-32	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	34	DT	_	_
+32	den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	34	DT	_	_
 33	godtagbara	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	34	AT	_	_
 34	dosen	_	NN	NN	UTR|SIN|DEF|NOM	31	OO	_	_
 35	uppåt	_	AB	AB	_	31	RA	_	_
 36	.	_	MAD	MAD	_	2	IP	_	_
 
-1	Blodkräfta	_	NN	NN	UTR|SIN|IND|NOM	0	ROOT	_	_
+1	Blodkräfta	_	JJ	JJ	UTR|SIN|IND|NOM	0	ROOT	_	_
 
 1	Om	_	SN	SN	_	16	AA	_	_
 2	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	3	FS	_	_
@@ -6719,7 +6719,7 @@
 4	ska	_	VB	VB	PRS|AKT	1	UA	_	_
 5	kosta	_	VB	VB	INF|AKT	4	VG	_	_
 6	oss	_	PN	PN	UTR|PLU|DEF|OBJ	5	IO	_	_
-7	ytterligare	_	AB	AB	KOM	8	AA	_	_
+7	ytterligare	_	JJ	JJ	KOM	8	AA	_	_
 8	50000	_	RG	RG	NOM	9	DT	_	_
 9	fall	_	NN	NN	NEU|PLU|IND|NOM	5	OO	_	_
 10	av	_	PP	PP	_	9	ET	_	_
@@ -6741,7 +6741,7 @@
 11	atomenergins	_	NN	NN	UTR|SIN|DEF|GEN	12	DT	_	_
 12	folk	_	NN	NN	NEU|PLU|IND|NOM	13	SS	_	_
 13	driver	_	VB	VB	PRS|AKT	9	OO	_	_
-14	på	_	PL	PL	_	13	PL	_	_
+14	på	_	PP	PP	_	13	PL	_	_
 15	så	_	AB	AB	_	16	AA	_	_
 16	hänsynslöst	_	AB	AB	POS	13	AA	_	_
 17	:	_	MAD	MAD	_	3	IQ	_	_
@@ -6765,7 +6765,7 @@
 17	atomenergin	_	NN	NN	UTR|SIN|DEF|NOM	16	PA	_	_
 18	helt	_	AB	AB	POS	12	MA	_	_
 19	enkelt	_	AB	AB	POS	18	HD	_	_
-20	därför	_	HA	HA	_	12	AA	_	_
+20	därför	_	AB	AB	_	12	AA	_	_
 21	att	_	SN	SN	_	20	HD	_	_
 22	de	_	DT	DT	UTR/NEU|PLU|DEF	24	DT	_	_
 23	negativa	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	24	AT	_	_
@@ -6779,7 +6779,7 @@
 1	Svenskar	_	NN	NN	UTR|PLU|IND|NOM	2	SS	_	_
 2	ligger	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	också	_	AB	AB	_	2	+A	_	_
-4	över	_	AB	AB	_	2	RA	_	_
+4	över	_	PL	PL	_	2	RA	_	_
 5	med	_	PP	PP	_	2	AA	_	_
 6	7	_	RG	RG	NOM	7	DT	_	_
 7	mg	_	NN	NN	AN	5	PA	_	_
@@ -6799,7 +6799,7 @@
 
 1	De	_	PN	PN	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
 2	innehåller	_	VB	VB	PRS|AKT	0	ROOT	_	_
-3	över	_	AB	AB	_	4	AA	_	_
+3	över	_	PP	PP	_	4	AA	_	_
 4	10	_	RG	RG	NOM	5	DT	_	_
 5	milligram	_	NN	NN	NEU|PLU|IND|NOM	6	DT	_	_
 6	DDT	_	PM	PM	NOM	2	OO	_	_
@@ -6865,11 +6865,11 @@
 1	Antalet	_	NN	NN	NEU|SIN|DEF|NOM	2	DT	_	_
 2	städer	_	NN	NN	UTR|PLU|IND|NOM	0	ROOT	_	_
 3	med	_	PP	PP	_	2	ET	_	_
-4	över	_	AB	AB	_	5	AA	_	_
+4	över	_	PP	PP	_	5	AA	_	_
 5	2500000	_	RG	RG	NOM	6	DT	_	_
 6	invånare	_	NN	NN	UTR|PLU|IND|NOM	3	PA	_	_
 
-1	Om	_	PP	PP	_	4	TA	_	_
+1	Om	_	SN	SN	_	4	TA	_	_
 2	tio	_	RG	RG	NOM	3	DT	_	_
 3	år	_	NN	NN	NEU|PLU|IND|NOM	1	PA	_	_
 4	finns	_	VB	VB	PRS|SFO	0	ROOT	_	_
@@ -6897,9 +6897,9 @@
 5	.	_	MAD	MAD	_	1	IP	_	_
 
 1	'	_	PAD	PAD	_	3	IC	_	_
-2	Envar	_	PN	PN	UTR|SIN|IND|SUB/OBJ	3	SS	_	_
+2	Envar	_	PM	PM	UTR|SIN|IND|SUB/OBJ	3	SS	_	_
 3	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
-4	rätt	_	NN	NN	UTR|SIN|IND|NOM	3	OO	_	_
+4	rätt	_	AB	AB	UTR|SIN|IND|NOM	3	OO	_	_
 5	till	_	PP	PP	_	3	OA	_	_
 6	undervisning	_	NN	NN	UTR|SIN|IND|NOM	5	PA	_	_
 7	...	_	MAD	MAD	_	3	IG	_	_
@@ -7010,7 +7010,7 @@
 8	January	_	PM	PM	NOM	7	ET	_	_
 9	1970	_	RG	RG	NOM	8	ET	_	_
 10	;	_	MID	MID	_	16	IS	_	_
-11	Världshorisont	_	NN	NN	UTR|SIN|IND|NOM	16	CJ	_	_
+11	Världshorisont	_	AB	AB	UTR|SIN|IND|NOM	16	CJ	_	_
 12	1	_	RG	RG	NOM	11	ET	_	_
 13	,	_	MID	MID	_	12	IK	_	_
 14	1970	_	RG	RG	NOM	12	ET	_	_
@@ -7031,7 +7031,7 @@
 1	Under	_	PP	PP	_	12	TA	_	_
 2	den	_	DT	DT	UTR|SIN|DEF	3	DT	_	_
 3	tid	_	NN	NN	UTR|SIN|IND|NOM	1	PA	_	_
-4	som	_	HP	HP	-|-|-	6	OO	_	_
+4	som	_	HA	HA	-|-|-	6	OO	_	_
 5	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	6	FS	_	_
 6	tar	_	VB	VB	PRS|AKT	3	ET	_	_
 7	att	_	IE	IE	_	6	ES	_	_
@@ -7069,11 +7069,11 @@
 4	läst	_	VB	VB	SUP|AKT	6	TA	_	_
 5	hit	_	AB	AB	_	4	RA	_	_
 6	har	_	VB	VB	PRS|AKT	1	MS	_	_
-7	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	6	SS	_	_
+7	den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	6	SS	_	_
 8	hunnit	_	VB	VB	SUP|AKT	6	VG	_	_
 9	öka	_	VB	VB	INF|AKT	8	OO	_	_
 10	med	_	PP	PP	_	9	OA	_	_
-11	omkring	_	AB	AB	_	12	AA	_	_
+11	omkring	_	PP	PP	_	12	AA	_	_
 12	tjugo	_	RG	RG	NOM	13	DT	_	_
 13	personer	_	NN	NN	UTR|PLU|IND|NOM	10	PA	_	_
 14	.	_	MAD	MAD	_	6	IP	_	_
@@ -7086,7 +7086,7 @@
 6	dag	_	NN	NN	UTR|SIN|IND|NOM	4	TA	_	_
 7	måste	_	VB	VB	PRS|AKT	0	ROOT	_	_
 8	utbildas	_	VB	VB	INF|SFO	7	VG	_	_
-9	om	_	SN	SN	_	18	CJ	_	_
+9	om	_	PP	PP	_	18	CJ	_	_
 10	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	11	SS	_	_
 11	skall	_	VB	VB	PRS|AKT	9	UA	_	_
 12	ha	_	VB	VB	INF|AKT	11	VG	_	_
@@ -7096,11 +7096,11 @@
 16	livet	_	NN	NN	NEU|SIN|DEF|NOM	15	PA	_	_
 17	,	_	MID	MID	_	18	IK	_	_
 18	och	_	KN	KN	_	8	AA	_	_
-19	om	_	SN	SN	_	18	CJ	_	_
+19	om	_	PP	PP	_	18	CJ	_	_
 20	världens	_	NN	NN	UTR|SIN|DEF|GEN	24	DT	_	_
 21	fattiga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	22	CJ	_	_
 22	och	_	KN	KN	_	24	AT	_	_
-23	utsugna	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	22	CJ	_	_
+23	utsugna	_	JJ	JJ	PRF|UTR/NEU|PLU|IND/DEF|NOM	22	CJ	_	_
 24	länder	_	NN	NN	NEU|PLU|IND|NOM	25	SS	_	_
 25	skall	_	VB	VB	PRS|AKT	19	UA	_	_
 26	kunna	_	VB	VB	INF|AKT	25	VG	_	_
@@ -7119,13 +7119,13 @@
 2	FN-ideologi	_	NN	NN	UTR|SIN|IND|NOM	15	SS	_	_
 3	som	_	HP	HP	-|-|-	4	SS	_	_
 4	ligger	_	VB	VB	PRS|AKT	2	ET	_	_
-5	bakom	_	PL	PL	_	4	PL	_	_
+5	bakom	_	PP	PP	_	4	PL	_	_
 6	tanken	_	NN	NN	UTR|SIN|DEF|NOM	4	OO	_	_
 7	på	_	PP	PP	_	6	ET	_	_
 8	ett	_	DT	DT	NEU|SIN|IND	12	DT	_	_
 9	särskilt	_	PC	PC	PRF|NEU|SIN|IND|NOM	12	AT	_	_
 10	'	_	PAD	PAD	_	12	IC	_	_
-11	internationellt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	12	AT	_	_
+11	internationellt	_	AB	AB	POS|NEU|SIN|IND|NOM	12	AT	_	_
 12	utbildningsår	_	NN	NN	NEU|SIN|IND|NOM	7	PA	_	_
 13	'	_	PAD	PAD	_	12	JC	_	_
 14	1970	_	RG	RG	NOM	12	ET	_	_
@@ -7144,7 +7144,7 @@
 7	att	_	IE	IE	_	6	PA	_	_
 8	komma	_	VB	VB	INF|AKT	7	IF	_	_
 9	i	_	PP	PP	_	8	PL	_	_
-10	fatt	_	PL	PL	_	9	HD	_	_
+10	fatt	_	NN	NN	_	9	HD	_	_
 11	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Genvägen	_	NN	NN	UTR|SIN|DEF|NOM	2	SS	_	_
@@ -7169,7 +7169,7 @@
 5	.	_	MAD	MAD	_	4	IP	_	_
 
 1	Mycket	_	AB	AB	POS	2	AA	_	_
-2	mer	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	3	SS	_	_
+2	mer	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	3	SS	_	_
 3	skall	_	VB	VB	PRS|AKT	8	MS	_	_
 4	in	_	PL	PL	_	3	PL	_	_
 5	i	_	PP	PP	_	3	OA	_	_
@@ -7189,7 +7189,7 @@
 1	Det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	12	OO	_	_
 2	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	länder	_	NN	NN	NEU|PLU|IND|NOM	2	SS	_	_
-4	som	_	KN	KN	_	3	AN	_	_
+4	som	_	HP	HP	_	3	AN	_	_
 5	Sovjet	_	PM	PM	NOM	10	CJ	_	_
 6	,	_	MID	MID	_	10	IK	_	_
 7	Japan	_	PM	PM	NOM	10	CJ	_	_
@@ -7229,7 +7229,7 @@
 4	alltså	_	AB	AB	_	2	+A	_	_
 5	inte	_	AB	AB	_	2	NA	_	_
 6	räknat	_	VB	VB	SUP|AKT	2	VG	_	_
-7	med	_	PL	PL	_	6	PL	_	_
+7	med	_	PP	PP	_	6	PL	_	_
 8	barn	_	NN	NN	NEU|PLU|IND|NOM	6	OO	_	_
 9	under	_	PP	PP	_	8	ET	_	_
 10	skolåldern	_	NN	NN	UTR|SIN|DEF|NOM	9	PA	_	_
@@ -7250,7 +7250,7 @@
 1	Dessutom	_	AB	AB	_	2	+A	_	_
 2	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	SS	_	_
-4	många	_	PN	PN	UTR/NEU|PLU|IND|SUB/OBJ	2	XX	_	_
+4	många	_	JJ	JJ	UTR/NEU|PLU|IND|SUB/OBJ	2	XX	_	_
 5	i	_	PP	PP	_	4	ET	_	_
 6	u-länderna	_	NN	NN	NEU|PLU|DEF|NOM	5	PA	_	_
 7	som	_	HP	HP	-|-|-	8	SS	_	_
@@ -7266,7 +7266,7 @@
 
 1	Då	_	AB	AB	_	2	TA	_	_
 2	glömmer	_	VB	VB	PRS|AKT	0	ROOT	_	_
-3	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
+3	de	_	DT	DT	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
 4	fort	_	AB	AB	POS	2	AA	_	_
 5	vad	_	HP	HP	NEU|SIN|IND	7	OO	_	_
 6	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	7	SS	_	_
@@ -7287,7 +7287,7 @@
 3	man	_	PN	PN	UTR|SIN|IND|SUB	4	SS	_	_
 4	säger	_	VB	VB	PRS|AKT	12	TA	_	_
 5	att	_	SN	SN	_	4	OO	_	_
-6	var	_	DT	DT	UTR|SIN|IND	7	DT	_	_
+6	var	_	VB	VB	UTR|SIN|IND	7	DT	_	_
 7	tredje	_	RO	RO	NOM	8	DT	_	_
 8	människa	_	NN	NN	UTR|SIN|IND|NOM	9	SS	_	_
 9	är	_	VB	VB	PRS|AKT	5	UA	_	_
@@ -7323,20 +7323,20 @@
 10	folkökningen	_	NN	NN	UTR|SIN|DEF|NOM	7	PA	_	_
 11	.	_	MAD	MAD	_	2	IP	_	_
 
-1	Fel	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	0	ROOT	_	_
+1	Fel	_	NN	NN	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	0	ROOT	_	_
 
 1	Vart	_	HA	HA	_	8	RA	_	_
 2	denna	_	DT	DT	UTR|SIN|DEF	7	DT	_	_
 3	(	_	PAD	PAD	_	4	IR	_	_
 4	ojämna	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	7	AT	_	_
-5	?	_	MAD	MAD	_	4	I?	_	_
+5	?	_	MID	MID	_	4	I?	_	_
 6	)	_	PAD	PAD	_	4	JR	_	_
 7	kapplöpning	_	NN	NN	UTR|SIN|IND|NOM	8	SS	_	_
 8	leder	_	VB	VB	PRS|AKT	11	OO	_	_
 9	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 10	man	_	PN	PN	UTR|SIN|IND|SUB	9	SS	_	_
 11	konstatera	_	VB	VB	INF|AKT	9	VG	_	_
-12	:	_	MAD	MAD	_	9	IQ	_	_
+12	:	_	MID	MID	_	9	IQ	_	_
 13	resurserna	_	NN	NN	UTR|PLU|DEF|NOM	14	SS	_	_
 14	räcker	_	VB	VB	PRS|AKT	9	MS	_	_
 15	inte	_	AB	AB	_	14	NA	_	_
@@ -7344,7 +7344,7 @@
 17	,	_	MID	MID	_	9	IK	_	_
 18	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	19	SS	_	_
 19	blir	_	VB	VB	PRS|AKT	9	MS	_	_
-20	för	_	AB	AB	_	21	AA	_	_
+20	för	_	PP	PP	_	21	AA	_	_
 21	få	_	JJ	JJ	POS|UTR/NEU|PLU|IND|NOM	23	DT	_	_
 22	skolor	_	NN	NN	UTR|PLU|IND|NOM	23	CJ	_	_
 23	och	_	KN	KN	_	19	SP	_	_
@@ -7355,7 +7355,7 @@
 28	undervisningen	_	NN	NN	UTR|SIN|DEF|NOM	27	SS	_	_
 29	dålig	_	JJ	JJ	POS|UTR|SIN|IND|NOM	27	SP	_	_
 30	och	_	KN	KN	_	9	MS	_	_
-31	många	_	PN	PN	UTR/NEU|PLU|IND|SUB/OBJ	32	SS	_	_
+31	många	_	JJ	JJ	UTR/NEU|PLU|IND|SUB/OBJ	32	SS	_	_
 32	slutar	_	VB	VB	PRS|AKT	35	CJ	_	_
 33	i	_	PP	PP	_	32	TA	_	_
 34	förtid	_	NN	NN	UTR|SIN|IND|NOM	33	HD	_	_
@@ -7388,7 +7388,7 @@
 1	Det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	SS	_	_
 2	beror	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	på	_	PP	PP	_	2	OA	_	_
-4	att	_	SN	SN	_	3	PA	_	_
+4	att	_	IE	IE	_	3	PA	_	_
 5	undervisningssystemen	_	NN	NN	NEU|PLU|DEF|NOM	6	SS	_	_
 6	övertagits	_	VB	VB	SUP|SFO	11	MS	_	_
 7	från	_	PP	PP	_	6	RA	_	_
@@ -7414,7 +7414,7 @@
 
 1	Den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
 2	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
-3	för	_	AB	AB	_	5	AA	_	_
+3	för	_	PP	PP	_	5	AA	_	_
 4	teoretisk	_	JJ	JJ	POS|UTR|SIN|IND|NOM	5	CJ	_	_
 5	och	_	KN	KN	_	2	SP	_	_
 6	humanistisk	_	JJ	JJ	POS|UTR|SIN|IND|NOM	5	CJ	_	_
@@ -7448,16 +7448,16 @@
 10	inte	_	AB	AB	_	11	NA	_	_
 11	är	_	VB	VB	PRS|AKT	5	UA	_	_
 12	riktigt	_	AB	AB	_	13	AA	_	_
-13	fint	_	JJ	JJ	POS|NEU|SIN|IND|NOM	11	SP	_	_
+13	fint	_	AB	AB	POS|NEU|SIN|IND|NOM	11	SP	_	_
 14	.	_	MAD	MAD	_	2	IP	_	_
 
-1	Den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
+1	Den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
 2	bidrar	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	till	_	PP	PP	_	2	OA	_	_
 4	elittänkande	_	NN	NN	NEU|SIN|IND|NOM	3	PA	_	_
 5	.	_	MAD	MAD	_	2	IP	_	_
 
-1	Den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	3	SS	_	_
+1	Den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	3	SS	_	_
 2	skapar	_	VB	VB	PRS|AKT	3	CJ	_	_
 3	eller	_	KN	KN	_	0	ROOT	_	_
 4	vidmakthåller	_	VB	VB	PRS|AKT	3	CJ	_	_
@@ -7538,7 +7538,7 @@
 7	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	8	SS	_	_
 8	är	_	VB	VB	PRS|AKT	6	MS	_	_
 9	inte	_	AB	AB	_	8	NA	_	_
-10	mycket	_	PN	PN	NEU|SIN|IND|SUB/OBJ	8	SP	_	_
+10	mycket	_	AB	AB	NEU|SIN|IND|SUB/OBJ	8	SP	_	_
 11	att	_	IE	IE	_	10	ET	_	_
 12	hoppas	_	VB	VB	INF|SFO	11	IF	_	_
 13	på	_	PP	PP	_	12	OA	_	_
@@ -7589,7 +7589,7 @@
 16	undervisning	_	NN	NN	UTR|SIN|IND|NOM	13	OO	_	_
 17	.	_	MAD	MAD	_	5	IP	_	_
 
-1	Varannan	_	PN	PN	UTR|SIN|IND|SUB/OBJ	0	ROOT	_	_
+1	Varannan	_	NN	NN	UTR|SIN|IND|SUB/OBJ	0	ROOT	_	_
 
 1	Tanzania	_	PM	PM	NOM	2	SS	_	_
 2	tog	_	VB	VB	PRT|AKT	0	ROOT	_	_
@@ -7630,7 +7630,7 @@
 3	som	_	HP	HP	-|-|-	4	SS	_	_
 4	fattat	_	VB	VB	SUP|AKT	2	ET	_	_
 5	liknande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	6	CJ	_	_
-6	fast	_	KN	KN	_	9	AT	_	_
+6	fast	_	JJ	JJ	_	9	AT	_	_
 7	mindre	_	AB	AB	KOM	8	AA	_	_
 8	drastiska	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	6	CJ	_	_
 9	beslut	_	NN	NN	NEU|PLU|IND|NOM	4	OO	_	_
@@ -7672,7 +7672,7 @@
 15	målsättningen	_	NN	NN	UTR|SIN|DEF|NOM	13	OO	_	_
 16	.	_	MAD	MAD	_	7	IP	_	_
 
-1	Att	_	IE	IE	_	0	ROOT	_	_
+1	Att	_	SN	SN	_	0	ROOT	_	_
 2	rätta	_	VB	VB	INF|AKT	1	IF	_	_
 3	mun	_	NN	NN	UTR|SIN|IND|NOM	2	OO	_	_
 4	efter	_	PP	PP	_	2	OA	_	_
@@ -7839,7 +7839,7 @@
 14	.	_	MAD	MAD	_	3	IP	_	_
 
 1	Minst	_	AB	AB	SUV	2	AA	_	_
-2	var	_	DT	DT	UTR|SIN|IND	4	DT	_	_
+2	var	_	VB	VB	UTR|SIN|IND	4	DT	_	_
 3	tredje	_	RO	RO	NOM	4	DT	_	_
 4	människa	_	NN	NN	UTR|SIN|IND|NOM	5	SS	_	_
 5	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
@@ -7914,12 +7914,12 @@
 5	i	_	PP	PP	_	4	ET	_	_
 6	u-länderna	_	NN	NN	NEU|PLU|DEF|NOM	5	PA	_	_
 7	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
-8	under	_	AB	AB	_	9	AA	_	_
+8	under	_	PP	PP	_	9	AA	_	_
 9	15	_	RG	RG	NOM	10	DT	_	_
 10	år	_	NN	NN	NEU|PLU|IND|NOM	7	SP	_	_
 11	.	_	MAD	MAD	_	7	IP	_	_
 
-1	Motsvarande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	2	DT	_	_
+1	Motsvarande	_	JJ	JJ	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	2	DT	_	_
 2	siffra	_	NN	NN	UTR|SIN|IND|NOM	5	SS	_	_
 3	i	_	PP	PP	_	2	ET	_	_
 4	industriländerna	_	NN	NN	NEU|PLU|DEF|NOM	3	PA	_	_
@@ -7935,7 +7935,7 @@
 5	,	_	MID	MID	_	4	IK	_	_
 6	som	_	HP	HP	-|-|-	7	SS	_	_
 7	har	_	VB	VB	PRS|AKT	4	ET	_	_
-8	sämst	_	AB	AB	POS	7	AA	_	_
+8	sämst	_	JJ	JJ	POS	7	AA	_	_
 9	råd	_	NN	NN	NEU|SIN|IND|NOM	7	OO	_	_
 10	,	_	MID	MID	_	4	IK	_	_
 11	måste	_	VB	VB	PRS|AKT	3	UA	_	_
@@ -8009,7 +8009,7 @@
 3	i	_	PP	PP	_	2	ET	_	_
 4	världen	_	NN	NN	UTR|SIN|DEF|NOM	3	PA	_	_
 5	ökar	_	VB	VB	PRS|AKT	0	ROOT	_	_
-6	långsammare	_	AB	AB	KOM	5	AA	_	_
+6	långsammare	_	JJ	JJ	KOM	5	AA	_	_
 7	än	_	KN	KN	_	5	KA	_	_
 8	antalet	_	NN	NN	NEU|SIN|DEF|NOM	9	DT	_	_
 9	elever	_	NN	NN	UTR|PLU|IND|NOM	7	UA	_	_
@@ -8125,7 +8125,7 @@
 4	Folkhälsan	_	NN	NN	UTR|SIN|DEF|NOM	5	CJ	_	_
 5	och	_	KN	KN	_	3	SS	_	_
 6	Naturvårdsverket	_	NN	NN	NEU|SIN|DEF|NOM	5	CJ	_	_
-7	att	_	SN	SN	_	3	OO	_	_
+7	att	_	IE	IE	_	3	OO	_	_
 8	larmrapporten	_	NN	NN	UTR|SIN|DEF|NOM	11	SS	_	_
 9	om	_	PP	PP	_	8	ET	_	_
 10	gifthalten	_	NN	NN	UTR|SIN|DEF|NOM	9	PA	_	_
@@ -8140,7 +8140,7 @@
 19	ål	_	NN	NN	UTR|SIN|IND|NOM	18	CJ	_	_
 20	är	_	VB	VB	PRS|AKT	3	MS	_	_
 21	helt	_	AB	AB	POS	22	AA	_	_
-22	riskfritt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	20	SP	_	_
+22	riskfritt	_	AB	AB	POS|NEU|SIN|IND|NOM	20	SP	_	_
 23	att	_	IE	IE	_	20	OA	_	_
 24	äta	_	VB	VB	INF|AKT	23	IF	_	_
 25	.	_	MAD	MAD	_	3	IP	_	_
@@ -8177,7 +8177,7 @@
 13	förra	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	14	DT	_	_
 14	veckan	_	NN	NN	UTR|SIN|DEF|NOM	11	TA	_	_
 15	om	_	PP	PP	_	11	AA	_	_
-16	PCB-	_	NN	NN	SMS	17	CJ	_	_
+16	PCB-	_	PM	PM	SMS	17	CJ	_	_
 17	och	_	KN	KN	_	15	PA	_	_
 18	DDT-halterna	_	NN	NN	UTR|PLU|DEF|NOM	17	CJ	_	_
 19	i	_	PP	PP	_	17	ET	_	_
@@ -8229,7 +8229,7 @@
 27	,	_	MID	MID	_	24	IK	_	_
 28	direktör	_	NN	NN	UTR|SIN|IND|NOM	24	AN	_	_
 29	i	_	PP	PP	_	28	RA	_	_
-30	Ostkustfisk	_	PM	PM	NOM	29	PA	_	_
+30	Ostkustfisk	_	JJ	JJ	NOM	29	PA	_	_
 31	Centralförening	_	NN	NN	UTR|SIN|IND|NOM	30	HD	_	_
 32	till	_	PP	PP	_	22	OA	_	_
 33	Aftonbladet	_	PM	PM	NOM	32	PA	_	_
@@ -8253,7 +8253,7 @@
 16	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	15	FS	_	_
 17	garantier	_	NN	NN	UTR|PLU|IND|NOM	15	ES	_	_
 18	för	_	PP	PP	_	15	OA	_	_
-19	att	_	SN	SN	_	18	PA	_	_
+19	att	_	IE	IE	_	18	PA	_	_
 20	både	_	KN	KN	_	24	VA	_	_
 21	strömming	_	NN	NN	UTR|SIN|IND|NOM	24	CJ	_	_
 22	,	_	MID	MID	_	24	IK	_	_
@@ -8283,10 +8283,10 @@
 16	en	_	DT	DT	UTR|SIN|IND	17	DT	_	_
 17	forskargrupp	_	NN	NN	UTR|SIN|IND|NOM	15	PA	_	_
 18	på	_	PP	PP	_	17	ET	_	_
-19	Riksmuseet	_	PM	PM	NOM	18	PA	_	_
+19	Riksmuseet	_	NN	NN	NOM	18	PA	_	_
 20	.	_	MAD	MAD	_	8	IP	_	_
 
-1	Vetenskapligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	2	AT	_	_
+1	Vetenskapligt	_	AB	AB	POS|NEU|SIN|IND|NOM	2	AT	_	_
 2	provfiske	_	NN	NN	NEU|SIN|IND|NOM	0	ROOT	_	_
 
 1	Under	_	PP	PP	_	3	TA	_	_
@@ -8294,7 +8294,7 @@
 3	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 4	man	_	PN	PN	UTR|SIN|IND|SUB	3	SS	_	_
 5	bedrivit	_	VB	VB	SUP|AKT	3	VG	_	_
-6	vetenskapligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	7	AT	_	_
+6	vetenskapligt	_	AB	AB	POS|NEU|SIN|IND|NOM	7	AT	_	_
 7	provfiske	_	NN	NN	NEU|SIN|IND|NOM	5	OO	_	_
 8	på	_	PP	PP	_	5	RA	_	_
 9	ett	_	DT	DT	NEU|SIN|IND	10	DT	_	_
@@ -8320,9 +8320,9 @@
 11	oroväckande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	12	AA	_	_
 12	stora	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	13	AT	_	_
 13	mängder	_	NN	NN	UTR|PLU|IND|NOM	15	DT	_	_
-14	DDT	_	NN	NN	AN	15	CJ	_	_
+14	DDT	_	PM	PM	AN	15	CJ	_	_
 15	och	_	KN	KN	_	10	PA	_	_
-16	PCB	_	NN	NN	AN	15	CJ	_	_
+16	PCB	_	PM	PM	AN	15	CJ	_	_
 17	.	_	MAD	MAD	_	5	IP	_	_
 
 1	-	_	MID	MID	_	6	IT	_	_
@@ -8363,7 +8363,7 @@
 12	kaos	_	NN	NN	NEU|SIN|IND|NOM	11	PA	_	_
 13	för	_	PP	PP	_	10	OA	_	_
 14	fisket	_	NN	NN	NEU|SIN|DEF|NOM	13	PA	_	_
-15	längs	_	AB	AB	_	14	ET	_	_
+15	längs	_	PP	PP	_	14	ET	_	_
 16	hela	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	18	DT	_	_
 17	svenska	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	18	AT	_	_
 18	ostkusten	_	NN	NN	UTR|SIN|DEF|NOM	15	PA	_	_
@@ -8374,7 +8374,7 @@
 3	fiskare	_	NN	NN	UTR|PLU|IND|NOM	2	PA	_	_
 4	ringde	_	VB	VB	PRT|AKT	0	ROOT	_	_
 5	i	_	PP	PP	_	4	TA	_	_
-6	går	_	AB	AB	_	5	HD	_	_
+6	går	_	VB	VB	_	5	HD	_	_
 7	i	_	PP	PP	_	4	AA	_	_
 8	förtvivlan	_	NN	NN	UTR|SIN|IND|NOM	7	PA	_	_
 9	till	_	PP	PP	_	4	OA	_	_
@@ -8394,10 +8394,10 @@
 2	Totalt	_	AB	AB	POS	3	AA	_	_
 3	finns	_	VB	VB	PRS|SFO	0	ROOT	_	_
 4	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	3	FS	_	_
-5	omkring	_	AB	AB	_	6	AA	_	_
+5	omkring	_	PP	PP	_	6	AA	_	_
 6	4000	_	RG	RG	NOM	7	DT	_	_
 7	yrkesfiskare	_	NN	NN	UTR|PLU|IND|NOM	3	ES	_	_
-8	längs	_	AB	AB	_	3	RA	_	_
+8	längs	_	PP	PP	_	3	RA	_	_
 9	ostkusten	_	NN	NN	UTR|SIN|DEF|NOM	8	PA	_	_
 10	.	_	MAD	MAD	_	3	IP	_	_
 
@@ -8443,8 +8443,8 @@
 10	får	_	VB	VB	PRS|AKT	6	UA	_	_
 11	reda	_	PL	PL	_	10	PL	_	_
 12	på	_	PP	PP	_	10	OA	_	_
-13	att	_	SN	SN	_	12	PA	_	_
-14	Östersjöfisken	_	NN	NN	UTR|SIN|DEF|NOM	16	SS	_	_
+13	att	_	IE	IE	_	12	PA	_	_
+14	Östersjöfisken	_	PM	PM	UTR|SIN|DEF|NOM	16	SS	_	_
 15	fortfarande	_	AB	AB	_	16	TA	_	_
 16	är	_	VB	VB	PRS|AKT	13	UA	_	_
 17	perfekt	_	JJ	JJ	POS|UTR|SIN|IND|NOM	16	SP	_	_
@@ -8554,7 +8554,7 @@
 11	.	_	MAD	MAD	_	5	IP	_	_
 
 1	Lika	_	AB	AB	_	2	AA	_	_
-2	vanligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	3	SP	_	_
+2	vanligt	_	AB	AB	POS|NEU|SIN|IND|NOM	3	SP	_	_
 3	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 4	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	3	SS	_	_
 5	med	_	PP	PP	_	3	OA	_	_
@@ -8578,8 +8578,8 @@
 6	de	_	DT	DT	UTR/NEU|PLU|DEF	7	DT	_	_
 7	data	_	NN	NN	NEU|PLU|IND|NOM	4	PA	_	_
 8	som	_	HP	HP	-|-|-	18	OO	_	_
-9	med	_	JJ	JJ	AN	11	DT	_	_
-10	lic	_	NN	NN	AN	9	HD	_	_
+9	med	_	PP	PP	AN	11	DT	_	_
+10	lic	_	UO	UO	AN	9	HD	_	_
 11	Åke	_	PM	PM	NOM	18	SS	_	_
 12	Nilsson	_	PM	PM	NOM	11	HD	_	_
 13	vid	_	PP	PP	_	11	ET	_	_
@@ -8675,7 +8675,7 @@
 5	lättare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	6	AT	_	_
 6	depressionsperioder	_	NN	NN	UTR|PLU|IND|NOM	7	CJ	_	_
 7	eller	_	KN	KN	_	10	SS	_	_
-8	mindre	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	9	AT	_	_
+8	mindre	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	9	AT	_	_
 9	störningar	_	NN	NN	UTR|PLU|IND|NOM	7	CJ	_	_
 10	hör	_	VB	VB	PRS|AKT	0	ROOT	_	_
 11	till	_	PP	PP	_	10	OA	_	_
@@ -8728,7 +8728,7 @@
 14	.	_	MAD	MAD	_	4	IP	_	_
 
 1	-	_	MID	MID	_	3	IT	_	_
-2	Traditionellt	_	AB	AB	POS	3	AA	_	_
+2	Traditionellt	_	JJ	JJ	POS	3	AA	_	_
 3	anses	_	VB	VB	PRS|SFO	0	ROOT	_	_
 4	ju	_	AB	AB	_	3	MA	_	_
 5	att	_	SN	SN	_	3	SS	_	_
@@ -8761,7 +8761,7 @@
 9	vanliga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	5	SP	_	_
 10	under	_	PP	PP	_	5	TA	_	_
 11	graviditeten	_	NN	NN	UTR|SIN|DEF|NOM	10	PA	_	_
-12	som	_	KN	KN	_	11	ET	_	_
+12	som	_	HP	HP	_	11	ET	_	_
 13	efter	_	PP	PP	_	12	UA	_	_
 14	förlossningen	_	NN	NN	UTR|SIN|DEF|NOM	13	PA	_	_
 15	.	_	MAD	MAD	_	5	IP	_	_
@@ -8831,7 +8831,7 @@
 1	Oplanerat	_	PC	PC	PRF|NEU|SIN|IND|NOM	2	AT	_	_
 2	barn	_	NN	NN	NEU|SIN|IND|NOM	3	SS	_	_
 3	ger	_	VB	VB	PRS|AKT	0	ROOT	_	_
-4	mer	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	5	DT	_	_
+4	mer	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	5	DT	_	_
 5	besvär	_	NN	NN	NEU|SIN|IND|NOM	3	OO	_	_
 
 1	Kvinnans	_	NN	NN	UTR|SIN|DEF|GEN	2	DT	_	_
@@ -8922,7 +8922,7 @@
 4	äktenskapspartner	_	NN	NN	UTR|SIN|IND|NOM	3	PA	_	_
 5	blev	_	VB	VB	PRT|AKT	0	ROOT	_	_
 6	kanske	_	AB	AB	_	5	AA	_	_
-7	slumpmässigt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	5	SP	_	_
+7	slumpmässigt	_	AB	AB	POS|NEU|SIN|IND|NOM	5	SP	_	_
 8	.	_	MAD	MAD	_	5	IP	_	_
 
 1	Den	_	DT	DT	UTR|SIN|DEF	3	DT	_	_
@@ -9014,7 +9014,7 @@
 17	.	_	MAD	MAD	_	14	IP	_	_
 
 1	En	_	DT	DT	UTR|SIN|IND	4	DT	_	_
-2	omedvetet	_	AB	AB	POS	3	AA	_	_
+2	omedvetet	_	JJ	JJ	POS	3	AA	_	_
 3	negativ	_	JJ	JJ	POS|UTR|SIN|IND|NOM	4	AT	_	_
 4	inställning	_	NN	NN	UTR|SIN|IND|NOM	7	SS	_	_
 5	till	_	PP	PP	_	4	ET	_	_
@@ -9031,13 +9031,13 @@
 16	fött	_	PC	PC	PRF|NEU|SIN|IND|NOM	15	SP	_	_
 17	.	_	MAD	MAD	_	7	IP	_	_
 
-1	Smärtfylld	_	JJ	JJ	POS|UTR|SIN|IND|NOM	2	AT	_	_
+1	Smärtfylld	_	PC	PC	POS|UTR|SIN|IND|NOM	2	AT	_	_
 2	förlossning	_	NN	NN	UTR|SIN|IND|NOM	0	ROOT	_	_
 
 1	Man	_	PN	PN	UTR|SIN|IND|SUB	2	SS	_	_
 2	håller	_	VB	VB	PRS|AKT	11	MS	_	_
 3	också	_	AB	AB	_	2	+A	_	_
-4	på	_	PL	PL	_	2	PL	_	_
+4	på	_	PP	PP	_	2	PL	_	_
 5	att	_	IE	IE	_	2	OA	_	_
 6	undersöka	_	VB	VB	INF|AKT	5	IF	_	_
 7	upplevelsen	_	NN	NN	UTR|SIN|DEF|NOM	6	OO	_	_
@@ -9045,7 +9045,7 @@
 9	förlossningen	_	NN	NN	UTR|SIN|DEF|NOM	8	PA	_	_
 10	närmare	_	AB	AB	KOM	6	AA	_	_
 11	och	_	KN	KN	_	0	ROOT	_	_
-12	det	_	DT	DT	NEU|SIN|DEF	13	DT	_	_
+12	det	_	PN	PN	NEU|SIN|DEF	13	DT	_	_
 13	arbetet	_	NN	NN	NEU|SIN|DEF|NOM	14	SS	_	_
 14	skall	_	VB	VB	PRS|AKT	11	MS	_	_
 15	läggas	_	VB	VB	INF|SFO	14	VG	_	_
@@ -9118,7 +9118,7 @@
 1	Om	_	SN	SN	_	7	SS	_	_
 2	mannen	_	NN	NN	UTR|SIN|DEF|NOM	3	SS	_	_
 3	är	_	VB	VB	PRS|AKT	5	MS	_	_
-4	med	_	PL	PL	_	3	PL	_	_
+4	med	_	PP	PP	_	3	PL	_	_
 5	eller	_	KN	KN	_	1	UA	_	_
 6	ej	_	AB	AB	_	5	+F	_	_
 7	tycks	_	VB	VB	PRS|SFO	0	ROOT	_	_
@@ -9211,7 +9211,7 @@
 7	bland	_	PP	PP	_	11	RA	_	_
 8	lekmän	_	NN	NN	UTR|PLU|IND|NOM	9	CJ	_	_
 9	och	_	KN	KN	_	7	PA	_	_
-10	lärde	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	9	CJ	_	_
+10	lärde	_	VB	VB	POS|UTR/NEU|PLU|IND/DEF|NOM	9	CJ	_	_
 11	användes	_	VB	VB	PRS|SFO	5	ET	_	_
 12	för	_	PP	PP	_	11	AA	_	_
 13	att	_	IE	IE	_	12	PA	_	_
@@ -9239,7 +9239,7 @@
 7	vara	_	VB	VB	INF|AKT	3	VG	_	_
 8	ringa	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	9	CJ	_	_
 9	och	_	KN	KN	_	7	SP	_	_
-10	långsamt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	11	AA	_	_
+10	långsamt	_	AB	AB	POS|NEU|SIN|IND|NOM	11	AA	_	_
 11	insättande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	9	CJ	_	_
 12	och	_	KN	KN	_	0	ROOT	_	_
 13	är	_	VB	VB	PRS|AKT	12	+F	_	_
@@ -9257,7 +9257,7 @@
 25	.	_	MAD	MAD	_	12	IP	_	_
 
 1	Hos	_	PP	PP	_	4	RA	_	_
-2	andra	_	PN	PN	UTR/NEU|PLU|IND|SUB/OBJ	1	PA	_	_
+2	andra	_	JJ	JJ	UTR/NEU|PLU|IND|SUB/OBJ	1	PA	_	_
 3	däremot	_	AB	AB	_	2	+A	_	_
 4	kan	_	VB	VB	PRS|AKT	14	MS	_	_
 5	nedsättningen	_	NN	NN	UTR|SIN|DEF|NOM	4	SS	_	_
@@ -9361,7 +9361,7 @@
 25	klart	_	AB	AB	POS	24	OP	_	_
 26	för	_	PP	PP	_	24	OA	_	_
 27	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	26	PA	_	_
-28	att	_	SN	SN	_	24	OO	_	_
+28	att	_	IE	IE	_	24	OO	_	_
 29	i	_	PP	PP	_	32	RA	_	_
 30	denna	_	DT	DT	UTR|SIN|DEF	31	DT	_	_
 31	grupp	_	NN	NN	UTR|SIN|IND|NOM	29	PA	_	_
@@ -9396,14 +9396,14 @@
 3	bland	_	PP	PP	_	2	XX	_	_
 4	dessa	_	DT	DT	UTR/NEU|PLU|DEF	5	DT	_	_
 5	sistnämnda	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	3	PA	_	_
-6	man	_	PN	PN	UTR|SIN|IND|SUB	10	SS	_	_
+6	man	_	NN	NN	UTR|SIN|IND|SUB	10	SS	_	_
 7	över	_	PP	PP	_	10	AA	_	_
 8	huvud	_	NN	NN	NEU|SIN|IND|NOM	7	HD	_	_
 9	taget	_	PC	PC	PRF|NEU|SIN|IND|NOM	7	HD	_	_
 10	kan	_	VB	VB	PRS|AKT	5	EF	_	_
 11	tänkas	_	VB	VB	INF|SFO	10	VG	_	_
 12	nå	_	VB	VB	INF|AKT	11	VS	_	_
-13	fram	_	AB	AB	_	12	RA	_	_
+13	fram	_	PL	PL	_	12	RA	_	_
 14	till	_	PP	PP	_	13	RA	_	_
 15	någon	_	DT	DT	UTR|SIN|IND	16	DT	_	_
 16	form	_	NN	NN	UTR|SIN|IND|NOM	14	PA	_	_
@@ -9454,7 +9454,7 @@
 8	orsaken	_	NN	NN	UTR|SIN|DEF|NOM	14	SS	_	_
 9	till	_	PP	PP	_	8	ET	_	_
 10	patientens	_	NN	NN	UTR|SIN|DEF|GEN	11	DT	_	_
-11	symtom	_	NN	NN	NEU|PLU|IND|NOM	9	PA	_	_
+11	symtom	_	VB	VB	NEU|PLU|IND|NOM	9	PA	_	_
 12	inte	_	AB	AB	_	14	NA	_	_
 13	primärt	_	AB	AB	POS	14	AA	_	_
 14	är	_	VB	VB	PRS|AKT	16	MS	_	_
@@ -9489,7 +9489,7 @@
 10	men	_	KN	KN	_	0	ROOT	_	_
 11	också	_	AB	AB	_	12	+A	_	_
 12	på	_	PP	PP	_	10	+F	_	_
-13	att	_	SN	SN	_	12	PA	_	_
+13	att	_	IE	IE	_	12	PA	_	_
 14	balansen	_	NN	NN	UTR|SIN|DEF|NOM	22	SS	_	_
 15	mellan	_	PP	PP	_	14	ET	_	_
 16	nybildning	_	NN	NN	UTR|SIN|IND|NOM	17	CJ	_	_
@@ -9502,7 +9502,7 @@
 23	störd	_	PC	PC	PRF|UTR|SIN|IND|NOM	22	SP	_	_
 24	.	_	MAD	MAD	_	10	IP	_	_
 
-1	Borrar	_	VB	VB	PRS|AKT	0	ROOT	_	_
+1	Borrar	_	NN	NN	PRS|AKT	0	ROOT	_	_
 2	hål	_	NN	NN	NEU|SIN|IND|NOM	1	OO	_	_
 
 1	I	_	PP	PP	_	4	AA	_	_
@@ -9530,7 +9530,7 @@
 1	Röret	_	NN	NN	NEU|SIN|DEF|NOM	2	SS	_	_
 2	leds	_	VB	VB	PRS|SFO	15	MS	_	_
 3	sedan	_	AB	AB	_	2	TA	_	_
-4	ner	_	AB	AB	_	2	RA	_	_
+4	ner	_	PL	PL	_	2	RA	_	_
 5	under	_	PP	PP	_	4	RA	_	_
 6	huden	_	NN	NN	UTR|SIN|DEF|NOM	5	PA	_	_
 7	på	_	PP	PP	_	6	ET	_	_
@@ -9538,7 +9538,7 @@
 9	vidare	_	AB	AB	KOM	10	+A	_	_
 10	in	_	AB	AB	_	2	+F	_	_
 11	i	_	PP	PP	_	10	RA	_	_
-12	en	_	PN	PN	UTR|SIN|IND|SUB/OBJ	11	PA	_	_
+12	en	_	DT	DT	UTR|SIN|IND|SUB/OBJ	11	PA	_	_
 13	av	_	PP	PP	_	12	ET	_	_
 14	halsvenerna	_	NN	NN	NEU|PLU|DEF|NOM	13	PA	_	_
 15	och	_	KN	KN	_	0	ROOT	_	_
@@ -9553,10 +9553,10 @@
 1	Det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	SS	_	_
 2	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	för	_	PP	PP	_	2	+A	_	_
-4	övrigt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	3	HD	_	_
+4	övrigt	_	AB	AB	POS|NEU|SIN|IND|NOM	3	HD	_	_
 5	samma	_	DT	DT	UTR/NEU|SIN/PLU|IND	6	DT	_	_
 6	operationsmetod	_	NN	NN	UTR|SIN|IND|NOM	2	SP	_	_
-7	som	_	HA	HA	_	6	ET	_	_
+7	som	_	HP	HP	_	6	ET	_	_
 8	användes	_	VB	VB	PRS|SFO	7	UA	_	_
 9	hos	_	PP	PP	_	8	RA	_	_
 10	barn	_	NN	NN	NEU|PLU|IND|NOM	9	PA	_	_
@@ -9597,7 +9597,7 @@
 4	allt	_	PN	PN	NEU|SIN|IND|SUB/OBJ	3	HD	_	_
 5	i	_	PP	PP	_	2	XX	_	_
 6	USA	_	PM	PM	NOM	5	PA	_	_
-7	som	_	HA	HA	_	9	RA	_	_
+7	som	_	HP	HP	_	9	RA	_	_
 8	man	_	PN	PN	UTR|SIN|IND|SUB	9	SS	_	_
 9	tillämpat	_	VB	VB	SUP|AKT	6	EF	_	_
 10	denna	_	DT	DT	UTR|SIN|DEF	11	DT	_	_
@@ -9632,14 +9632,14 @@
 4	om	_	PP	PP	_	2	OA	_	_
 5	detta	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	4	PA	_	_
 6	med	_	PP	PP	_	2	AA	_	_
-7	för	_	AB	AB	_	8	AA	_	_
+7	för	_	PP	PP	_	8	AA	_	_
 8	stora	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	9	AT	_	_
 9	bokstäver	_	NN	NN	UTR|PLU|IND|NOM	6	PA	_	_
 10	.	_	MAD	MAD	_	2	IP	_	_
 11	'	_	PAD	PAD	_	2	JC	_	_
 
 1	'	_	PAD	PAD	_	2	IC	_	_
-2	Väck	_	VB	VB	IMP|AKT	0	ROOT	_	_
+2	Väck	_	IN	IN	IMP|AKT	0	ROOT	_	_
 3	inget	_	DT	DT	NEU|SIN|IND	4	DT	_	_
 4	hopp	_	NN	NN	NEU|SIN|IND|NOM	2	OO	_	_
 5	om	_	PP	PP	_	2	OA	_	_
@@ -9653,7 +9653,7 @@
 4	föreligger	_	VB	VB	PRS|AKT	2	ET	_	_
 5	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 6	trots	_	PP	PP	_	5	AA	_	_
-7	detta	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	6	PA	_	_
+7	detta	_	DT	DT	NEU|SIN|DEF|SUB/OBJ	6	PA	_	_
 8	motiverat	_	VB	VB	SUP|AKT	5	VG	_	_
 9	en	_	DT	DT	UTR|SIN|IND	11	DT	_	_
 10	planmässig	_	JJ	JJ	POS|UTR|SIN|IND|NOM	11	AT	_	_
@@ -9680,7 +9680,7 @@
 31	engagerade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	30	SP	_	_
 32	.	_	MAD	MAD	_	5	IP	_	_
 
-1	SDS	_	PM	PM	NOM	2	SS	_	_
+1	SDS	_	NN	NN	NOM	2	SS	_	_
 2	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	talat	_	VB	VB	SUP|AKT	2	VG	_	_
 4	med	_	PP	PP	_	3	OA	_	_
@@ -9764,12 +9764,12 @@
 11	för	_	PP	PP	_	7	AA	_	_
 12	att	_	IE	IE	_	11	PA	_	_
 13	utröna	_	VB	VB	INF|AKT	12	IF	_	_
-14	om	_	SN	SN	_	13	OO	_	_
+14	om	_	PP	PP	_	13	OO	_	_
 15	något	_	PN	PN	NEU|SIN|IND|SUB/OBJ	16	SS	_	_
 16	kan	_	VB	VB	PRS|AKT	14	UA	_	_
 17	göras	_	VB	VB	INF|SFO	16	VG	_	_
 18	för	_	PP	PP	_	17	AA	_	_
-19	att	_	SN	SN	_	18	HD	_	_
+19	att	_	IE	IE	_	18	HD	_	_
 20	patientens	_	NN	NN	UTR|SIN|DEF|GEN	21	DT	_	_
 21	tillvaro	_	NN	NN	UTR|SIN|IND|NOM	22	SS	_	_
 22	skall	_	VB	VB	PRS|AKT	18	UA	_	_
@@ -9801,7 +9801,7 @@
 1	Om	_	SN	SN	_	21	AA	_	_
 2	så	_	AB	AB	_	9	+A	_	_
 3	bara	_	AB	AB	_	9	CA	_	_
-4	en	_	DT	DT	UTR|SIN|IND	5	DT	_	_
+4	en	_	RG	RG	UTR|SIN|IND	5	DT	_	_
 5	procent	_	NN	NN	UTR|PLU|IND|NOM	6	CJ	_	_
 6	eller	_	KN	KN	_	9	SS	_	_
 7	ännu	_	AB	AB	_	8	AA	_	_
@@ -9881,7 +9881,7 @@
 13	,	_	MID	MID	_	3	IK	_	_
 14	en	_	DT	DT	UTR|SIN|IND	16	DT	_	_
 15	s_k	_	AB	AB	AN	16	XT	_	_
-16	gammakamera	_	NN	NN	UTR|SIN|IND|NOM	3	AN	_	_
+16	gammakamera	_	JJ	JJ	UTR|SIN|IND|NOM	3	AN	_	_
 17	,	_	MID	MID	_	18	IK	_	_
 18	finns	_	VB	VB	PRS|SFO	0	ROOT	_	_
 19	nu	_	AB	AB	_	18	TA	_	_
@@ -9896,7 +9896,7 @@
 2	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	emellertid	_	AB	AB	_	2	+A	_	_
 4	inte	_	AB	AB	_	2	NA	_	_
-5	fråga	_	NN	NN	UTR|SIN|IND|NOM	2	SP	_	_
+5	fråga	_	VB	VB	UTR|SIN|IND|NOM	2	SP	_	_
 6	om	_	PP	PP	_	2	OA	_	_
 7	någon	_	DT	DT	UTR|SIN|IND	8	DT	_	_
 8	form	_	NN	NN	UTR|SIN|IND|NOM	6	PA	_	_
@@ -9915,7 +9915,7 @@
 7	som	_	HP	HP	-|-|-	8	SS	_	_
 8	innebär	_	VB	VB	PRS|AKT	6	ET	_	_
 9	att	_	SN	SN	_	8	OO	_	_
-10	röntgenstrålar	_	NN	NN	UTR|PLU|IND|NOM	11	SS	_	_
+10	röntgenstrålar	_	VB	VB	UTR|PLU|IND|NOM	11	SS	_	_
 11	skickas	_	VB	VB	PRS|SFO	14	MS	_	_
 12	tvärsigenom	_	PP	PP	_	11	RA	_	_
 13	patienten	_	NN	NN	UTR|SIN|DEF|NOM	12	PA	_	_
@@ -9983,7 +9983,7 @@
 11	hjärnvätskans	_	NN	NN	UTR|SIN|DEF|GEN	12	DT	_	_
 12	cirkulation	_	NN	NN	UTR|SIN|IND|NOM	10	OO	_	_
 13	sprutas	_	VB	VB	PRS|SFO	20	MS	_	_
-14	det	_	DT	DT	NEU|SIN|DEF	16	DT	_	_
+14	det	_	PN	PN	NEU|SIN|DEF	16	DT	_	_
 15	radioaktiva	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	16	AT	_	_
 16	ämnet	_	NN	NN	NEU|SIN|DEF|NOM	13	SS	_	_
 17	in	_	PL	PL	_	13	PL	_	_
@@ -10035,7 +10035,7 @@
 17	röntgenavdelningen	_	NN	NN	UTR|SIN|DEF|NOM	16	PA	_	_
 18	.	_	MAD	MAD	_	2	IP	_	_
 
-1	Det	_	DT	DT	NEU|SIN|DEF	3	DT	_	_
+1	Det	_	PN	PN	NEU|SIN|DEF	3	DT	_	_
 2	radioaktiva	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	3	AT	_	_
 3	ämnet	_	NN	NN	NEU|SIN|DEF|NOM	4	SS	_	_
 4	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
@@ -10133,7 +10133,7 @@
 24	denna	_	DT	DT	UTR|SIN|DEF	25	DT	_	_
 25	skillnad	_	NN	NN	UTR|SIN|IND|NOM	31	SS	_	_
 26	mellan	_	PP	PP	_	25	ET	_	_
-27	abnorm	_	JJ	JJ	POS|UTR|SIN|IND|NOM	28	CJ	_	_
+27	abnorm	_	NN	NN	POS|UTR|SIN|IND|NOM	28	CJ	_	_
 28	och	_	KN	KN	_	30	AT	_	_
 29	normal	_	JJ	JJ	POS|UTR|SIN|IND|NOM	28	CJ	_	_
 30	vävnad	_	NN	NN	UTR|SIN|IND|NOM	26	PA	_	_
@@ -10148,7 +10148,7 @@
 1	Den	_	DT	DT	UTR|SIN|DEF	2	DT	_	_
 2	detektor	_	NN	NN	UTR|SIN|IND|NOM	6	SS	_	_
 3	som	_	HP	HP	-|-|-	4	SS	_	_
-4	uppfångar	_	VB	VB	PRS|AKT	2	ET	_	_
+4	uppfångar	_	NN	NN	PRS|AKT	2	ET	_	_
 5	strålningen	_	NN	NN	UTR|SIN|DEF|NOM	4	OO	_	_
 6	kan	_	VB	VB	PRS|AKT	11	MS	_	_
 7	vridas	_	VB	VB	INF|SFO	6	VG	_	_
@@ -10199,7 +10199,7 @@
 14	besvär	_	NN	NN	NEU|SIN|IND|NOM	12	PA	_	_
 15	för	_	PP	PP	_	14	ET	_	_
 16	patienten	_	NN	NN	UTR|SIN|DEF|NOM	15	PA	_	_
-17	frånsett	_	PC	PC	PRF|NEU|SIN|IND|NOM	9	AA	_	_
+17	frånsett	_	VB	VB	PRF|NEU|SIN|IND|NOM	9	AA	_	_
 18	ett	_	DT	DT	NEU|SIN|IND	19	DT	_	_
 19	stick	_	NN	NN	NEU|SIN|IND|NOM	17	PA	_	_
 20	i	_	PP	PP	_	19	ET	_	_
@@ -10210,7 +10210,7 @@
 25	sätt	_	NN	NN	NEU|SIN|IND|NOM	23	PA	_	_
 26	som	_	KN	KN	_	25	ET	_	_
 27	när	_	HA	HA	_	29	TA	_	_
-28	sänka	_	NN	NN	UTR|SIN|IND|NOM	29	SS	_	_
+28	sänka	_	VB	VB	UTR|SIN|IND|NOM	29	SS	_	_
 29	tages	_	VB	VB	PRS|SFO	26	UA	_	_
 30	.	_	MAD	MAD	_	7	IP	_	_
 
@@ -10230,7 +10230,7 @@
 14	brits	_	NN	NN	UTR|SIN|IND|NOM	12	PA	_	_
 15	utan	_	PP	PP	_	10	AA	_	_
 16	några	_	DT	DT	UTR/NEU|PLU|IND	18	DT	_	_
-17	kvarstående	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	18	AT	_	_
+17	kvarstående	_	JJ	JJ	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	18	AT	_	_
 18	besvär	_	NN	NN	NEU|PLU|IND|NOM	15	PA	_	_
 19	.	_	MAD	MAD	_	6	IP	_	_
 
@@ -10282,7 +10282,7 @@
 8	att	_	IE	IE	_	5	OA	_	_
 9	genomföra	_	VB	VB	INF|AKT	8	IF	_	_
 10	och	_	KN	KN	_	1	UA	_	_
-11	som	_	HA	HA	_	10	+F	_	_
+11	som	_	HP	HP	_	10	+F	_	_
 12	påpekas	_	VB	VB	PRS|SFO	11	UA	_	_
 13	utan	_	PP	PP	_	10	SP	_	_
 14	besvär	_	NN	NN	NEU|SIN|IND|NOM	13	PA	_	_
@@ -10308,7 +10308,7 @@
 5	neurologerna	_	NN	NN	UTR|PLU|DEF|NOM	2	XX	_	_
 6	som	_	HP	HP	-|-|-	7	SS	_	_
 7	tagit	_	VB	VB	SUP|AKT	5	EF	_	_
-8	fasta	_	PL	PL	_	7	PL	_	_
+8	fasta	_	JJ	JJ	_	7	PL	_	_
 9	på	_	PP	PP	_	7	OA	_	_
 10	detta	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	9	PA	_	_
 11	.	_	MAD	MAD	_	2	IP	_	_
@@ -10329,7 +10329,7 @@
 14	undersökning	_	NN	NN	UTR|SIN|IND|NOM	11	CJ	_	_
 15	av	_	PP	PP	_	14	ET	_	_
 16	en	_	DT	DT	UTR|SIN|IND	18	DT	_	_
-17	erfaren	_	JJ	JJ	POS|UTR|SIN|IND|NOM	18	AT	_	_
+17	erfaren	_	PC	PC	POS|UTR|SIN|IND|NOM	18	AT	_	_
 18	neurolog	_	NN	NN	UTR|SIN|IND|NOM	15	PA	_	_
 19	erbjuder	_	VB	VB	PRS|AKT	6	UA	_	_
 20	både	_	KN	KN	_	22	VA	_	_
@@ -10397,7 +10397,7 @@
 6	utöver	_	PP	PP	_	5	ET	_	_
 7	de	_	DT	DT	UTR/NEU|PLU|DEF	8	DT	_	_
 8	två	_	RG	RG	NOM	6	PA	_	_
-9	som	_	HP	HP	-|-|-	10	SS	_	_
+9	som	_	HA	HA	-|-|-	10	SS	_	_
 10	nämnts	_	VB	VB	SUP|SFO	8	ET	_	_
 11	här	_	AB	AB	_	10	RA	_	_
 12	ovan	_	AB	AB	_	11	RA	_	_
@@ -10443,7 +10443,7 @@
 20	med	_	PP	PP	_	32	AA	_	_
 21	de	_	DT	DT	UTR/NEU|PLU|DEF	22	DT	_	_
 22	mängder	_	NN	NN	UTR|PLU|IND|NOM	20	PA	_	_
-23	som	_	HP	HP	-|-|-	26	SS	_	_
+23	som	_	KN	KN	-|-|-	26	SS	_	_
 24	i	_	PP	PP	_	26	TA	_	_
 25	dag	_	NN	NN	UTR|SIN|IND|NOM	24	HD	_	_
 26	behöver	_	VB	VB	PRS|AKT	22	ET	_	_
@@ -10454,7 +10454,7 @@
 31	resultat	_	NN	NN	NEU|SIN|IND|NOM	28	PA	_	_
 32	är	_	VB	VB	PRS|AKT	19	MS	_	_
 33	stråldosen	_	NN	NN	UTR|SIN|DEF|NOM	32	SS	_	_
-34	mindre	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	32	SP	_	_
+34	mindre	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	32	SP	_	_
 35	,	_	MID	MID	_	32	IK	_	_
 36	eller	_	KN	KN	_	19	+F	_	_
 37	i	_	PP	PP	_	41	+A	_	_
@@ -10478,7 +10478,7 @@
 4	fall	_	NN	NN	NEU|PLU|IND|NOM	1	PA	_	_
 5	-	_	MID	MID	_	8	IT	_	_
 6	hur	_	HA	HA	_	7	AA	_	_
-7	många	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	8	OO	_	_
+7	många	_	PN	PN	POS|UTR/NEU|PLU|IND/DEF|NOM	8	OO	_	_
 8	vet	_	VB	VB	PRS|AKT	0	ROOT	_	_
 9	man	_	PN	PN	UTR|SIN|IND|SUB	8	SS	_	_
 10	inte	_	AB	AB	_	8	NA	_	_
@@ -10494,7 +10494,7 @@
 20	beror	_	VB	VB	PRS|AKT	18	UA	_	_
 21	på	_	PP	PP	_	20	OA	_	_
 22	för	_	AB	AB	_	23	AA	_	_
-23	mycket	_	JJ	JJ	POS|NEU|SIN|IND|NOM	24	DT	_	_
+23	mycket	_	AB	AB	POS|NEU|SIN|IND|NOM	24	DT	_	_
 24	hjärnvätska	_	NN	NN	UTR|SIN|IND|NOM	21	PA	_	_
 25	som	_	HP	HP	-|-|-	30	OO	_	_
 26	hjärnans	_	NN	NN	UTR|SIN|DEF|GEN	27	DT	_	_
@@ -10538,7 +10538,7 @@
 31	på	_	PP	PP	_	30	RA	_	_
 32	skissen	_	NN	NN	UTR|SIN|DEF|NOM	31	PA	_	_
 33	här	_	AB	AB	_	34	PA	_	_
-34	intill	_	PP	PP	_	32	ET	_	_
+34	intill	_	AB	AB	_	32	ET	_	_
 
 1	Hjärnkirurgen	_	NN	NN	UTR|SIN|DEF|NOM	2	SS	_	_
 2	borrar	_	VB	VB	PRS|AKT	8	MS	_	_
@@ -10548,7 +10548,7 @@
 6	i	_	PP	PP	_	2	RA	_	_
 7	kraniet	_	NN	NN	NEU|SIN|DEF|NOM	6	PA	_	_
 8	och	_	KN	KN	_	0	ROOT	_	_
-9	för	_	VB	VB	PRS|AKT	8	+F	_	_
+9	för	_	PP	PP	PRS|AKT	8	+F	_	_
 10	in	_	PL	PL	_	9	PL	_	_
 11	en	_	DT	DT	UTR|SIN|IND	12	DT	_	_
 12	sond	_	NN	NN	UTR|SIN|IND|NOM	9	OO	_	_
@@ -10557,7 +10557,7 @@
 15	hålrum	_	NN	NN	NEU|SIN|IND|NOM	13	PA	_	_
 16	.	_	MAD	MAD	_	8	IP	_	_
 
-1	Den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
+1	Den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
 2	leds	_	VB	VB	PRS|SFO	14	MS	_	_
 3	vidare	_	AB	AB	KOM	8	CJ	_	_
 4	under	_	PP	PP	_	3	RA	_	_
@@ -10567,7 +10567,7 @@
 8	,	_	MID	MID	_	2	RA	_	_
 9	in	_	AB	AB	_	8	CJ	_	_
 10	i	_	PP	PP	_	9	RA	_	_
-11	en	_	PN	PN	UTR|SIN|IND|SUB/OBJ	10	PA	_	_
+11	en	_	DT	DT	UTR|SIN|IND|SUB/OBJ	10	PA	_	_
 12	av	_	PP	PP	_	11	ET	_	_
 13	halsvenerna	_	NN	NN	NEU|PLU|DEF|NOM	12	PA	_	_
 14	och	_	KN	KN	_	0	ROOT	_	_
@@ -10647,7 +10647,7 @@
 11	,	_	MID	MID	_	2	IK	_	_
 12	men	_	KN	KN	_	0	ROOT	_	_
 13	tar	_	VB	VB	PRS|AKT	12	+F	_	_
-14	något	_	AB	AB	_	15	AA	_	_
+14	något	_	PN	PN	_	15	AA	_	_
 15	längre	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	16	AT	_	_
 16	tid	_	NN	NN	UTR|SIN|IND|NOM	13	OO	_	_
 17	.	_	MAD	MAD	_	12	IP	_	_
@@ -10749,7 +10749,7 @@
 
 1	Isolering	_	NN	NN	UTR|SIN|IND|NOM	4	SS	_	_
 2	från	_	PP	PP	_	1	ET	_	_
-3	andra	_	PN	PN	UTR/NEU|PLU|IND|SUB/OBJ	2	PA	_	_
+3	andra	_	JJ	JJ	UTR/NEU|PLU|IND|SUB/OBJ	2	PA	_	_
 4	innebär	_	VB	VB	PRS|AKT	0	ROOT	_	_
 5	även	_	AB	AB	_	4	+A	_	_
 6	för	_	PP	PP	_	4	OA	_	_
@@ -10771,7 +10771,7 @@
 9	problem	_	NN	NN	NEU|PLU|IND|NOM	7	OO	_	_
 10	.	_	MAD	MAD	_	6	IP	_	_
 
-1	Överhuvudtaget	_	AB	AB	_	2	AA	_	_
+1	Överhuvudtaget	_	NN	NN	_	2	AA	_	_
 2	är	_	VB	VB	PRS|AKT	16	MS	_	_
 3	människans	_	NN	NN	UTR|SIN|DEF|GEN	4	DT	_	_
 4	psyke	_	NN	NN	NEU|SIN|IND|NOM	2	SS	_	_
@@ -10797,10 +10797,10 @@
 
 1	Den	_	DT	DT	UTR|SIN|DEF	2	DT	_	_
 2	vetenskap	_	NN	NN	UTR|SIN|IND|NOM	7	SS	_	_
-3	som	_	HP	HP	-|-|-	4	SS	_	_
+3	som	_	KN	KN	-|-|-	4	SS	_	_
 4	sysslar	_	VB	VB	PRS|AKT	2	ET	_	_
 5	med	_	PP	PP	_	4	OA	_	_
-6	dessa	_	PN	PN	UTR/NEU|PLU|DEF|SUB/OBJ	5	PA	_	_
+6	dessa	_	DT	DT	UTR/NEU|PLU|DEF|SUB/OBJ	5	PA	_	_
 7	kallas	_	VB	VB	PRS|SFO	0	ROOT	_	_
 8	psykiatri	_	NN	NN	UTR|SIN|IND|NOM	7	SP	_	_
 9	.	_	MAD	MAD	_	7	IP	_	_
@@ -10827,7 +10827,7 @@
 4	nervös	_	JJ	JJ	POS|UTR|SIN|IND|NOM	2	OP	_	_
 5	,	_	MID	MID	_	2	IK	_	_
 6	nerverna	_	NN	NN	UTR|PLU|DEF|NOM	7	SS	_	_
-7	krånglar	_	VB	VB	PRS|AKT	8	+F	_	_
+7	krånglar	_	NN	NN	PRS|AKT	8	+F	_	_
 8	,	_	MID	MID	_	0	ROOT	_	_
 9	säger	_	VB	VB	PRS|AKT	10	SS	_	_
 10	man	_	PN	PN	UTR|SIN|IND|SUB	8	MA	_	_
@@ -10920,7 +10920,7 @@
 10	'	_	PAD	PAD	_	11	IC	_	_
 11	stressjukdomar	_	NN	NN	UTR|PLU|IND|NOM	9	PA	_	_
 12	'	_	PAD	PAD	_	11	JC	_	_
-13	som	_	KN	KN	_	17	CA	_	_
+13	som	_	HP	HP	_	17	CA	_	_
 14	magsår	_	NN	NN	NEU|SIN|IND|NOM	17	CJ	_	_
 15	,	_	MID	MID	_	17	IK	_	_
 16	hjärtbesvär	_	NN	NN	NEU|PLU|IND|NOM	17	CJ	_	_
@@ -10930,7 +10930,7 @@
 20	'	_	PAD	PAD	_	19	JC	_	_
 21	.	_	MAD	MAD	_	6	IP	_	_
 
-1	Pavlov	_	PM	PM	NOM	2	SS	_	_
+1	Pavlov	_	NN	NN	NOM	2	SS	_	_
 2	kunde	_	VB	VB	PRT|AKT	0	ROOT	_	_
 3	vid	_	PP	PP	_	2	TA	_	_
 4	sina	_	PS	PS	UTR/NEU|PLU|DEF	5	DT	_	_
@@ -10944,11 +10944,11 @@
 12	försöksdjuren	_	NN	NN	NEU|PLU|DEF|NOM	11	PA	_	_
 13	.	_	MAD	MAD	_	2	IP	_	_
 
-1	De	_	PN	PN	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
+1	De	_	DT	DT	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
 2	vande	_	VB	VB	PRT|AKT	0	ROOT	_	_
 3	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	2	OO	_	_
 4	vid	_	PP	PP	_	2	OA	_	_
-5	att	_	SN	SN	_	4	PA	_	_
+5	att	_	IE	IE	_	4	PA	_	_
 6	mat	_	NN	NN	UTR|SIN|IND|NOM	7	SS	_	_
 7	sattes	_	VB	VB	PRT|SFO	5	UA	_	_
 8	fram	_	PL	PL	_	7	PL	_	_
@@ -10965,7 +10965,7 @@
 6	maten	_	NN	NN	UTR|SIN|DEF|NOM	5	PA	_	_
 7	,	_	MID	MID	_	8	IK	_	_
 8	eller	_	KN	KN	_	17	CJ	_	_
-9	om	_	SN	SN	_	8	CJ	_	_
+9	om	_	PP	PP	_	8	CJ	_	_
 10	mat	_	NN	NN	UTR|SIN|IND|NOM	11	SS	_	_
 11	sattes	_	VB	VB	PRT|SFO	9	UA	_	_
 12	fram	_	PL	PL	_	11	PL	_	_
@@ -10974,7 +10974,7 @@
 15	gånger	_	NN	NN	UTR|PLU|IND|NOM	11	TA	_	_
 16	,	_	MID	MID	_	17	IK	_	_
 17	eller	_	KN	KN	_	27	AA	_	_
-18	om	_	SN	SN	_	17	CJ	_	_
+18	om	_	PP	PP	_	17	CJ	_	_
 19	signalen	_	NN	NN	UTR|SIN|DEF|NOM	20	SS	_	_
 20	varierades	_	VB	VB	PRT|SFO	18	UA	_	_
 21	så	_	AB	AB	_	20	AA	_	_
@@ -11006,7 +11006,7 @@
 
 1	Psykiska	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	2	AT	_	_
 2	jämviktsrubbningar	_	NN	NN	UTR|PLU|IND|NOM	6	SS	_	_
-3	som	_	KN	KN	_	2	ET	_	_
+3	som	_	HP	HP	_	2	ET	_	_
 4	de	_	DT	DT	UTR/NEU|PLU|DEF	5	DT	_	_
 5	ovannämnda	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	3	UA	_	_
 6	kan	_	VB	VB	PRS|AKT	9	MS	_	_
@@ -11016,7 +11016,7 @@
 10	leda	_	VB	VB	INF|AKT	9	+F	_	_
 11	till	_	PP	PP	_	10	OA	_	_
 12	ett	_	DT	DT	NEU|SIN|IND	17	DT	_	_
-13	mer	_	AB	AB	KOM	16	AA	_	_
+13	mer	_	JJ	JJ	KOM	16	AA	_	_
 14	eller	_	KN	KN	_	13	HD	_	_
 15	mindre	_	AB	AB	KOM	13	HD	_	_
 16	allvarligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	17	AT	_	_
@@ -11047,9 +11047,9 @@
 19	kallas	_	VB	VB	PRS|SFO	21	CJ	_	_
 20	psykoser	_	NN	NN	UTR|PLU|IND|NOM	19	SP	_	_
 21	och	_	KN	KN	_	16	ET	_	_
-22	som	_	HP	HP	-|-|-	24	SS	_	_
+22	som	_	KN	KN	-|-|-	24	SS	_	_
 23	förr	_	AB	AB	_	24	TA	_	_
-24	brukade	_	VB	VB	PRT|AKT	21	CJ	_	_
+24	brukade	_	PC	PC	PRT|AKT	21	CJ	_	_
 25	kallas	_	VB	VB	INF|SFO	24	OO	_	_
 26	sinnessjukdomar	_	NN	NN	UTR|PLU|IND|NOM	25	SP	_	_
 27	.	_	MAD	MAD	_	2	IP	_	_
@@ -11101,11 +11101,11 @@
 16	psykiska	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	17	AT	_	_
 17	orsaker	_	NN	NN	UTR|PLU|IND|NOM	15	OO	_	_
 18	och	_	KN	KN	_	11	UA	_	_
-19	vice	_	UO	UO	_	18	+F	_	_
+19	vice	_	JJ	JJ	_	18	+F	_	_
 20	versa	_	UO	UO	_	19	HD	_	_
 21	.	_	MAD	MAD	_	2	IP	_	_
 
-1	Forna	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	2	AT	_	_
+1	Forna	_	NN	NN	POS|UTR/NEU|PLU|IND/DEF|NOM	2	AT	_	_
 2	tiders	_	NN	NN	UTR|PLU|IND|GEN	3	DT	_	_
 3	uppfattning	_	NN	NN	UTR|SIN|IND|NOM	10	SS	_	_
 4	om	_	PP	PP	_	3	ET	_	_
@@ -11116,10 +11116,10 @@
 9	natur	_	NN	NN	UTR|SIN|IND|NOM	4	PA	_	_
 10	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 11	helt	_	AB	AB	POS	12	AA	_	_
-12	förlegad	_	JJ	JJ	POS|UTR|SIN|IND|NOM	10	SP	_	_
+12	förlegad	_	PC	PC	POS|UTR|SIN|IND|NOM	10	SP	_	_
 13	.	_	MAD	MAD	_	10	IP	_	_
 
-1	Som	_	HA	HA	_	4	KA	_	_
+1	Som	_	KN	KN	_	4	KA	_	_
 2	tidigare	_	AB	AB	KOM	3	TA	_	_
 3	framhållits	_	VB	VB	SUP|SFO	1	UA	_	_
 4	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
@@ -11134,7 +11134,7 @@
 1	Olika	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	2	AT	_	_
 2	människor	_	NN	NN	UTR|PLU|IND|NOM	3	SS	_	_
 3	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
-4	olika	_	AB	AB	_	5	AA	_	_
+4	olika	_	JJ	JJ	_	5	AA	_	_
 5	lätt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	3	OO	_	_
 6	att	_	IE	IE	_	3	OA	_	_
 7	utstå	_	VB	VB	INF|AKT	6	IF	_	_
@@ -11317,7 +11317,7 @@
 1	Denna	_	DT	DT	UTR|SIN|DEF	2	DT	_	_
 2	sjukdom	_	NN	NN	UTR|SIN|IND|NOM	3	SS	_	_
 3	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
-4	något	_	AB	AB	_	5	AA	_	_
+4	något	_	DT	DT	_	5	AA	_	_
 5	vanligare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	3	SP	_	_
 6	hos	_	PP	PP	_	3	RA	_	_
 7	kvinnor	_	NN	NN	UTR|PLU|IND|NOM	6	PA	_	_
@@ -11327,7 +11327,7 @@
 11	.	_	MAD	MAD	_	3	IP	_	_
 
 1	Ungefär	_	AB	AB	_	2	AA	_	_
-2	en	_	RG	RG	UTR|SIN|IND|NOM	3	DT	_	_
+2	en	_	DT	DT	UTR|SIN|IND|NOM	3	DT	_	_
 3	procent	_	NN	NN	UTR|SIN|IND|NOM	6	SS	_	_
 4	av	_	PP	PP	_	3	ET	_	_
 5	befolkningen	_	NN	NN	UTR|SIN|DEF|NOM	4	PA	_	_
@@ -11339,7 +11339,7 @@
 11	sjukdom	_	NN	NN	UTR|SIN|IND|NOM	8	OO	_	_
 12	.	_	MAD	MAD	_	6	IP	_	_
 
-1	Schizofreni	_	NN	NN	UTR|SIN|IND|NOM	0	ROOT	_	_
+1	Schizofreni	_	PM	PM	UTR|SIN|IND|NOM	0	ROOT	_	_
 2	-	_	MID	MID	_	1	IT	_	_
 3	en	_	DT	DT	UTR|SIN|IND	5	DT	_	_
 4	gåtfull	_	JJ	JJ	POS|UTR|SIN|IND|NOM	5	AT	_	_
@@ -11369,12 +11369,12 @@
 11	själsliv	_	NN	NN	NEU|SIN|IND|NOM	8	PA	_	_
 12	,	_	MID	MID	_	13	IK	_	_
 13	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
-14	den	_	PN	PN	UTR/NEU|PLU|DEF|SUB/OBJ	13	SS	_	_
+14	den	_	DT	DT	UTR/NEU|PLU|DEF|SUB/OBJ	13	SS	_	_
 15	ännu	_	AB	AB	_	16	AA	_	_
 16	allvarligare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	13	SP	_	_
 17	.	_	MAD	MAD	_	13	IP	_	_
 
-1	Omkring	_	AB	AB	_	2	AA	_	_
+1	Omkring	_	PP	PP	_	2	AA	_	_
 2	hälften	_	NN	NN	UTR|SIN|DEF|NOM	7	SS	_	_
 3	av	_	PP	PP	_	2	ET	_	_
 4	dem	_	PN	PN	UTR/NEU|PLU|DEF|OBJ	3	PA	_	_
@@ -11417,12 +11417,12 @@
 2	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	SS	_	_
 4	inte	_	AB	AB	_	2	NA	_	_
-5	fråga	_	NN	NN	UTR|SIN|IND|NOM	2	SP	_	_
+5	fråga	_	VB	VB	UTR|SIN|IND|NOM	2	SP	_	_
 6	om	_	PP	PP	_	2	OA	_	_
-7	en	_	RG	RG	UTR|SIN|IND|NOM	9	DT	_	_
+7	en	_	DT	DT	UTR|SIN|IND|NOM	9	DT	_	_
 8	enda	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	9	DT	_	_
 9	sjukdom	_	NN	NN	UTR|SIN|IND|NOM	10	CJ	_	_
-10	utan	_	KN	KN	_	6	PA	_	_
+10	utan	_	PP	PP	_	6	PA	_	_
 11	en	_	DT	DT	UTR|SIN|IND	13	DT	_	_
 12	hel	_	JJ	JJ	POS|UTR|SIN|IND|NOM	13	DT	_	_
 13	grupp	_	NN	NN	UTR|SIN|IND|NOM	10	CJ	_	_
@@ -11452,7 +11452,7 @@
 
 1	Misstänksamhet	_	NN	NN	UTR|SIN|IND|NOM	5	CJ	_	_
 2	,	_	MID	MID	_	5	IK	_	_
-3	fixa	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	4	AT	_	_
+3	fixa	_	VB	VB	POS|UTR/NEU|PLU|IND/DEF|NOM	4	AT	_	_
 4	ideer	_	NN	NN	UTR|PLU|IND|NOM	5	CJ	_	_
 5	och	_	KN	KN	_	7	SS	_	_
 6	förföljelsemani	_	NN	NN	UTR|SIN|IND|NOM	5	CJ	_	_
@@ -11524,7 +11524,7 @@
 28	därvid	_	AB	AB	_	31	AA	_	_
 29	alltmer	_	AB	AB	_	30	AA	_	_
 30	psykiskt	_	AB	AB	POS	31	AA	_	_
-31	avtrubbade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	27	+F	_	_
+31	avtrubbade	_	VB	VB	PRF|UTR/NEU|PLU|IND/DEF|NOM	27	+F	_	_
 32	.	_	MAD	MAD	_	4	IP	_	_
 
 1	Eftersom	_	SN	SN	_	18	AA	_	_
@@ -11649,17 +11649,17 @@
 2	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	nämna	_	VB	VB	INF|AKT	2	VG	_	_
 4	bedövningsmedel	_	NN	NN	NEU|PLU|IND|NOM	9	CJ	_	_
-5	som	_	KN	KN	_	7	CA	_	_
+5	som	_	HP	HP	_	7	CA	_	_
 6	kloroform	_	NN	NN	UTR|SIN|IND|NOM	7	CJ	_	_
 7	och	_	KN	KN	_	4	AN	_	_
 8	eter	_	NN	NN	UTR|SIN|IND|NOM	7	CJ	_	_
 9	,	_	MID	MID	_	3	OO	_	_
 10	smärtstillande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	11	AT	_	_
 11	medel	_	NN	NN	NEU|PLU|IND|NOM	9	CJ	_	_
-12	som	_	KN	KN	_	14	CA	_	_
+12	som	_	HP	HP	_	14	CA	_	_
 13	morfin-	_	NN	NN	NEU|-|-|SMS	14	CJ	_	_
 14	och	_	KN	KN	_	11	AN	_	_
-15	barbitursyrepreparat	_	NN	NN	NEU|PLU|IND|NOM	14	CJ	_	_
+15	barbitursyrepreparat	_	VB	VB	NEU|PLU|IND|NOM	14	CJ	_	_
 16	m_fl	_	AB	AB	AN	14	CJ	_	_
 17	.	_	MAD	MAD	_	2	IP	_	_
 
@@ -11914,7 +11914,7 @@
 23	orostillstånd	_	NN	NN	NEU|PLU|IND|NOM	22	CJ	_	_
 24	.	_	MAD	MAD	_	3	IP	_	_
 
-1	Sedan	_	PP	PP	_	3	TA	_	_
+1	Sedan	_	AB	AB	_	3	TA	_	_
 2	1950	_	RG	RG	NOM	1	PA	_	_
 3	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 4	man	_	PN	PN	UTR|SIN|IND|SUB	3	SS	_	_
@@ -12002,7 +12002,7 @@
 12	fått	_	VB	VB	SUP|AKT	11	VG	_	_
 13	stor	_	JJ	JJ	POS|UTR|SIN|IND|NOM	14	AT	_	_
 14	betydelse	_	NN	NN	UTR|SIN|IND|NOM	12	OO	_	_
-15	som	_	KN	KN	_	14	AN	_	_
+15	som	_	HP	HP	_	14	AN	_	_
 16	lugnande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	17	AT	_	_
 17	medel	_	NN	NN	NEU|PLU|IND|NOM	15	UA	_	_
 18	.	_	MAD	MAD	_	11	IP	_	_
@@ -12052,7 +12052,7 @@
 18	sömnmedel	_	NN	NN	NEU|SIN|IND|NOM	17	CJ	_	_
 19	.	_	MAD	MAD	_	3	IP	_	_
 
-1	Betydligt	_	AB	AB	_	2	AA	_	_
+1	Betydligt	_	JJ	JJ	_	2	AA	_	_
 2	mildare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	3	AT	_	_
 3	verkningar	_	NN	NN	UTR|PLU|IND|NOM	4	OO	_	_
 4	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
@@ -12160,7 +12160,7 @@
 11	och	_	KN	KN	_	0	ROOT	_	_
 12	är	_	VB	VB	PRS|AKT	11	+F	_	_
 13	också	_	AB	AB	_	12	+A	_	_
-14	aptitnedsättande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	12	SP	_	_
+14	aptitnedsättande	_	NN	NN	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	12	SP	_	_
 15	,	_	MID	MID	_	12	IK	_	_
 16	vilket	_	HP	HP	NEU|SIN|IND	17	SS	_	_
 17	gör	_	VB	VB	PRS|AKT	12	AN	_	_
@@ -12173,7 +12173,7 @@
 
 1	Dessvärre	_	AB	AB	_	2	MA	_	_
 2	är	_	VB	VB	PRS|AKT	5	MS	_	_
-3	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
+3	de	_	DT	DT	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
 4	vanebildande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	2	SP	_	_
 5	och	_	KN	KN	_	0	ROOT	_	_
 6	har	_	VB	VB	PRS|AKT	5	+F	_	_
@@ -12228,14 +12228,14 @@
 23	som	_	HP	HP	-|-|-	24	SS	_	_
 24	är	_	VB	VB	PRS|AKT	32	CJ	_	_
 25	ett	_	DT	DT	NEU|SIN|IND	28	DT	_	_
-26	mycket	_	AB	AB	POS	27	AA	_	_
+26	mycket	_	JJ	JJ	POS	27	AA	_	_
 27	verksamt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	28	AT	_	_
 28	medel	_	NN	NN	NEU|SIN|IND|NOM	24	SP	_	_
 29	vid	_	PP	PP	_	24	TA	_	_
 30	svåra	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	31	AT	_	_
 31	depressioner	_	NN	NN	UTR|PLU|IND|NOM	29	PA	_	_
 32	men	_	KN	KN	_	21	ET	_	_
-33	som	_	HP	HP	-|-|-	38	PA	_	_
+33	som	_	HA	HA	-|-|-	38	PA	_	_
 34	många	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	35	DT	_	_
 35	människor	_	NN	NN	UTR|PLU|IND|NOM	36	SS	_	_
 36	känner	_	VB	VB	PRS|AKT	32	CJ	_	_
@@ -12259,11 +12259,11 @@
 14	patienter	_	NN	NN	UTR|PLU|IND|NOM	12	PA	_	_
 15	,	_	MID	MID	_	3	IK	_	_
 16	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
-17	alkalimetallen	_	NN	NN	UTR|SIN|DEF|NOM	18	DT	_	_
+17	alkalimetallen	_	JJ	JJ	UTR|SIN|DEF|NOM	18	DT	_	_
 18	litium	_	NN	NN	NEU|SIN|IND|NOM	16	SS	_	_
 19	,	_	MID	MID	_	18	IK	_	_
 20	nära	_	AB	AB	POS	21	AA	_	_
-21	besläktad	_	JJ	JJ	POS|UTR|SIN|IND|NOM	18	PT	_	_
+21	besläktad	_	PC	PC	POS|UTR|SIN|IND|NOM	18	PT	_	_
 22	med	_	PP	PP	_	21	OA	_	_
 23	natrium	_	NN	NN	NEU|SIN|IND|NOM	22	PA	_	_
 24	.	_	MAD	MAD	_	16	IP	_	_
@@ -12316,14 +12316,14 @@
 6	varit	_	VB	VB	SUP|AKT	4	VG	_	_
 7	kända	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	6	SP	_	_
 8	i	_	PP	PP	_	6	TA	_	_
-9	tusentals	_	NN	NN	NEU|PLU|IND|GEN	10	DT	_	_
+9	tusentals	_	AB	AB	NEU|PLU|IND|GEN	10	DT	_	_
 10	år	_	NN	NN	NEU|PLU|IND|NOM	8	PA	_	_
 11	.	_	MAD	MAD	_	4	IP	_	_
 
 1	I	_	PP	PP	_	3	RA	_	_
 2	Mellanamerika	_	PM	PM	NOM	1	PA	_	_
 3	användes	_	VB	VB	PRT|SFO	0	ROOT	_	_
-4	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	3	SS	_	_
+4	de	_	DT	DT	UTR/NEU|PLU|DEF|SUB	3	SS	_	_
 5	långt	_	AB	AB	POS	6	AA	_	_
 6	före	_	PP	PP	_	3	TA	_	_
 7	Columbus'	_	PM	PM	GEN	8	DT	_	_
@@ -12339,7 +12339,7 @@
 17	ceremonier	_	NN	NN	UTR|PLU|IND|NOM	13	PA	_	_
 18	.	_	MAD	MAD	_	3	IP	_	_
 
-1	Hallucinogener	_	NN	NN	UTR|PLU|IND|NOM	2	SS	_	_
+1	Hallucinogener	_	PM	PM	UTR|PLU|IND|NOM	2	SS	_	_
 2	framställes	_	VB	VB	PRS|SFO	0	ROOT	_	_
 3	ur	_	PP	PP	_	2	AA	_	_
 4	olika	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	5	AT	_	_
@@ -12366,7 +12366,7 @@
 18	man	_	PN	PN	UTR|SIN|IND|SUB	17	SS	_	_
 19	råmaterialet	_	NN	NN	NEU|SIN|DEF|NOM	17	OO	_	_
 20	till	_	PP	PP	_	19	ET	_	_
-21	LSD	_	NN	NN	AN	20	PA	_	_
+21	LSD	_	PM	PM	AN	20	PA	_	_
 22	.	_	MAD	MAD	_	17	IP	_	_
 
 1	Dessa	_	DT	DT	UTR/NEU|PLU|DEF	2	DT	_	_
@@ -12397,7 +12397,7 @@
 6	intresse	_	NN	NN	NEU|SIN|IND|NOM	4	OO	_	_
 7	,	_	MID	MID	_	4	IK	_	_
 8	främst	_	AB	AB	SUV	4	CA	_	_
-9	därför	_	HA	HA	_	4	AA	_	_
+9	därför	_	AB	AB	_	4	AA	_	_
 10	att	_	SN	SN	_	9	HD	_	_
 11	man	_	PN	PN	UTR|SIN|IND|SUB	12	SS	_	_
 12	har	_	VB	VB	PRS|AKT	9	UA	_	_
@@ -12425,7 +12425,7 @@
 9	monoaminer	_	NN	NN	UTR|PLU|IND|NOM	7	PA	_	_
 10	.	_	MAD	MAD	_	5	IP	_	_
 
-1	Meskalin	_	NN	NN	NEU|SIN|IND|NOM	2	SS	_	_
+1	Meskalin	_	PM	PM	NEU|SIN|IND|NOM	2	SS	_	_
 2	framställes	_	VB	VB	PRS|SFO	0	ROOT	_	_
 3	ur	_	PP	PP	_	2	AA	_	_
 4	peyote-kaktusen	_	NN	NN	UTR|SIN|DEF|NOM	3	PA	_	_
@@ -12531,7 +12531,7 @@
 2	och	_	KN	KN	_	0	ROOT	_	_
 3	narkotika	_	NN	NN	UTR|PLU|IND|NOM	2	CJ	_	_
 
-1	Som	_	HA	HA	_	4	KA	_	_
+1	Som	_	KN	KN	_	4	KA	_	_
 2	förut	_	AB	AB	_	3	TA	_	_
 3	framhållits	_	VB	VB	SUP|SFO	1	UA	_	_
 4	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
@@ -12631,7 +12631,7 @@
 27	narkotikamissbruk	_	NN	NN	NEU|PLU|IND|NOM	26	CJ	_	_
 28	.	_	MAD	MAD	_	15	IP	_	_
 
-1	Gemensamt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	6	XF	_	_
+1	Gemensamt	_	AB	AB	POS|NEU|SIN|IND|NOM	6	XF	_	_
 2	för	_	PP	PP	_	1	OA	_	_
 3	alkohol	_	NN	NN	UTR|SIN|IND|NOM	4	CJ	_	_
 4	och	_	KN	KN	_	2	PA	_	_
@@ -12747,7 +12747,7 @@
 4	till	_	PP	PP	_	2	OA	_	_
 5	missbruk	_	NN	NN	NEU|SIN|IND|NOM	4	PA	_	_
 
-1	Regelbundet	_	JJ	JJ	POS|NEU|SIN|IND|NOM	2	AT	_	_
+1	Regelbundet	_	NN	NN	POS|NEU|SIN|IND|NOM	2	AT	_	_
 2	bruk	_	NN	NN	NEU|SIN|IND|NOM	7	SS	_	_
 3	av	_	PP	PP	_	2	ET	_	_
 4	alkohol	_	NN	NN	UTR|SIN|IND|NOM	5	CJ	_	_
@@ -12776,14 +12776,14 @@
 10	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Efter	_	PP	PP	_	6	TA	_	_
-2	längre	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	3	AT	_	_
+2	längre	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	3	AT	_	_
 3	eller	_	KN	KN	_	1	PA	_	_
 4	kortare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	5	AT	_	_
 5	tid	_	NN	NN	UTR|SIN|IND|NOM	3	CJ	_	_
 6	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 7	så	_	AB	AB	_	6	AA	_	_
 8	ett	_	DT	DT	NEU|SIN|IND	9	DT	_	_
-9	beroende	_	NN	NN	NEU|SIN|IND|NOM	6	SS	_	_
+9	beroende	_	PC	PC	NEU|SIN|IND|NOM	6	SS	_	_
 10	uppstå	_	VB	VB	INF|AKT	6	VG	_	_
 11	.	_	MAD	MAD	_	6	IP	_	_
 
@@ -12792,7 +12792,7 @@
 3	ett	_	DT	DT	NEU|SIN|IND	5	DT	_	_
 4	behov	_	NN	NN	NEU|SIN|IND|NOM	5	CJ	_	_
 5	eller	_	KN	KN	_	11	CJ	_	_
-6	begär	_	NN	NN	NEU|SIN|IND|NOM	5	CJ	_	_
+6	begär	_	VB	VB	NEU|SIN|IND|NOM	5	CJ	_	_
 7	efter	_	PP	PP	_	5	ET	_	_
 8	ämnet	_	NN	NN	NEU|SIN|DEF|NOM	7	PA	_	_
 9	i	_	PP	PP	_	8	ET	_	_
@@ -12839,7 +12839,7 @@
 9	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 10	tillvänjning	_	NN	NN	UTR|SIN|IND|NOM	11	CJ	_	_
 11	och	_	KN	KN	_	9	SS	_	_
-12	beroende	_	NN	NN	NEU|SIN|IND|NOM	11	CJ	_	_
+12	beroende	_	PC	PC	NEU|SIN|IND|NOM	11	CJ	_	_
 13	uppstå	_	VB	VB	INF|AKT	9	VG	_	_
 14	.	_	MAD	MAD	_	9	IP	_	_
 
@@ -12850,7 +12850,7 @@
 5	gånger	_	NN	NN	UTR|PLU|IND|NOM	3	AA	_	_
 6	,	_	MID	MID	_	7	IK	_	_
 7	och	_	KN	KN	_	0	ROOT	_	_
-8	om	_	SN	SN	_	11	AA	_	_
+8	om	_	PP	PP	_	11	AA	_	_
 9	behandlingen	_	NN	NN	UTR|SIN|DEF|NOM	10	SS	_	_
 10	avbrytes	_	VB	VB	PRS|SFO	8	UA	_	_
 11	uppstår	_	VB	VB	PRS|AKT	7	MS	_	_
@@ -12963,8 +12963,8 @@
 25	till	_	PP	PP	_	30	CJ	_	_
 26	ett	_	DT	DT	NEU|SIN|IND	29	DT	_	_
 27	starkt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	29	AT	_	_
-28	psykiskt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	29	AT	_	_
-29	beroende	_	NN	NN	NEU|SIN|IND|NOM	25	PA	_	_
+28	psykiskt	_	AB	AB	POS|NEU|SIN|IND|NOM	29	AT	_	_
+29	beroende	_	PC	PC	NEU|SIN|IND|NOM	25	PA	_	_
 30	och	_	KN	KN	_	24	OA	_	_
 31	till	_	PP	PP	_	30	CJ	_	_
 32	svåra	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	33	AT	_	_
@@ -13008,7 +13008,7 @@
 5	emellertid	_	AB	AB	_	4	+A	_	_
 6	i	_	PP	PP	_	4	OA	_	_
 7	att	_	SN	SN	_	6	PA	_	_
-8	allt	_	DT	DT	NEU|SIN|IND/DEF	9	DT	_	_
+8	allt	_	PN	PN	NEU|SIN|IND/DEF	9	DT	_	_
 9	bruk	_	NN	NN	NEU|SIN|IND|NOM	11	SS	_	_
 10	lätt	_	AB	AB	POS	11	AA	_	_
 11	leder	_	VB	VB	PRS|AKT	7	UA	_	_
@@ -13062,19 +13062,19 @@
 6	på	_	PP	PP	_	4	OA	_	_
 7	näringsbrist	_	NN	NN	UTR|SIN|IND|NOM	8	CJ	_	_
 8	och	_	KN	KN	_	6	PA	_	_
-9	vitaminbrist	_	NN	NN	UTR|SIN|IND|NOM	8	CJ	_	_
+9	vitaminbrist	_	JJ	JJ	UTR|SIN|IND|NOM	8	CJ	_	_
 10	,	_	MID	MID	_	8	IK	_	_
 11	som	_	HP	HP	-|-|-	12	SS	_	_
 12	uppkommer	_	VB	VB	PRS|AKT	8	ET	_	_
 13	genom	_	PP	PP	_	12	AA	_	_
-14	att	_	SN	SN	_	13	PA	_	_
+14	att	_	IE	IE	_	13	PA	_	_
 15	alkoholister	_	NN	NN	UTR|PLU|IND|NOM	16	CJ	_	_
 16	och	_	KN	KN	_	19	SS	_	_
 17	narkomaner	_	NN	NN	UTR|PLU|IND|NOM	16	CJ	_	_
 18	oftast	_	AB	AB	SUV	19	TA	_	_
 19	lever	_	VB	VB	PRS|AKT	14	UA	_	_
 20	ett	_	DT	DT	NEU|SIN|IND	22	DT	_	_
-21	oregelbundet	_	PC	PC	PRF|NEU|SIN|IND|NOM	22	AT	_	_
+21	oregelbundet	_	NN	NN	PRF|NEU|SIN|IND|NOM	22	AT	_	_
 22	liv	_	NN	NN	NEU|SIN|IND|NOM	19	OO	_	_
 23	utan	_	PP	PP	_	22	ET	_	_
 24	ordnade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	25	AT	_	_
@@ -13089,7 +13089,7 @@
 6	givetvis	_	AB	AB	_	7	MA	_	_
 7	är	_	VB	VB	PRS|AKT	3	ET	_	_
 8	nödvändig	_	JJ	JJ	POS|UTR|SIN|IND|NOM	7	SP	_	_
-9	om	_	SN	SN	_	7	AA	_	_
+9	om	_	PP	PP	_	7	AA	_	_
 10	dessa	_	DT	DT	UTR/NEU|PLU|DEF	11	DT	_	_
 11	personer	_	NN	NN	UTR|PLU|IND|NOM	12	SS	_	_
 12	skall	_	VB	VB	PRS|AKT	9	UA	_	_
@@ -13131,7 +13131,7 @@
 12	avvänjes	_	VB	VB	PRS|SFO	8	UA	_	_
 13	med	_	PP	PP	_	12	AA	_	_
 14	allt	_	AB	AB	_	15	AA	_	_
-15	mindre	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	16	AT	_	_
+15	mindre	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	16	AT	_	_
 16	doser	_	NN	NN	UTR|PLU|IND|NOM	13	PA	_	_
 17	av	_	PP	PP	_	16	ET	_	_
 18	giftet	_	NN	NN	NEU|SIN|DEF|NOM	17	PA	_	_
@@ -13162,7 +13162,7 @@
 21	missbruk	_	NN	NN	NEU|SIN|IND|NOM	20	PA	_	_
 22	.	_	MAD	MAD	_	4	IP	_	_
 
-1	Sedan	_	PP	PP	_	5	TA	_	_
+1	Sedan	_	AB	AB	_	5	TA	_	_
 2	några	_	DT	DT	UTR/NEU|PLU|IND	3	DT	_	_
 3	årtionden	_	NN	NN	NEU|PLU|IND|NOM	1	PA	_	_
 4	tillbaka	_	AB	AB	_	3	ET	_	_
@@ -13205,7 +13205,7 @@
 23	riktning	_	NN	NN	UTR|SIN|IND|NOM	21	PA	_	_
 24	som	_	HP	HP	-|-|-	25	SS	_	_
 25	ansetts	_	VB	VB	SUP|SFO	23	ET	_	_
-26	gagna	_	VB	VB	INF|AKT	25	VS	_	_
+26	gagna	_	JJ	JJ	INF|AKT	25	VS	_	_
 27	samhället	_	NN	NN	NEU|SIN|DEF|NOM	26	OO	_	_
 28	.	_	MAD	MAD	_	4	IP	_	_
 
@@ -13214,9 +13214,9 @@
 3	bostadspolitiken	_	NN	NN	UTR|SIN|DEF|NOM	2	PA	_	_
 4	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 5	att	_	SN	SN	_	4	SP	_	_
-6	var	_	PN	PN	UTR|SIN|IND|SUB/OBJ	9	SS	_	_
+6	var	_	VB	VB	UTR|SIN|IND|SUB/OBJ	9	SS	_	_
 7	och	_	KN	KN	_	6	HD	_	_
-8	en	_	PN	PN	UTR|SIN|IND|SUB/OBJ	6	HD	_	_
+8	en	_	DT	DT	UTR|SIN|IND|SUB/OBJ	6	HD	_	_
 9	ska	_	VB	VB	PRS|AKT	5	UA	_	_
 10	ha	_	VB	VB	INF|AKT	9	VG	_	_
 11	möjlighet	_	NN	NN	UTR|SIN|IND|NOM	10	OO	_	_
@@ -13291,13 +13291,13 @@
 
 1	Lägenheter	_	NN	NN	UTR|PLU|IND|NOM	7	SS	_	_
 2	på	_	PP	PP	_	1	ET	_	_
-3	ett	_	RG	RG	NEU|SIN|IND|NOM	4	DT	_	_
+3	ett	_	DT	DT	NEU|SIN|IND|NOM	4	DT	_	_
 4	rum	_	NN	NN	NEU|SIN|IND|NOM	5	CJ	_	_
 5	och	_	KN	KN	_	2	PA	_	_
 6	kök	_	NN	NN	NEU|SIN|IND|NOM	5	CJ	_	_
 7	ställde	_	VB	VB	PRT|AKT	13	MS	_	_
 8	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	7	OO	_	_
-9	lönsammast	_	JJ	JJ	SUV|UTR/NEU|SIN/PLU|IND|NOM	7	OP	_	_
+9	lönsammast	_	AB	AB	SUV|UTR/NEU|SIN/PLU|IND|NOM	7	OP	_	_
 10	för	_	PP	PP	_	7	OA	_	_
 11	hyresvärdarna	_	NN	NN	UTR|PLU|DEF|NOM	10	PA	_	_
 12	,	_	MID	MID	_	13	IK	_	_
@@ -13329,7 +13329,7 @@
 
 1	Samhället	_	NN	NN	NEU|SIN|DEF|NOM	2	SS	_	_
 2	var	_	VB	VB	PRT|AKT	0	ROOT	_	_
-3	ointresserat	_	JJ	JJ	POS|NEU|SIN|IND|NOM	2	SP	_	_
+3	ointresserat	_	PC	PC	POS|NEU|SIN|IND|NOM	2	SP	_	_
 4	av	_	PP	PP	_	2	OA	_	_
 5	att	_	IE	IE	_	4	PA	_	_
 6	ingripa	_	VB	VB	INF|AKT	5	IF	_	_
@@ -13396,7 +13396,7 @@
 1	Ett	_	DT	DT	NEU|SIN|IND	2	DT	_	_
 2	försök	_	NN	NN	NEU|SIN|IND|NOM	6	SP	_	_
 3	till	_	PP	PP	_	2	ET	_	_
-4	familjevänligare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	5	AT	_	_
+4	familjevänligare	_	NN	NN	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	5	AT	_	_
 5	bostadspolitik	_	NN	NN	UTR|SIN|IND|NOM	3	PA	_	_
 6	var	_	VB	VB	PRT|AKT	0	ROOT	_	_
 7	också	_	AB	AB	_	6	+A	_	_
@@ -13517,7 +13517,7 @@
 4	var	_	VB	VB	PRT|AKT	0	ROOT	_	_
 5	minst	_	AB	AB	SUV	4	NA	_	_
 6	av	_	PP	PP	_	5	HD	_	_
-7	allt	_	PN	PN	NEU|SIN|IND|SUB/OBJ	5	HD	_	_
+7	allt	_	DT	DT	NEU|SIN|IND|SUB/OBJ	5	HD	_	_
 8	lockande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	4	SP	_	_
 9	.	_	MAD	MAD	_	4	IP	_	_
 
@@ -13527,7 +13527,7 @@
 4	öka	_	VB	VB	INF|AKT	3	IF	_	_
 5	och	_	KN	KN	_	0	ROOT	_	_
 6	en	_	DT	DT	UTR|SIN|IND	9	DT	_	_
-7	fortsatt	_	PC	PC	PRF|UTR|SIN|IND|NOM	9	AT	_	_
+7	fortsatt	_	AB	AB	PRF|UTR|SIN|IND|NOM	9	AT	_	_
 8	stark	_	JJ	JJ	POS|UTR|SIN|IND|NOM	9	AT	_	_
 9	inflyttning	_	NN	NN	UTR|SIN|IND|NOM	14	SS	_	_
 10	från	_	PP	PP	_	9	ET	_	_
@@ -13541,7 +13541,7 @@
 1	Det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	FS	_	_
 2	var	_	VB	VB	PRT|AKT	0	ROOT	_	_
 3	väsentligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	2	SP	_	_
-4	att	_	SN	SN	_	2	ES	_	_
+4	att	_	IE	IE	_	2	ES	_	_
 5	bostadsbyggandet	_	NN	NN	NEU|SIN|DEF|NOM	6	SS	_	_
 6	höll	_	VB	VB	PRT|AKT	4	UA	_	_
 7	jämna	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	8	AT	_	_
@@ -13635,7 +13635,7 @@
 3	räntefria	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	4	AT	_	_
 4	tilläggslån	_	NN	NN	NEU|PLU|IND|NOM	2	OO	_	_
 5	för	_	PP	PP	_	2	AA	_	_
-6	att	_	SN	SN	_	5	HD	_	_
+6	att	_	IE	IE	_	5	HD	_	_
 7	byggkostnader	_	NN	NN	UTR|PLU|IND|NOM	8	CJ	_	_
 8	och	_	KN	KN	_	10	SS	_	_
 9	hyror	_	NN	NN	UTR|PLU|IND|NOM	8	CJ	_	_
@@ -13809,7 +13809,7 @@
 17	köket	_	NN	NN	NEU|SIN|DEF|NOM	16	PA	_	_
 18	blev	_	VB	VB	PRT|AKT	14	UA	_	_
 19	minst	_	AB	AB	SUV	20	AA	_	_
-20	ett	_	RG	RG	NEU|SIN|IND|NOM	21	DT	_	_
+20	ett	_	DT	DT	NEU|SIN|IND|NOM	21	DT	_	_
 21	rum	_	NN	NN	NEU|SIN|IND|NOM	18	SP	_	_
 22	per	_	PP	PP	_	21	ET	_	_
 23	två	_	RG	RG	NOM	24	DT	_	_
@@ -13901,7 +13901,7 @@
 9	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	8	FS	_	_
 10	givetvis	_	AB	AB	_	8	MA	_	_
 11	inte	_	AB	AB	_	8	NA	_	_
-12	tillräckligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	8	SP	_	_
+12	tillräckligt	_	AB	AB	POS|NEU|SIN|IND|NOM	8	SP	_	_
 13	att	_	IE	IE	_	17	MS	_	_
 14	lagstifta	_	VB	VB	INF|AKT	13	IF	_	_
 15	om	_	PP	PP	_	14	OA	_	_
@@ -13962,7 +13962,7 @@
 
 1	Kommunen	_	NN	NN	UTR|SIN|DEF|NOM	2	SS	_	_
 2	avgör	_	VB	VB	PRS|AKT	0	ROOT	_	_
-3	var	_	HA	HA	_	6	CJ	_	_
+3	var	_	PN	PN	_	6	CJ	_	_
 4	,	_	MID	MID	_	6	IK	_	_
 5	när	_	HA	HA	_	6	CJ	_	_
 6	och	_	KN	KN	_	9	RA	_	_
@@ -14126,7 +14126,7 @@
 2	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	varit	_	VB	VB	SUP|AKT	2	VG	_	_
 4	så	_	AB	AB	_	5	AA	_	_
-5	beskaffade	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	3	SP	_	_
+5	beskaffade	_	VB	VB	POS|UTR/NEU|PLU|IND/DEF|NOM	3	SP	_	_
 6	att	_	SN	SN	_	3	KA	_	_
 7	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	8	SS	_	_
 8	har	_	VB	VB	PRS|AKT	6	UA	_	_
@@ -14156,7 +14156,7 @@
 14	en	_	DT	DT	UTR|SIN|IND	15	DT	_	_
 15	garanti	_	NN	NN	UTR|SIN|IND|NOM	12	OO	_	_
 16	för	_	PP	PP	_	15	ET	_	_
-17	att	_	SN	SN	_	16	PA	_	_
+17	att	_	IE	IE	_	16	PA	_	_
 18	räntorna	_	NN	NN	UTR|PLU|DEF|NOM	20	SS	_	_
 19	inte	_	AB	AB	_	20	NA	_	_
 20	ska	_	VB	VB	PRS|AKT	17	UA	_	_
@@ -14192,7 +14192,7 @@
 15	minimistandard	_	NN	NN	UTR|SIN|IND|NOM	12	OO	_	_
 16	.	_	MAD	MAD	_	6	IP	_	_
 
-1	Fr_o_m	_	AB	AB	AN	3	TA	_	_
+1	Fr_o_m	_	PP	PP	AN	3	TA	_	_
 2	1968	_	RG	RG	NOM	1	PA	_	_
 3	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 4	den	_	DT	DT	UTR|SIN|DEF	6	DT	_	_
@@ -14203,7 +14203,7 @@
 9	.	_	MAD	MAD	_	3	IP	_	_
 
 1	De	_	DT	DT	UTR/NEU|PLU|DEF	3	DT	_	_
-2	tidigare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	3	DT	_	_
+2	tidigare	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	3	DT	_	_
 3	subventionerna	_	NN	NN	UTR|PLU|DEF|NOM	4	SS	_	_
 4	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 5	borttagits	_	VB	VB	SUP|SFO	4	VG	_	_
@@ -14484,7 +14484,7 @@
 13	eller	_	KN	KN	_	0	ROOT	_	_
 14	-	_	MID	MID	_	15	IT	_	_
 15	för	_	PP	PP	_	13	+F	_	_
-16	senare	_	AB	AB	KOM	17	TA	_	_
+16	senare	_	JJ	JJ	KOM	17	TA	_	_
 17	byggda	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	18	AT	_	_
 18	hus	_	NN	NN	NEU|PLU|IND|NOM	15	PA	_	_
 19	-	_	MID	MID	_	15	JT	_	_
@@ -14555,7 +14555,7 @@
 7	vissa	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	8	DT	_	_
 8	fastighetsägare	_	NN	NN	UTR|PLU|IND|NOM	6	SS	_	_
 9	fått	_	VB	VB	SUP|AKT	6	VG	_	_
-10	mera	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	9	OO	_	_
+10	mera	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	9	OO	_	_
 11	än	_	KN	KN	_	9	KA	_	_
 12	vad	_	HP	HP	NEU|SIN|IND	11	UA	_	_
 13	som	_	HP	HP	-|-|-	14	SS	_	_
@@ -14565,7 +14565,7 @@
 17	andra	_	PN	PN	UTR/NEU|PLU|IND|SUB/OBJ	18	SS	_	_
 18	har	_	VB	VB	PRS|AKT	6	MS	_	_
 19	fått	_	VB	VB	SUP|AKT	18	VG	_	_
-20	mindre	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	19	OO	_	_
+20	mindre	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	19	OO	_	_
 21	.	_	MAD	MAD	_	6	IP	_	_
 
 1	Ytterligare	_	AB	AB	KOM	2	AA	_	_
@@ -14573,7 +14573,7 @@
 3	skäl	_	NN	NN	NEU|SIN|IND|NOM	7	SP	_	_
 4	för	_	PP	PP	_	3	ET	_	_
 5	hyresregleringens	_	NN	NN	UTR|SIN|DEF|GEN	6	DT	_	_
-6	slopande	_	NN	NN	NEU|SIN|IND|NOM	4	PA	_	_
+6	slopande	_	PC	PC	NEU|SIN|IND|NOM	4	PA	_	_
 7	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 8	att	_	SN	SN	_	7	SS	_	_
 9	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	10	FS	_	_
@@ -14660,7 +14660,7 @@
 3	,	_	MID	MID	_	2	IK	_	_
 4	som	_	HP	HP	-|-|-	6	SS	_	_
 5	oftast	_	AB	AB	SUV	6	TA	_	_
-6	drabbat	_	VB	VB	SUP|AKT	2	ET	_	_
+6	drabbat	_	PC	PC	SUP|AKT	2	ET	_	_
 7	unga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	8	AT	_	_
 8	familjer	_	NN	NN	UTR|PLU|IND|NOM	6	OO	_	_
 9	,	_	MID	MID	_	2	IK	_	_
@@ -14671,8 +14671,8 @@
 14	otillfredsställande	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	12	UA	_	_
 15	,	_	MID	MID	_	11	IK	_	_
 16	särskilt	_	AB	AB	_	17	CA	_	_
-17	som	_	HA	HA	_	11	AA	_	_
-18	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	19	SS	_	_
+17	som	_	KN	KN	_	11	AA	_	_
+18	den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	19	SS	_	_
 19	uppkommit	_	VB	VB	SUP|AKT	17	UA	_	_
 20	på	_	PP	PP	_	19	AA	_	_
 21	grund	_	NN	NN	UTR|SIN|IND|NOM	20	HD	_	_
@@ -14744,7 +14744,7 @@
 5	ut	_	PL	PL	_	4	PL	_	_
 6	lägenheten	_	NN	NN	UTR|SIN|DEF|NOM	4	OO	_	_
 7	i	_	PP	PP	_	4	AA	_	_
-8	andra	_	RO	RO	NOM	7	HD	_	_
+8	andra	_	JJ	JJ	NOM	7	HD	_	_
 9	hand	_	NN	NN	UTR|SIN|IND|NOM	7	HD	_	_
 10	eller	_	KN	KN	_	2	ET	_	_
 11	att	_	IE	IE	_	10	CJ	_	_
@@ -14785,7 +14785,7 @@
 10	de	_	DT	DT	UTR/NEU|PLU|DEF	14	DT	_	_
 11	år	_	NN	NN	NEU|SIN|IND|NOM	12	DT	_	_
 12	1968	_	RG	RG	NOM	13	TA	_	_
-13	hyresreglerade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	14	AT	_	_
+13	hyresreglerade	_	VB	VB	PRF|UTR/NEU|PLU|IND/DEF|NOM	14	AT	_	_
 14	orterna	_	NN	NN	UTR|PLU|DEF|NOM	9	PA	_	_
 15	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 16	inte	_	AB	AB	_	15	NA	_	_
@@ -14829,7 +14829,7 @@
 11	och	_	KN	KN	_	8	PA	_	_
 12	standard	_	NN	NN	UTR|SIN|IND|NOM	11	CJ	_	_
 13	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
-14	fr_o_m	_	AB	AB	AN	13	TA	_	_
+14	fr_o_m	_	PP	PP	AN	13	TA	_	_
 15	1969	_	RG	RG	NOM	14	PA	_	_
 16	införts	_	VB	VB	SUP|SFO	13	VG	_	_
 17	statliga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	18	CJ	_	_
@@ -14989,7 +14989,7 @@
 4	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Med	_	PP	PP	_	4	AA	_	_
-2	bibehållen	_	PC	PC	PRF|UTR|SIN|IND|NOM	3	AT	_	_
+2	bibehållen	_	NN	NN	PRF|UTR|SIN|IND|NOM	3	AT	_	_
 3	hyresreglering	_	NN	NN	UTR|SIN|IND|NOM	1	PA	_	_
 4	går	_	VB	VB	PRS|AKT	0	ROOT	_	_
 5	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	4	FS	_	_
@@ -15036,7 +15036,7 @@
 5	man	_	PN	PN	UTR|SIN|IND|SUB	4	SS	_	_
 6	,	_	MID	MID	_	2	IK	_	_
 7	uppkommit	_	VB	VB	SUP|AKT	2	VG	_	_
-8	därför	_	HA	HA	_	7	AA	_	_
+8	därför	_	AB	AB	_	7	AA	_	_
 9	att	_	SN	SN	_	8	HD	_	_
 10	hyrorna	_	NN	NN	UTR|PLU|DEF|NOM	11	SS	_	_
 11	har	_	VB	VB	PRS|AKT	8	UA	_	_
@@ -15096,7 +15096,7 @@
 8	långa	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	9	AT	_	_
 9	köer	_	NN	NN	UTR|PLU|IND|NOM	7	OO	_	_
 10	av	_	PP	PP	_	9	ET	_	_
-11	bostadssökande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	10	PA	_	_
+11	bostadssökande	_	NN	NN	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	10	PA	_	_
 12	.	_	MAD	MAD	_	7	IP	_	_
 
 1	Dessa	_	DT	DT	UTR/NEU|PLU|DEF	2	DT	_	_
@@ -15155,7 +15155,7 @@
 18	försvinner	_	VB	VB	PRS|AKT	16	+F	_	_
 19	.	_	MAD	MAD	_	8	IP	_	_
 
-1	Andra	_	PN	PN	UTR/NEU|PLU|IND|SUB/OBJ	3	SS	_	_
+1	Andra	_	JJ	JJ	UTR/NEU|PLU|IND|SUB/OBJ	3	SS	_	_
 2	åter	_	AB	AB	_	1	+A	_	_
 3	anser	_	VB	VB	PRS|AKT	0	ROOT	_	_
 4	att	_	SN	SN	_	3	OO	_	_
@@ -15238,7 +15238,7 @@
 
 1	Här	_	AB	AB	_	3	RA	_	_
 2	,	_	MID	MID	_	3	IK	_	_
-3	som	_	KN	KN	_	10	XF	_	_
+3	som	_	HP	HP	_	10	XF	_	_
 4	på	_	PP	PP	_	3	UA	_	_
 5	så	_	AB	AB	_	6	AA	_	_
 6	många	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	8	DT	_	_
@@ -15260,14 +15260,14 @@
 22	såväl	_	KN	KN	_	24	VA	_	_
 23	sociala	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	24	AT	_	_
 24	aspekter	_	NN	NN	UTR|PLU|IND|NOM	21	PA	_	_
-25	som	_	KN	KN	_	20	OA	_	_
+25	som	_	HP	HP	_	20	OA	_	_
 26	till	_	PP	PP	_	25	CJ	_	_
 27	de	_	DT	DT	UTR/NEU|PLU|DEF	28	DT	_	_
 28	resurser	_	NN	NN	UTR|PLU|IND|NOM	26	PA	_	_
 29	vårt	_	PS	PS	NEU|SIN|DEF	30	DT	_	_
 30	samhälle	_	NN	NN	NEU|SIN|IND|NOM	31	SS	_	_
 31	förfogar	_	VB	VB	PRS|AKT	28	ET	_	_
-32	över	_	PP	PP	_	31	OA	_	_
+32	över	_	PL	PL	_	31	OA	_	_
 33	.	_	MAD	MAD	_	10	IP	_	_
 
 1	Så	_	AB	AB	_	3	AA	_	_
@@ -15380,7 +15380,7 @@
 5	sträva	_	VB	VB	INF|AKT	3	VG	_	_
 6	efter	_	PP	PP	_	5	OA	_	_
 7	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	6	PA	_	_
-8	som	_	KN	KN	_	7	AN	_	_
+8	som	_	HP	HP	_	7	AN	_	_
 9	normal	_	JJ	JJ	POS|UTR|SIN|IND|NOM	10	AT	_	_
 10	boendeform	_	NN	NN	UTR|SIN|IND|NOM	8	UA	_	_
 11	?	_	MAD	MAD	_	3	I?	_	_
@@ -15405,7 +15405,7 @@
 11	året	_	NN	NN	NEU|SIN|DEF|NOM	10	PA	_	_
 12	.	_	MAD	MAD	_	3	IP	_	_
 
-1	Om	_	PP	PP	_	4	TA	_	_
+1	Om	_	SN	SN	_	4	TA	_	_
 2	40-50	_	RG	RG	NOM	3	DT	_	_
 3	år	_	NN	NN	NEU|PLU|IND|NOM	1	PA	_	_
 4	beräknas	_	VB	VB	PRS|SFO	0	ROOT	_	_
@@ -15433,7 +15433,7 @@
 2	nu	_	AB	AB	_	3	TA	_	_
 3	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 4	situationen	_	NN	NN	UTR|SIN|DEF|NOM	3	SS	_	_
-5	prekär	_	JJ	JJ	POS|UTR|SIN|IND|NOM	3	SP	_	_
+5	prekär	_	NN	NN	POS|UTR|SIN|IND|NOM	3	SP	_	_
 6	.	_	MAD	MAD	_	3	IP	_	_
 
 1	Två	_	RG	RG	NOM	2	DT	_	_
@@ -15451,7 +15451,7 @@
 13	hälften	_	NN	NN	UTR|SIN|DEF|NOM	14	SS	_	_
 14	lider	_	VB	VB	PRS|AKT	12	MS	_	_
 15	av	_	PP	PP	_	14	OA	_	_
-16	direkt	_	JJ	JJ	POS|UTR|SIN|IND|NOM	17	AT	_	_
+16	direkt	_	AB	AB	POS|UTR|SIN|IND|NOM	17	AT	_	_
 17	svält	_	NN	NN	UTR|SIN|IND|NOM	15	PA	_	_
 18	.	_	MAD	MAD	_	12	IP	_	_
 
@@ -15538,7 +15538,7 @@
 1	Termen	_	NN	NN	UTR|SIN|DEF|NOM	2	DT	_	_
 2	utvecklingsländer	_	NN	NN	NEU|PLU|IND|NOM	3	SS	_	_
 3	tar	_	VB	VB	PRS|AKT	0	ROOT	_	_
-4	fasta	_	PL	PL	_	3	PL	_	_
+4	fasta	_	JJ	JJ	_	3	PL	_	_
 5	på	_	PP	PP	_	3	OA	_	_
 6	att	_	SN	SN	_	5	PA	_	_
 7	man	_	PN	PN	UTR|SIN|IND|SUB	11	SS	_	_
@@ -15587,10 +15587,10 @@
 2	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	velat	_	VB	VB	SUP|AKT	2	VG	_	_
 4	komma	_	VB	VB	INF|AKT	3	VG	_	_
-5	ifrån	_	PL	PL	_	4	PL	_	_
-6	denna	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	4	OO	_	_
-7	då	_	HA	HA	_	4	AA	_	_
-8	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	10	SS	_	_
+5	ifrån	_	PP	PP	_	4	PL	_	_
+6	denna	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	4	OO	_	_
+7	då	_	AB	AB	_	4	AA	_	_
+8	den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	10	SS	_	_
 9	onekligen	_	AB	AB	_	10	MA	_	_
 10	sätter	_	VB	VB	PRS|AKT	7	UA	_	_
 11	en	_	DT	DT	UTR|SIN|IND	12	DT	_	_
@@ -15670,7 +15670,7 @@
 4	experter	_	NN	NN	UTR|PLU|IND|NOM	3	SP	_	_
 5	som	_	HP	HP	-|-|-	6	SS	_	_
 6	skickats	_	VB	VB	SUP|SFO	4	ET	_	_
-7	ut	_	AB	AB	_	6	RA	_	_
+7	ut	_	PL	PL	_	6	RA	_	_
 8	för	_	PP	PP	_	6	AA	_	_
 9	att	_	IE	IE	_	8	PA	_	_
 10	bygga	_	VB	VB	INF|AKT	11	CJ	_	_
@@ -15771,7 +15771,7 @@
 11	kronor	_	NN	NN	UTR|PLU|IND|NOM	9	PA	_	_
 12	med	_	PP	PP	_	4	AA	_	_
 13	Indien	_	PM	PM	NOM	12	PA	_	_
-14	som	_	KN	KN	_	13	OP	_	_
+14	som	_	HP	HP	_	13	OP	_	_
 15	störste	_	JJ	JJ	SUV|MAS|SIN|DEF|NOM	16	AT	_	_
 16	mottagaren	_	NN	NN	UTR|SIN|DEF|NOM	14	UA	_	_
 17	.	_	MAD	MAD	_	4	IP	_	_
@@ -15786,7 +15786,7 @@
 8	samma	_	DT	DT	UTR/NEU|SIN/PLU|IND	9	DT	_	_
 9	tid	_	NN	NN	UTR|SIN|IND|NOM	7	PA	_	_
 10	med	_	PP	PP	_	6	OA	_	_
-11	omkring	_	AB	AB	_	12	AA	_	_
+11	omkring	_	PP	PP	_	12	AA	_	_
 12	10	_	RG	RG	NOM	13	DT	_	_
 13	miljarder	_	NN	NN	UTR|PLU|IND|NOM	10	PA	_	_
 14	vardera	_	PN	PN	UTR/NEU|PLU|DEF|SUB/OBJ	6	FP	_	_
@@ -15795,7 +15795,7 @@
 1	Siffrorna	_	NN	NN	UTR|PLU|DEF|NOM	2	SS	_	_
 2	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	ställas	_	VB	VB	INF|SFO	2	VG	_	_
-4	under	_	AB	AB	_	3	PL	_	_
+4	under	_	PP	PP	_	3	PL	_	_
 5	debatt	_	NN	NN	UTR|SIN|IND|NOM	4	HD	_	_
 6	.	_	MAD	MAD	_	2	IP	_	_
 
@@ -15804,7 +15804,7 @@
 3	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	FS	_	_
 4	ofta	_	AB	AB	POS	2	TA	_	_
 5	oklart	_	JJ	JJ	POS|NEU|SIN|IND|NOM	2	SP	_	_
-6	om	_	SN	SN	_	2	ES	_	_
+6	om	_	PP	PP	_	2	ES	_	_
 7	militär	_	JJ	JJ	POS|UTR|SIN|IND|NOM	8	AT	_	_
 8	hjälp	_	NN	NN	UTR|SIN|IND|NOM	9	SS	_	_
 9	räknas	_	VB	VB	PRS|SFO	6	UA	_	_
@@ -15840,7 +15840,7 @@
 12	:	_	MID	MID	_	3	IQ	_	_
 13	1960-65	_	RG	RG	NOM	14	TA	_	_
 14	hade	_	VB	VB	PRT|AKT	3	MS	_	_
-15	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	14	SS	_	_
+15	den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	14	SS	_	_
 16	ökat	_	VB	VB	SUP|AKT	14	VG	_	_
 17	till	_	PP	PP	_	16	AA	_	_
 18	575	_	RG	RG	NOM	19	DT	_	_
@@ -15850,7 +15850,7 @@
 1	Riksdagen	_	NN	NN	UTR|SIN|DEF|NOM	2	SS	_	_
 2	beslöt	_	VB	VB	PRT|AKT	0	ROOT	_	_
 3	1968	_	RG	RG	NOM	2	TA	_	_
-4	att	_	SN	SN	_	2	OO	_	_
+4	att	_	IE	IE	_	2	OO	_	_
 5	anslaget	_	NN	NN	NEU|SIN|DEF|NOM	8	SS	_	_
 6	till	_	PP	PP	_	5	ET	_	_
 7	u-hjälpen	_	NN	NN	UTR|SIN|DEF|NOM	6	PA	_	_
@@ -15863,7 +15863,7 @@
 14	senast	_	AB	AB	SUV	15	CA	_	_
 15	1974/75	_	RG	RG	NOM	16	TA	_	_
 16	utgör	_	VB	VB	PRS|AKT	11	UA	_	_
-17	en	_	RG	RG	UTR|SIN|IND|NOM	18	DT	_	_
+17	en	_	DT	DT	UTR|SIN|IND|NOM	18	DT	_	_
 18	procent	_	NN	NN	UTR|SIN|IND|NOM	16	OO	_	_
 19	av	_	PP	PP	_	18	ET	_	_
 20	bruttonationalprodukten	_	NN	NN	UTR|SIN|DEF|NOM	19	PA	_	_
@@ -15894,7 +15894,7 @@
 10	dess	_	PS	PS	UTR/NEU|SIN/PLU|DEF	11	DT	_	_
 11	fackorgan	_	NN	NN	NEU|SIN|IND|NOM	9	CJ	_	_
 12	för	_	PP	PP	_	6	AA	_	_
-13	vidare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	14	DT	_	_
+13	vidare	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	14	DT	_	_
 14	utdelning	_	NN	NN	UTR|SIN|IND|NOM	12	PA	_	_
 15	.	_	MAD	MAD	_	6	IP	_	_
 
@@ -16034,9 +16034,9 @@
 1	Det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	FS	_	_
 2	finns	_	VB	VB	PRS|SFO	0	ROOT	_	_
 3	inte	_	AB	AB	_	2	NA	_	_
-4	någon	_	DT	DT	UTR|SIN|IND	8	DT	_	_
+4	någon	_	PN	PN	UTR|SIN|IND	8	DT	_	_
 5	av	_	PP	PP	_	7	AG	_	_
-6	alla	_	PN	PN	UTR/NEU|PLU|IND|SUB/OBJ	5	PA	_	_
+6	alla	_	DT	DT	UTR/NEU|PLU|IND|SUB/OBJ	5	PA	_	_
 7	omfattad	_	PC	PC	PRF|UTR|SIN|IND|NOM	8	AT	_	_
 8	definition	_	NN	NN	UTR|SIN|IND|NOM	2	ES	_	_
 9	på	_	PP	PP	_	2	OA	_	_
@@ -16051,7 +16051,7 @@
 1	De	_	DT	DT	UTR/NEU|PLU|DEF	2	DT	_	_
 2	länder	_	NN	NN	NEU|PLU|IND|NOM	8	SS	_	_
 3	om	_	PP	PP	_	7	OA	_	_
-4	vilka	_	HP	HP	UTR/NEU|PLU|IND	3	PA	_	_
+4	vilka	_	HD	HD	UTR/NEU|PLU|IND	3	PA	_	_
 5	tveksamhet	_	NN	NN	UTR|SIN|IND|NOM	7	SS	_	_
 6	oftast	_	AB	AB	SUV	7	TA	_	_
 7	råder	_	VB	VB	PRS|AKT	2	ET	_	_
@@ -16076,7 +16076,7 @@
 11	att	_	IE	IE	_	10	ET	_	_
 12	beteckna	_	VB	VB	INF|AKT	11	IF	_	_
 13	dem	_	PN	PN	UTR/NEU|PLU|DEF|OBJ	12	OO	_	_
-14	som	_	KN	KN	_	12	OP	_	_
+14	som	_	HP	HP	_	12	OP	_	_
 15	u-länder	_	NN	NN	NEU|PLU|IND|NOM	14	UA	_	_
 16	.	_	MAD	MAD	_	7	IP	_	_
 
@@ -16087,8 +16087,8 @@
 5	länderna	_	NN	NN	NEU|PLU|DEF|NOM	2	AN	_	_
 6	,	_	MID	MID	_	7	IK	_	_
 7	bor	_	VB	VB	PRS|AKT	0	ROOT	_	_
-8	något	_	AB	AB	_	9	AA	_	_
-9	över	_	AB	AB	_	10	AA	_	_
+8	något	_	PN	PN	_	9	AA	_	_
+9	över	_	PP	PP	_	10	AA	_	_
 10	1	_	RG	RG	NOM	11	DT	_	_
 11	miljard	_	NN	NN	UTR|SIN|IND|NOM	12	DT	_	_
 12	människor	_	NN	NN	UTR|PLU|IND|NOM	7	SS	_	_
@@ -16112,7 +16112,7 @@
 10	'	_	PAD	PAD	_	9	JC	_	_
 11	,	_	MID	MID	_	2	IK	_	_
 12	har	_	VB	VB	PRS|AKT	2	+F	_	_
-13	över	_	AB	AB	_	14	AA	_	_
+13	över	_	PP	PP	_	14	AA	_	_
 14	80	_	RG	RG	NOM	15	DT	_	_
 15	procent	_	NN	NN	UTR|PLU|IND|NOM	12	OO	_	_
 16	av	_	PP	PP	_	15	ET	_	_
@@ -16126,7 +16126,7 @@
 24	per	_	PP	PP	_	23	ET	_	_
 25	invånare	_	NN	NN	UTR|SIN|IND|NOM	24	PA	_	_
 26	med	_	PP	PP	_	19	OA	_	_
-27	över	_	AB	AB	_	28	AA	_	_
+27	över	_	PP	PP	_	28	AA	_	_
 28	300	_	RG	RG	NOM	29	DT	_	_
 29	kr	_	NN	NN	AN	26	PA	_	_
 30	om	_	PP	PP	_	29	ET	_	_
@@ -16173,9 +16173,9 @@
 7	som	_	KN	KN	_	2	KA	_	_
 8	Pakistans	_	PM	PM	GEN	7	UA	_	_
 9	-	_	MID	MID	_	2	IT	_	_
-10	Pakistan	_	PM	PM	NOM	11	SS	_	_
+10	Pakistan	_	NN	NN	NOM	11	SS	_	_
 11	har	_	VB	VB	PRS|AKT	2	MS	_	_
-12	över	_	AB	AB	_	13	AA	_	_
+12	över	_	PP	PP	_	13	AA	_	_
 13	105	_	RG	RG	NOM	14	DT	_	_
 14	miljoner	_	NN	NN	UTR|PLU|IND|NOM	15	DT	_	_
 15	invånare	_	NN	NN	UTR|PLU|IND|NOM	11	OO	_	_
@@ -16217,11 +16217,11 @@
 5	u-länderna	_	NN	NN	NEU|PLU|DEF|NOM	4	PA	_	_
 6	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 7	genomsnittsinkomsten	_	NN	NN	UTR|SIN|DEF|NOM	6	SS	_	_
-8	under	_	AB	AB	_	14	AA	_	_
+8	under	_	PP	PP	_	14	AA	_	_
 9	,	_	MID	MID	_	8	IK	_	_
 10	ofta	_	AB	AB	POS	8	TA	_	_
 11	långt	_	AB	AB	POS	12	AA	_	_
-12	under	_	AB	AB	_	8	AA	_	_
+12	under	_	PP	PP	_	8	AA	_	_
 13	,	_	MID	MID	_	8	IK	_	_
 14	700	_	RG	RG	NOM	15	DT	_	_
 15	kr	_	NN	NN	AN	6	SP	_	_
@@ -16244,7 +16244,7 @@
 1	I	_	PP	PP	_	3	RA	_	_
 2	U-länderna	_	NN	NN	NEU|PLU|DEF|NOM	1	PA	_	_
 3	bor	_	VB	VB	PRS|AKT	0	ROOT	_	_
-4	över	_	AB	AB	_	5	AA	_	_
+4	över	_	PP	PP	_	5	AA	_	_
 5	2	_	RG	RG	NOM	6	DT	_	_
 6	miljarder	_	NN	NN	UTR|PLU|IND|NOM	7	DT	_	_
 7	människor	_	NN	NN	UTR|PLU|IND|NOM	3	SS	_	_
@@ -16309,7 +16309,7 @@
 5	,	_	MID	MID	_	3	IK	_	_
 6	10	_	RG	RG	NOM	7	DT	_	_
 7	miljoner	_	NN	NN	UTR|PLU|IND|NOM	3	+F	_	_
-8	spetälska	_	NN	NN	UTR|SIN|IND|NOM	7	OO	_	_
+8	spetälska	_	JJ	JJ	UTR|SIN|IND|NOM	7	OO	_	_
 9	,	_	MID	MID	_	3	IK	_	_
 10	400	_	RG	RG	NOM	11	DT	_	_
 11	miljoner	_	NN	NN	UTR|PLU|IND|NOM	7	+F	_	_
@@ -16337,7 +16337,7 @@
 8	10	_	RG	RG	NOM	9	DT	_	_
 9	gram	_	NN	NN	NEU|PLU|IND|NOM	6	SP	_	_
 10	-	_	MID	MID	_	6	IT	_	_
-11	över	_	AB	AB	_	12	AA	_	_
+11	över	_	PP	PP	_	12	AA	_	_
 12	50	_	RG	RG	NOM	6	+F	_	_
 13	i	_	PP	PP	_	12	RA	_	_
 14	i-länderna	_	NN	NN	NEU|PLU|DEF|NOM	13	PA	_	_
@@ -16373,12 +16373,12 @@
 21	-	_	MID	MID	_	3	IT	_	_
 22	i	_	PP	PP	_	25	RA	_	_
 23	Sverige	_	PM	PM	NOM	22	PA	_	_
-24	under	_	AB	AB	_	25	AA	_	_
+24	under	_	PP	PP	_	25	AA	_	_
 25	1000	_	RG	RG	NOM	20	+F	_	_
 26	,	_	MID	MID	_	25	IK	_	_
 27	i	_	PP	PP	_	30	RA	_	_
 28	USA	_	PM	PM	NOM	27	PA	_	_
-29	under	_	AB	AB	_	30	AA	_	_
+29	under	_	PP	PP	_	30	AA	_	_
 30	700	_	RG	RG	NOM	25	+F	_	_
 31	.	_	MAD	MAD	_	3	IP	_	_
 
@@ -16399,7 +16399,7 @@
 
 1	Jag	_	PN	PN	UTR|SIN|DEF|SUB	2	SS	_	_
 2	hade	_	VB	VB	PRT|AKT	0	ROOT	_	_
-3	svårt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	2	OO	_	_
+3	svårt	_	AB	AB	POS|NEU|SIN|IND|NOM	2	OO	_	_
 4	att	_	IE	IE	_	2	OA	_	_
 5	få	_	VB	VB	INF|AKT	4	IF	_	_
 6	någon	_	DT	DT	UTR|SIN|IND	7	DT	_	_
@@ -16463,7 +16463,7 @@
 5	en	_	DT	DT	UTR|SIN|IND	6	DT	_	_
 6	aftontidning	_	NN	NN	UTR|SIN|IND|NOM	4	PA	_	_
 7	igår	_	AB	AB	_	2	TA	_	_
-8	som	_	HP	HP	-|-|-	9	SS	_	_
+8	som	_	KN	KN	-|-|-	9	SS	_	_
 9	snuddade	_	VB	VB	PRT|AKT	3	ET	_	_
 10	vid	_	PP	PP	_	9	OA	_	_
 11	jämlikhetsproblemet	_	NN	NN	NEU|SIN|DEF|NOM	10	PA	_	_
@@ -16501,16 +16501,16 @@
 4	om	_	PP	PP	_	3	ET	_	_
 5	kvinnans	_	NN	NN	UTR|SIN|DEF|GEN	6	DT	_	_
 6	roll	_	NN	NN	UTR|SIN|IND|NOM	4	PA	_	_
-7	som	_	HP	HP	-|-|-	11	PA	_	_
+7	som	_	KN	KN	-|-|-	11	PA	_	_
 8	jag	_	PN	PN	UTR|SIN|DEF|SUB	9	SS	_	_
 9	reagerade	_	VB	VB	PRT|AKT	3	ET	_	_
 10	starkt	_	AB	AB	POS	9	AA	_	_
-11	emot	_	PP	PP	_	9	OA	_	_
+11	emot	_	PL	PL	_	9	OA	_	_
 12	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Jag	_	PN	PN	UTR|SIN|DEF|SUB	2	SS	_	_
 2	gick	_	VB	VB	PRT|AKT	6	MS	_	_
-3	ner	_	AB	AB	_	2	RA	_	_
+3	ner	_	PL	PL	_	2	RA	_	_
 4	till	_	PP	PP	_	3	RA	_	_
 5	matrummet	_	NN	NN	NEU|SIN|DEF|NOM	4	PA	_	_
 6	och	_	KN	KN	_	0	ROOT	_	_
@@ -16560,7 +16560,7 @@
 21	gjort	_	VB	VB	SUP|AKT	20	VG	_	_
 22	namnet	_	NN	NN	NEU|SIN|DEF|NOM	23	DT	_	_
 23	Kennedy	_	PM	PM	NOM	21	OO	_	_
-24	känt	_	PC	PC	PRF|NEU|SIN|IND|NOM	21	OP	_	_
+24	känt	_	VB	VB	PRF|NEU|SIN|IND|NOM	21	OP	_	_
 25	i	_	PP	PP	_	21	RA	_	_
 26	hela	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	27	DT	_	_
 27	världen	_	NN	NN	UTR|SIN|DEF|NOM	25	PA	_	_
@@ -16614,7 +16614,7 @@
 1	Man	_	PN	PN	UTR|SIN|IND|SUB	2	SS	_	_
 2	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	sällan	_	AB	AB	_	2	TA	_	_
-4	tänkt	_	VB	VB	SUP|AKT	2	VG	_	_
+4	tänkt	_	PC	PC	SUP|AKT	2	VG	_	_
 5	på	_	PP	PP	_	4	OA	_	_
 6	dem	_	PN	PN	UTR/NEU|PLU|DEF|OBJ	5	PA	_	_
 7	som	_	HP	HP	-|-|-	9	SS	_	_
@@ -16638,7 +16638,7 @@
 4	den	_	DT	DT	UTR|SIN|DEF	6	DT	_	_
 5	heliga	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	6	AT	_	_
 6	modersrollen	_	NN	NN	UTR|SIN|DEF|NOM	3	OO	_	_
-7	på	_	PL	PL	_	3	PL	_	_
+7	på	_	PP	PP	_	3	PL	_	_
 8	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	3	IO	_	_
 9	,	_	MID	MID	_	3	IK	_	_
 10	uppfostra	_	VB	VB	INF|AKT	13	+F	_	_
@@ -16682,7 +16682,7 @@
 24	mycket	_	AB	AB	POS	20	AA	_	_
 25	att	_	IE	IE	_	20	OA	_	_
 26	tala	_	VB	VB	INF|AKT	25	IF	_	_
-27	om	_	PP	PP	_	26	OA	_	_
+27	om	_	PL	PL	_	26	OA	_	_
 28	.	_	MAD	MAD	_	14	IP	_	_
 
 1	Den	_	DT	DT	UTR|SIN|DEF	3	DT	_	_
@@ -16830,14 +16830,14 @@
 17	större	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	18	AT	_	_
 18	förståelse	_	NN	NN	UTR|SIN|IND|NOM	19	CJ	_	_
 19	och	_	KN	KN	_	16	PA	_	_
-20	mera	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	21	DT	_	_
+20	mera	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	21	DT	_	_
 21	gemenskap	_	NN	NN	UTR|SIN|IND|NOM	19	CJ	_	_
 22	.	_	MAD	MAD	_	3	IP	_	_
 
 1	Genom	_	PP	PP	_	6	AA	_	_
-2	att	_	SN	SN	_	1	PA	_	_
-3	båda	_	PN	PN	UTR/NEU|PLU|DEF|SUB/OBJ	4	SS	_	_
-4	delar	_	VB	VB	PRS|AKT	2	UA	_	_
+2	att	_	IE	IE	_	1	PA	_	_
+3	båda	_	JJ	JJ	UTR/NEU|PLU|DEF|SUB/OBJ	4	SS	_	_
+4	delar	_	NN	NN	PRS|AKT	2	UA	_	_
 5	yrkeslivet	_	NN	NN	NEU|SIN|DEF|NOM	4	OO	_	_
 6	går	_	VB	VB	PRS|AKT	0	ROOT	_	_
 7	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	6	FS	_	_
@@ -16886,7 +16886,7 @@
 14	hemma	_	AB	AB	_	10	RA	_	_
 15	lika	_	AB	AB	_	16	AA	_	_
 16	mycket	_	AB	AB	POS	2	AA	_	_
-17	som	_	KN	KN	_	2	KA	_	_
+17	som	_	HA	HA	_	2	KA	_	_
 18	att	_	SN	SN	_	17	UA	_	_
 19	kvinnan	_	NN	NN	UTR|SIN|DEF|NOM	20	SS	_	_
 20	delar	_	VB	VB	PRS|AKT	18	UA	_	_
@@ -16902,7 +16902,7 @@
 3	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	2	OO	_	_
 4	bra	_	AB	AB	POS	5	CJ	_	_
 5	och	_	KN	KN	_	2	AA	_	_
-6	bättre	_	AB	AB	KOM	5	CJ	_	_
+6	bättre	_	JJ	JJ	KOM	5	CJ	_	_
 7	om	_	SN	SN	_	2	AA	_	_
 8	man	_	PN	PN	UTR|SIN|IND|SUB	9	SS	_	_
 9	uppmuntrar	_	VB	VB	PRS|AKT	7	UA	_	_
@@ -17015,7 +17015,7 @@
 3	någonsin	_	AB	AB	_	1	TA	_	_
 4	frågat	_	VB	VB	SUP|AKT	1	VG	_	_
 5	oss	_	PN	PN	UTR|PLU|DEF|OBJ	4	IO	_	_
-6	om	_	SN	SN	_	4	OO	_	_
+6	om	_	PP	PP	_	4	OO	_	_
 7	människorna	_	NN	NN	UTR|PLU|DEF|NOM	20	SS	_	_
 8	som	_	HP	HP	-|-|-	9	SS	_	_
 9	arbetar	_	VB	VB	PRS|AKT	7	ET	_	_
@@ -17048,7 +17048,7 @@
 
 1	Hur	_	HA	HA	_	2	AA	_	_
 2	arbetar	_	VB	VB	PRS|AKT	0	ROOT	_	_
-3	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
+3	de	_	DT	DT	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
 4	pedagogiskt	_	AB	AB	POS	2	AA	_	_
 5	?	_	MAD	MAD	_	2	I?	_	_
 
@@ -17060,7 +17060,7 @@
 6	vilken	_	HD	HD	UTR|SIN|IND	7	DT	_	_
 7	riktning	_	NN	NN	UTR|SIN|IND|NOM	5	PA	_	_
 8	indoktrinerar	_	VB	VB	PRS|AKT	0	ROOT	_	_
-9	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	8	SS	_	_
+9	de	_	DT	DT	UTR/NEU|PLU|DEF|SUB	8	SS	_	_
 10	våra	_	PS	PS	UTR/NEU|PLU|DEF	11	DT	_	_
 11	barns	_	NN	NN	NEU|PLU|IND|GEN	13	DT	_	_
 12	tänkande	_	NN	NN	NEU|SIN|IND|NOM	13	CJ	_	_
@@ -17104,7 +17104,7 @@
 1	Jag	_	PN	PN	UTR|SIN|DEF|SUB	3	CJ	_	_
 2	-	_	MID	MID	_	1	IT	_	_
 3	och	_	KN	KN	_	8	SS	_	_
-4	många	_	PN	PN	UTR/NEU|PLU|IND|SUB/OBJ	3	CJ	_	_
+4	många	_	JJ	JJ	UTR/NEU|PLU|IND|SUB/OBJ	3	CJ	_	_
 5	med	_	PP	PP	_	4	ET	_	_
 6	mig	_	PN	PN	UTR|SIN|DEF|OBJ	5	PA	_	_
 7	-	_	MID	MID	_	4	JT	_	_
@@ -17144,8 +17144,8 @@
 7	att	_	IE	IE	_	3	ES	_	_
 8	berätta	_	VB	VB	INF|AKT	7	IF	_	_
 9	-	_	MID	MID	_	10	IT	_	_
-10	för	_	KN	KN	_	0	ROOT	_	_
-11	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	12	SS	_	_
+10	för	_	PP	PP	_	0	ROOT	_	_
+11	de	_	DT	DT	UTR/NEU|PLU|DEF|SUB	12	SS	_	_
 12	uppskattar	_	VB	VB	PRS|AKT	10	MS	_	_
 13	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	12	OO	_	_
 14	-	_	MID	MID	_	10	JT	_	_
@@ -17160,7 +17160,7 @@
 
 1	Men	_	KN	KN	_	0	ROOT	_	_
 2	använder	_	VB	VB	PRS|AKT	1	MS	_	_
-3	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
+3	de	_	DT	DT	UTR/NEU|PLU|DEF|SUB	2	SS	_	_
 4	kunskaperna	_	NN	NN	UTR|PLU|DEF|NOM	2	OO	_	_
 5	i	_	PP	PP	_	4	ET	_	_
 6	till	_	PP	PP	_	8	CA	_	_
@@ -17174,8 +17174,8 @@
 3	kvinnodominerade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	2	SP	_	_
 4	och	_	KN	KN	_	0	ROOT	_	_
 5	blir	_	VB	VB	PRS|AKT	4	+F	_	_
-6	ensidigt	_	AB	AB	POS	7	AA	_	_
-7	påverkade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	5	SP	_	_
+6	ensidigt	_	JJ	JJ	POS	7	AA	_	_
+7	påverkade	_	VB	VB	PRF|UTR/NEU|PLU|IND/DEF|NOM	5	SP	_	_
 8	från	_	PP	PP	_	5	TA	_	_
 9	allra	_	AB	AB	_	10	AA	_	_
 10	första	_	RO	RO	NOM	11	DT	_	_
@@ -17184,7 +17184,7 @@
 
 1	Mor	_	NN	NN	UTR|SIN|IND|NOM	2	SS	_	_
 2	sköter	_	VB	VB	PRS|AKT	0	ROOT	_	_
-3	om	_	PL	PL	_	2	PL	_	_
+3	om	_	PP	PP	_	2	PL	_	_
 4	dem	_	PN	PN	UTR/NEU|PLU|DEF|OBJ	2	OA	_	_
 5	,	_	MID	MID	_	2	IK	_	_
 6	hon	_	PN	PN	UTR|SIN|DEF|SUB	7	SS	_	_
@@ -17325,7 +17325,7 @@
 5	hellre	_	AB	AB	KOM	2	AA	_	_
 6	på	_	PP	PP	_	2	OA	_	_
 7	äktenskapet	_	NN	NN	NEU|SIN|DEF|NOM	6	PA	_	_
-8	som	_	KN	KN	_	2	OP	_	_
+8	som	_	HP	HP	_	2	OP	_	_
 9	yrke	_	NN	NN	NEU|SIN|IND|NOM	8	UA	_	_
 10	.	_	MAD	MAD	_	2	IP	_	_
 
@@ -17343,7 +17343,7 @@
 12	kombineras	_	VB	VB	INF|SFO	11	VG	_	_
 13	med	_	PP	PP	_	12	OA	_	_
 14	tillvaron	_	NN	NN	UTR|SIN|DEF|NOM	13	PA	_	_
-15	som	_	KN	KN	_	14	AN	_	_
+15	som	_	HP	HP	_	14	AN	_	_
 16	hemmafru	_	NN	NN	UTR|SIN|IND|NOM	15	UA	_	_
 17	eller	_	KN	KN	_	1	+F	_	_
 18	yrken	_	NN	NN	NEU|PLU|IND|NOM	17	CJ	_	_
@@ -17355,7 +17355,7 @@
 24	hemmafruar	_	NN	NN	UTR|PLU|IND|NOM	23	SP	_	_
 25	.	_	MAD	MAD	_	1	IP	_	_
 
-1	För	_	KN	KN	_	3	+A	_	_
+1	För	_	PP	PP	_	3	+A	_	_
 2	mannen	_	NN	NN	UTR|SIN|DEF|NOM	6	OO	_	_
 3	skall	_	VB	VB	PRS|AKT	0	ROOT	_	_
 4	man	_	PN	PN	UTR|SIN|IND|SUB	3	SS	_	_
@@ -17369,7 +17369,7 @@
 12	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	13	SS	_	_
 13	skulle	_	VB	VB	PRT|AKT	3	MS	_	_
 14	bli	_	VB	VB	INF|AKT	13	VG	_	_
-15	för	_	AB	AB	_	16	AA	_	_
+15	för	_	PP	PP	_	16	AA	_	_
 16	svårt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	14	SP	_	_
 17	att	_	IE	IE	_	14	KA	_	_
 18	genomföra	_	VB	VB	INF|AKT	17	IF	_	_
@@ -17426,7 +17426,7 @@
 18	och	_	KN	KN	_	0	ROOT	_	_
 19	vi	_	PN	PN	UTR|PLU|DEF|SUB	20	SS	_	_
 20	har	_	VB	VB	PRS|AKT	18	MS	_	_
-21	svårt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	20	OO	_	_
+21	svårt	_	AB	AB	POS|NEU|SIN|IND|NOM	20	OO	_	_
 22	att	_	IE	IE	_	20	OA	_	_
 23	tänka	_	VB	VB	INF|AKT	22	IF	_	_
 24	oss	_	PN	PN	UTR|PLU|DEF|OBJ	23	IO	_	_
@@ -17495,7 +17495,7 @@
 21	föreställningar	_	NN	NN	UTR|PLU|IND|NOM	19	PA	_	_
 22	om	_	PP	PP	_	21	ET	_	_
 23	familjen	_	NN	NN	UTR|SIN|DEF|NOM	22	PA	_	_
-24	som	_	KN	KN	_	23	ET	_	_
+24	som	_	HP	HP	_	23	ET	_	_
 25	garant	_	NN	NN	UTR|SIN|IND|NOM	24	UA	_	_
 26	för	_	PP	PP	_	30	CJ	_	_
 27	omtanken	_	NN	NN	UTR|SIN|DEF|NOM	26	PA	_	_
@@ -17516,7 +17516,7 @@
 42	och	_	KN	KN	_	31	PA	_	_
 43	hög	_	JJ	JJ	POS|UTR|SIN|IND|NOM	47	AT	_	_
 44	(	_	PAD	PAD	_	47	IR	_	_
-45	sexual-	_	JJ	JJ	POS|UTR|-|-|SMS	47	AT	_	_
+45	sexual-	_	NN	NN	POS|UTR|-|-|SMS	47	AT	_	_
 46	)	_	PAD	PAD	_	47	JR	_	_
 47	moral	_	NN	NN	UTR|SIN|IND|NOM	42	CJ	_	_
 48	.	_	MAD	MAD	_	2	IP	_	_
@@ -17532,9 +17532,9 @@
 9	till	_	PP	PP	_	3	OA	_	_
 10	pappa-mamma-barn-familjen	_	NN	NN	UTR|SIN|DEF|NOM	9	PA	_	_
 11	,	_	MID	MID	_	3	IK	_	_
-12	var	_	PN	PN	UTR|SIN|IND|SUB/OBJ	3	FP	_	_
+12	var	_	VB	VB	UTR|SIN|IND|SUB/OBJ	3	FP	_	_
 13	och	_	KN	KN	_	12	HD	_	_
-14	en	_	PN	PN	UTR|SIN|IND|SUB/OBJ	12	HD	_	_
+14	en	_	DT	DT	UTR|SIN|IND|SUB/OBJ	12	HD	_	_
 15	inom	_	PP	PP	_	18	CJ	_	_
 16	sitt	_	PS	PS	NEU|SIN|DEF	17	DT	_	_
 17	revir	_	NN	NN	NEU|SIN|IND|NOM	15	PA	_	_
@@ -17542,7 +17542,7 @@
 19	i	_	PP	PP	_	18	CJ	_	_
 20	sin	_	PS	PS	UTR|SIN|DEF	21	DT	_	_
 21	lägenhet	_	NN	NN	UTR|SIN|IND|NOM	19	PA	_	_
-22	bak	_	PP	PP	_	21	ET	_	_
+22	bak	_	AB	AB	_	21	ET	_	_
 23	låsta	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	24	AT	_	_
 24	dörrar	_	NN	NN	UTR|PLU|IND|NOM	22	PA	_	_
 25	.	_	MAD	MAD	_	1	IP	_	_
@@ -17557,7 +17557,7 @@
 8	ansatser	_	NN	NN	UTR|PLU|IND|NOM	31	OO	_	_
 9	till	_	PP	PP	_	8	ET	_	_
 10	en	_	DT	DT	UTR|SIN|IND	12	DT	_	_
-11	vidare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	12	AT	_	_
+11	vidare	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	12	AT	_	_
 12	gemenskap	_	NN	NN	UTR|SIN|IND|NOM	9	PA	_	_
 13	som	_	HP	HP	-|-|-	15	OO	_	_
 14	vi	_	PN	PN	UTR|PLU|DEF|SUB	15	SS	_	_
@@ -17573,12 +17573,12 @@
 24	gården	_	NN	NN	UTR|SIN|DEF|NOM	23	PA	_	_
 25	i	_	PP	PP	_	24	ET	_	_
 26	kvarterets	_	NN	NN	NEU|SIN|DEF|GEN	27	DT	_	_
-27	mitt	_	NN	NN	UTR|SIN|IND|NOM	25	PA	_	_
+27	mitt	_	AB	AB	UTR|SIN|IND|NOM	25	PA	_	_
 28	har	_	VB	VB	PRS|AKT	6	MS	_	_
 29	vi	_	PN	PN	UTR|PLU|DEF|SUB	28	SS	_	_
 30	inte	_	AB	AB	_	28	NA	_	_
 31	tagit	_	VB	VB	SUP|AKT	28	VG	_	_
-32	med	_	PP	PP	_	31	OA	_	_
+32	med	_	PL	PL	_	31	OA	_	_
 33	oss	_	PN	PN	UTR|PLU|DEF|OBJ	32	PA	_	_
 34	till	_	PP	PP	_	31	RA	_	_
 35	våra	_	PS	PS	UTR/NEU|PLU|DEF	38	DT	_	_
@@ -17592,19 +17592,19 @@
 3	ideal	_	NN	NN	NEU|SIN|IND|NOM	4	SP	_	_
 4	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 5	fortfarande	_	AB	AB	_	4	TA	_	_
-6	Sörgårdsfamiljen	_	NN	NN	UTR|SIN|DEF|NOM	4	SS	_	_
+6	Sörgårdsfamiljen	_	PM	PM	UTR|SIN|DEF|NOM	4	SS	_	_
 7	åtminstone	_	AB	AB	_	8	CA	_	_
 8	byggs	_	VB	VB	PRS|SFO	4	MS	_	_
 9	lägenheterna	_	NN	NN	UTR|PLU|DEF|NOM	8	SS	_	_
 10	,	_	MID	MID	_	8	IK	_	_
-11	fast	_	SN	SN	_	8	AA	_	_
+11	fast	_	KN	KN	_	8	AA	_	_
 12	ytan	_	NN	NN	UTR|SIN|DEF|NOM	13	SS	_	_
 13	har	_	VB	VB	PRS|AKT	11	UA	_	_
 14	krympt	_	VB	VB	SUP|AKT	13	VG	_	_
 15	,	_	MID	MID	_	8	IK	_	_
 16	fortfarande	_	AB	AB	_	8	TA	_	_
 17	för	_	PP	PP	_	8	OA	_	_
-18	fullt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	19	AT	_	_
+18	fullt	_	AB	AB	POS|NEU|SIN|IND|NOM	19	AT	_	_
 19	självhushåll	_	NN	NN	NEU|SIN|IND|NOM	17	PA	_	_
 20	.	_	MAD	MAD	_	4	IP	_	_
 
@@ -17617,7 +17617,7 @@
 7	mor	_	NN	NN	UTR|SIN|IND|NOM	4	CJ	_	_
 8	sätter	_	VB	VB	PRS|AKT	20	MS	_	_
 9	fortfarande	_	AB	AB	_	8	TA	_	_
-10	bo	_	NN	NN	NEU|SIN|IND|NOM	8	OO	_	_
+10	bo	_	VB	VB	NEU|SIN|IND|NOM	8	OO	_	_
 11	med	_	PP	PP	_	8	AA	_	_
 12	eget	_	JJ	JJ	POS|NEU|SIN|IND/DEF|NOM	13	DT	_	_
 13	linneförråd	_	NN	NN	NEU|SIN|IND|NOM	14	CJ	_	_
@@ -17633,7 +17633,7 @@
 23	bra	_	AB	AB	POS	22	AA	_	_
 24	så	_	AB	AB	_	22	TA	_	_
 25	länge	_	AB	AB	POS	24	HD	_	_
-26	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	28	SS	_	_
+26	den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	28	SS	_	_
 27	ingenting	_	PN	PN	NEU|SIN|IND|SUB/OBJ	28	OO	_	_
 28	kräver	_	VB	VB	PRS|AKT	24	UA	_	_
 29	,	_	MID	MID	_	24	IK	_	_
@@ -17652,7 +17652,7 @@
 42	eller	_	KN	KN	_	31	UA	_	_
 43	i	_	PP	PP	_	42	+F	_	_
 44	den	_	DT	DT	UTR|SIN|DEF	47	DT	_	_
-45	maskinellt	_	AB	AB	POS	46	AA	_	_
+45	maskinellt	_	JJ	JJ	POS	46	AA	_	_
 46	topprustade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	47	AT	_	_
 47	lägenheten	_	NN	NN	UTR|SIN|DEF|NOM	43	PA	_	_
 48	,	_	MID	MID	_	43	IK	_	_
@@ -17693,7 +17693,7 @@
 8	växer	_	VB	VB	PRS|AKT	6	+F	_	_
 9	hankar	_	VB	VB	PRS|AKT	0	ROOT	_	_
 10	man	_	PN	PN	UTR|SIN|IND|SUB	9	SS	_	_
-11	sej	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	9	OO	_	_
+11	sej	_	VB	VB	UTR/NEU|SIN/PLU|DEF|OBJ	9	OO	_	_
 12	fram	_	PL	PL	_	9	PL	_	_
 13	med	_	PP	PP	_	9	AA	_	_
 14	de	_	DT	DT	UTR/NEU|PLU|DEF	16	DT	_	_
@@ -17730,7 +17730,7 @@
 45	barnens	_	NN	NN	NEU|PLU|DEF|GEN	46	DT	_	_
 46	liv	_	NN	NN	NEU|SIN|IND|NOM	44	PA	_	_
 47	,	_	MID	MID	_	16	AN	_	_
-48	det	_	DT	DT	NEU|SIN|DEF	50	DT	_	_
+48	det	_	PN	PN	NEU|SIN|DEF	50	DT	_	_
 49	knepiga	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	50	AT	_	_
 50	trebarnssystemet	_	NN	NN	NEU|SIN|DEF|NOM	47	CJ	_	_
 51	där	_	HA	HA	_	54	RA	_	_
@@ -17745,7 +17745,7 @@
 60	sköterska	_	NN	NN	UTR|SIN|IND|NOM	57	PA	_	_
 61	-	_	MID	MID	_	62	IT	_	_
 62	men	_	KN	KN	_	50	ET	_	_
-63	där	_	HA	HA	_	67	RA	_	_
+63	där	_	AB	AB	_	67	RA	_	_
 64	barnen	_	NN	NN	NEU|PLU|DEF|NOM	67	SS	_	_
 65	lika	_	AB	AB	_	66	AA	_	_
 66	lite	_	AB	AB	POS	67	AA	_	_
@@ -17784,7 +17784,7 @@
 12	,	_	MID	MID	_	14	IK	_	_
 13	grupptåliga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	14	CJ	_	_
 14	,	_	MID	MID	_	16	AT	_	_
-15	utåtriktade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	14	CJ	_	_
+15	utåtriktade	_	JJ	JJ	PRF|UTR/NEU|PLU|IND/DEF|NOM	14	CJ	_	_
 16	barn	_	NN	NN	NEU|PLU|IND|NOM	10	PA	_	_
 17	.	_	MAD	MAD	_	1	IP	_	_
 
@@ -17801,7 +17801,7 @@
 11	en	_	DT	DT	UTR|SIN|IND	13	DT	_	_
 12	färsk	_	JJ	JJ	POS|UTR|SIN|IND|NOM	13	AT	_	_
 13	undersökning	_	NN	NN	UTR|SIN|IND|NOM	10	SS	_	_
-14	att	_	SN	SN	_	10	OO	_	_
+14	att	_	IE	IE	_	10	OO	_	_
 15	daghemsbarn	_	NN	NN	NEU|PLU|IND|NOM	16	SS	_	_
 16	är	_	VB	VB	PRS|AKT	14	UA	_	_
 17	självständigare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	22	CJ	_	_
@@ -17965,7 +17965,7 @@
 16	hänsyn	_	NN	NN	UTR|SIN|IND|NOM	15	OO	_	_
 17	till	_	PP	PP	_	15	OA	_	_
 18	att	_	SN	SN	_	17	PA	_	_
-19	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	20	SS	_	_
+19	de	_	DT	DT	UTR/NEU|PLU|DEF|SUB	20	SS	_	_
 20	startades	_	VB	VB	PRT|SFO	18	UA	_	_
 21	under	_	PP	PP	_	20	AA	_	_
 22	hårt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	24	AT	_	_
@@ -18000,7 +18000,7 @@
 6	här	_	AB	AB	_	2	RA	_	_
 7	vore	_	VB	VB	KON|PRT|AKT	0	ROOT	_	_
 8	ungefär	_	AB	AB	_	7	AA	_	_
-9	som	_	KN	KN	_	7	KA	_	_
+9	som	_	HA	HA	_	7	KA	_	_
 10	att	_	IE	IE	_	9	UA	_	_
 11	fostra	_	VB	VB	INF|AKT	10	IF	_	_
 12	spartaner	_	NN	NN	UTR|PLU|IND|NOM	11	OO	_	_
@@ -18013,7 +18013,7 @@
 3	erfarenheterna	_	NN	NN	UTR|PLU|DEF|NOM	2	SS	_	_
 4	från	_	PP	PP	_	3	ET	_	_
 5	helt	_	AB	AB	POS	6	AA	_	_
-6	annorlunda	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	7	AT	_	_
+6	annorlunda	_	AB	AB	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	7	AT	_	_
 7	kulturer	_	NN	NN	UTR|PLU|IND|NOM	4	PA	_	_
 8	intressantare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	2	SP	_	_
 9	,	_	MID	MID	_	2	IK	_	_
@@ -18025,7 +18025,7 @@
 15	där	_	HA	HA	_	17	RA	_	_
 16	pappan	_	NN	NN	UTR|SIN|DEF|NOM	17	SS	_	_
 17	hade	_	VB	VB	PRT|AKT	24	CJ	_	_
-18	det	_	DT	DT	NEU|SIN|DEF	20	DT	_	_
+18	det	_	PN	PN	NEU|SIN|DEF	20	DT	_	_
 19	huvudsakliga	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	20	AT	_	_
 20	ansvaret	_	NN	NN	NEU|SIN|DEF|NOM	17	OO	_	_
 21	för	_	PP	PP	_	17	OA	_	_
@@ -18041,7 +18041,7 @@
 31	hos	_	PP	PP	_	28	RA	_	_
 32	alla	_	DT	DT	UTR/NEU|PLU|IND/DEF	33	DT	_	_
 33	vuxna	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	31	PA	_	_
-34	om	_	SN	SN	_	29	AA	_	_
+34	om	_	PP	PP	_	29	AA	_	_
 35	pappan	_	NN	NN	UTR|SIN|DEF|NOM	36	CJ	_	_
 36	eller	_	KN	KN	_	39	SS	_	_
 37	mamman	_	NN	NN	UTR|SIN|DEF|NOM	36	CJ	_	_
@@ -18078,7 +18078,7 @@
 5	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 6	vi	_	PN	PN	UTR|PLU|DEF|SUB	5	SS	_	_
 7	studera	_	VB	VB	INF|AKT	5	VG	_	_
-8	där	_	HA	HA	_	11	RA	_	_
+8	där	_	AB	AB	_	11	RA	_	_
 9	zigenarna	_	NN	NN	UTR|PLU|DEF|NOM	11	SS	_	_
 10	ännu	_	AB	AB	_	11	TA	_	_
 11	lever	_	VB	VB	PRS|AKT	7	RA	_	_
@@ -18117,7 +18117,7 @@
 27	än	_	KN	KN	_	26	ET	_	_
 28	ett	_	DT	DT	NEU|SIN|IND	30	DT	_	_
 29	absolut	_	JJ	JJ	POS|NEU|SIN|IND|NOM	30	AT	_	_
-30	beroende	_	NN	NN	NEU|SIN|IND|NOM	27	UA	_	_
+30	beroende	_	PC	PC	NEU|SIN|IND|NOM	27	UA	_	_
 31	.	_	MAD	MAD	_	7	IP	_	_
 
 1	Storfamiljeiden	_	NN	NN	UTR|SIN|DEF|NOM	2	SS	_	_
@@ -18128,7 +18128,7 @@
 6	sistone	_	AB	AB	_	5	HD	_	_
 7	.	_	MAD	MAD	_	2	IP	_	_
 
-1	Den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
+1	Den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	2	SS	_	_
 2	praktiseras	_	VB	VB	PRS|SFO	0	ROOT	_	_
 3	på	_	PP	PP	_	2	RA	_	_
 4	några	_	DT	DT	UTR/NEU|PLU|IND	5	DT	_	_
@@ -18143,7 +18143,7 @@
 13	flyttar	_	VB	VB	PRS|AKT	15	MS	_	_
 14	ihop	_	PL	PL	_	13	PL	_	_
 15	och	_	KN	KN	_	7	UA	_	_
-16	delar	_	VB	VB	PRS|AKT	15	+F	_	_
+16	delar	_	NN	NN	PRS|AKT	15	+F	_	_
 17	på	_	PP	PP	_	16	OA	_	_
 18	barnavården	_	NN	NN	UTR|SIN|DEF|NOM	19	CJ	_	_
 19	och	_	KN	KN	_	17	PA	_	_
@@ -18249,7 +18249,7 @@
 3	har	_	VB	VB	PRS|AKT	1	MS	_	_
 4	vi	_	PN	PN	UTR|PLU|DEF|SUB	3	SS	_	_
 5	inte	_	AB	AB	_	3	NA	_	_
-6	mycket	_	PN	PN	NEU|SIN|IND|SUB/OBJ	3	OO	_	_
+6	mycket	_	AB	AB	NEU|SIN|IND|SUB/OBJ	3	OO	_	_
 7	att	_	IE	IE	_	6	ET	_	_
 8	utgå	_	VB	VB	INF|AKT	7	IF	_	_
 9	från	_	PP	PP	_	8	OA	_	_
@@ -18279,25 +18279,25 @@
 9	ångestskapande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	10	AT	_	_
 10	beroendet	_	NN	NN	NEU|SIN|DEF|NOM	7	PA	_	_
 11	av	_	PP	PP	_	10	ET	_	_
-12	en	_	RG	RG	UTR|SIN|IND|NOM	14	DT	_	_
+12	en	_	DT	DT	UTR|SIN|IND|NOM	14	DT	_	_
 13	enda	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	14	DT	_	_
 14	person	_	NN	NN	UTR|SIN|IND|NOM	11	PA	_	_
 15	-	_	MID	MID	_	2	IT	_	_
 16	vem	_	HP	HP	UTR|SIN|IND	20	SP	_	_
 17	denna	_	DT	DT	UTR|SIN|DEF	18	DT	_	_
 18	person	_	NN	NN	UTR|SIN|IND|NOM	20	SS	_	_
-19	än	_	AB	AB	_	20	+A	_	_
+19	än	_	KN	KN	_	20	+A	_	_
 20	är	_	VB	VB	PRS|AKT	21	AA	_	_
 21	blir	_	VB	VB	PRS|AKT	2	MS	_	_
 22	friktionsytan	_	NN	NN	UTR|SIN|DEF|NOM	21	SS	_	_
-23	abnormt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	24	AA	_	_
+23	abnormt	_	AB	AB	POS|NEU|SIN|IND|NOM	24	AA	_	_
 24	stor	_	JJ	JJ	POS|UTR|SIN|IND|NOM	21	SP	_	_
 25	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Och	_	KN	KN	_	0	ROOT	_	_
 2	vi	_	PN	PN	UTR|PLU|DEF|SUB	3	SS	_	_
 3	måste	_	VB	VB	PRS|AKT	1	MS	_	_
-4	bort	_	AB	AB	_	3	RA	_	_
+4	bort	_	PL	PL	_	3	RA	_	_
 5	från	_	PP	PP	_	4	RA	_	_
 6	anstalten	_	NN	NN	UTR|SIN|DEF|NOM	5	PA	_	_
 7	där	_	HA	HA	_	9	RA	_	_
@@ -18326,14 +18326,14 @@
 30	avemotionaliserad	_	PC	PC	PRF|UTR|SIN|IND|NOM	29	CJ	_	_
 31	,	_	MID	MID	_	29	IK	_	_
 32	också	_	AB	AB	_	34	+A	_	_
-33	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	34	DT	_	_
+33	den	_	DT	DT	UTR|SIN|DEF|SUB/OBJ	34	DT	_	_
 34	isolerad	_	PC	PC	PRF|UTR|SIN|IND|NOM	29	CJ	_	_
 35	miljö	_	NN	NN	UTR|SIN|IND|NOM	6	AN	_	_
 36	utan	_	PP	PP	_	35	ET	_	_
 37	anknytningar	_	NN	NN	UTR|PLU|IND|NOM	36	PA	_	_
 38	till	_	PP	PP	_	37	ET	_	_
 39	världen	_	NN	NN	UTR|SIN|DEF|NOM	38	HD	_	_
-40	utanför	_	AB	AB	_	38	HD	_	_
+40	utanför	_	PP	PP	_	38	HD	_	_
 41	.	_	MAD	MAD	_	3	IP	_	_
 
 1	Låt	_	VB	VB	IMP|AKT	62	MS	_	_
@@ -18378,7 +18378,7 @@
 40	gemenskap	_	NN	NN	UTR|SIN|IND|NOM	38	CJ	_	_
 41	att	_	IE	IE	_	40	ET	_	_
 42	höra	_	VB	VB	INF|AKT	41	IF	_	_
-43	till	_	PP	PP	_	42	OA	_	_
+43	till	_	PL	PL	_	42	OA	_	_
 44	,	_	MID	MID	_	49	IK	_	_
 45	någon	_	PN	PN	UTR|SIN|IND|SUB/OBJ	49	CJ	_	_
 46	som	_	HP	HP	-|-|-	47	SS	_	_
@@ -18388,7 +18388,7 @@
 50	någon	_	PN	PN	UTR|SIN|IND|SUB/OBJ	49	CJ	_	_
 51	som	_	HP	HP	-|-|-	52	SS	_	_
 52	hör	_	VB	VB	PRS|AKT	50	ET	_	_
-53	på	_	PL	PL	_	52	PL	_	_
+53	på	_	PP	PP	_	52	PL	_	_
 54	-	_	MID	MID	_	62	IT	_	_
 55	allt	_	PN	PN	NEU|SIN|IND|SUB/OBJ	56	SS	_	_
 56	går	_	VB	VB	PRS|AKT	62	MS	_	_
@@ -18429,7 +18429,7 @@
 2	kan	_	VB	VB	PRS|AKT	7	MS	_	_
 3	formuleras	_	VB	VB	INF|SFO	2	VG	_	_
 4	så	_	AB	AB	_	5	AA	_	_
-5	olika	_	AB	AB	POS	3	AA	_	_
+5	olika	_	JJ	JJ	POS	3	AA	_	_
 6	-	_	MID	MID	_	7	IT	_	_
 7	men	_	KN	KN	_	0	ROOT	_	_
 8	i	_	PP	PP	_	11	+A	_	_
@@ -18442,14 +18442,14 @@
 15	inte	_	AB	AB	_	16	NA	_	_
 16	räcker	_	VB	VB	PRS|AKT	13	UA	_	_
 17	med	_	PP	PP	_	16	OA	_	_
-18	att	_	SN	SN	_	17	PA	_	_
+18	att	_	IE	IE	_	17	PA	_	_
 19	barn	_	NN	NN	NEU|PLU|IND|NOM	20	SS	_	_
 20	är	_	VB	VB	PRS|AKT	18	UA	_	_
 21	mätta	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	22	CJ	_	_
 22	och	_	KN	KN	_	24	CJ	_	_
 23	rena	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	22	CJ	_	_
 24	och	_	KN	KN	_	20	SP	_	_
-25	sysselsatta	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	24	CJ	_	_
+25	sysselsatta	_	VB	VB	PRF|UTR/NEU|PLU|IND/DEF|NOM	24	CJ	_	_
 26	-	_	MID	MID	_	20	IT	_	_
 27	saker	_	NN	NN	UTR|PLU|IND|NOM	20	AN	_	_
 28	som	_	HP	HP	-|-|-	33	SS	_	_
@@ -18491,7 +18491,7 @@
 23	rik	_	JJ	JJ	POS|UTR|SIN|IND|NOM	21	PT	_	_
 24	på	_	PP	PP	_	23	OA	_	_
 25	upplevelser	_	NN	NN	UTR|PLU|IND|NOM	24	PA	_	_
-26	som	_	HA	HA	_	23	KA	_	_
+26	som	_	HP	HP	_	23	KA	_	_
 27	barnens	_	NN	NN	NEU|PLU|DEF|GEN	29	DT	_	_
 28	hungriga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	29	AT	_	_
 29	sinnen	_	NN	NN	NEU|PLU|IND|NOM	30	SS	_	_
@@ -18502,7 +18502,7 @@
 2	får	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	räkna	_	VB	VB	INF|AKT	2	VG	_	_
 4	med	_	PP	PP	_	3	OA	_	_
-5	att	_	SN	SN	_	4	PA	_	_
+5	att	_	IE	IE	_	4	PA	_	_
 6	boendet	_	NN	NN	NEU|SIN|DEF|NOM	7	SS	_	_
 7	slungas	_	VB	VB	PRS|SFO	5	UA	_	_
 8	ännu	_	AB	AB	_	9	AA	_	_
@@ -18512,7 +18512,7 @@
 12	arbetsplatsen	_	NN	NN	UTR|SIN|DEF|NOM	11	PA	_	_
 13	,	_	MID	MID	_	7	RA	_	_
 14	att	_	SN	SN	_	13	CJ	_	_
-15	det	_	DT	DT	NEU|SIN|DEF	19	DT	_	_
+15	det	_	PN	PN	NEU|SIN|DEF	19	DT	_	_
 16	ännu	_	AB	AB	_	17	AA	_	_
 17	mer	_	AB	AB	KOM	18	AA	_	_
 18	differentierade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	19	AT	_	_
@@ -18527,7 +18527,7 @@
 27	lilla	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	28	AT	_	_
 28	familjen	_	NN	NN	UTR|SIN|DEF|NOM	34	SS	_	_
 29	med	_	PP	PP	_	28	ET	_	_
-30	ett	_	RG	RG	NEU|SIN|IND|NOM	31	CJ	_	_
+30	ett	_	DT	DT	NEU|SIN|IND|NOM	31	CJ	_	_
 31	eller	_	KN	KN	_	33	DT	_	_
 32	två	_	RG	RG	NOM	31	CJ	_	_
 33	barn	_	NN	NN	NEU|PLU|IND|NOM	29	PA	_	_
@@ -18540,20 +18540,20 @@
 1	Det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	FS	_	_
 2	kommer	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	ännu	_	AB	AB	_	4	AA	_	_
-4	mindre	_	AB	AB	KOM	2	AA	_	_
+4	mindre	_	JJ	JJ	KOM	2	AA	_	_
 5	att	_	IE	IE	_	2	VG	_	_
 6	löna	_	VB	VB	INF|AKT	5	IF	_	_
 7	sej	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	6	OO	_	_
 8	att	_	SN	SN	_	6	ES	_	_
 9	en	_	DT	DT	UTR|SIN|IND	10	DT	_	_
 10	vuxen	_	JJ	JJ	POS|UTR|SIN|IND|NOM	11	SS	_	_
-11	ägnar	_	VB	VB	PRS|AKT	8	UA	_	_
+11	ägnar	_	NN	NN	PRS|AKT	8	UA	_	_
 12	huvudparten	_	NN	NN	UTR|SIN|DEF|NOM	11	OO	_	_
 13	av	_	PP	PP	_	12	ET	_	_
 14	sin	_	PS	PS	UTR|SIN|DEF	15	DT	_	_
 15	arbetstid	_	NN	NN	UTR|SIN|IND|NOM	13	PA	_	_
 16	åt	_	PP	PP	_	11	OA	_	_
-17	ett	_	RG	RG	NEU|SIN|IND|NOM	18	CJ	_	_
+17	ett	_	DT	DT	NEU|SIN|IND|NOM	18	CJ	_	_
 18	eller	_	KN	KN	_	20	DT	_	_
 19	två	_	RG	RG	NOM	18	CJ	_	_
 20	barn	_	NN	NN	NEU|PLU|IND|NOM	16	PA	_	_
@@ -18566,7 +18566,7 @@
 27	utbildad	_	PC	PC	PRF|UTR|SIN|IND|NOM	26	SP	_	_
 28	för	_	PP	PP	_	26	OA	_	_
 29	nånting	_	PN	PN	NEU|SIN|IND|SUB/OBJ	30	DT	_	_
-30	annat	_	JJ	JJ	POS|NEU|SIN|IND|NOM	28	PA	_	_
+30	annat	_	PN	PN	POS|NEU|SIN|IND|NOM	28	PA	_	_
 31	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Vi	_	PN	PN	UTR|PLU|DEF|SUB	2	SS	_	_
@@ -18585,7 +18585,7 @@
 14	för	_	PP	PP	_	8	AA	_	_
 15	att	_	IE	IE	_	14	PA	_	_
 16	kunna	_	VB	VB	INF|AKT	15	IF	_	_
-17	fostra	_	VB	VB	INF|AKT	16	VG	_	_
+17	fostra	_	JJ	JJ	INF|AKT	16	VG	_	_
 18	barn	_	NN	NN	NEU|PLU|IND|NOM	17	OO	_	_
 19	.	_	MAD	MAD	_	2	IP	_	_
 
@@ -18601,7 +18601,7 @@
 10	tänka	_	VB	VB	INF|AKT	9	OO	_	_
 11	lite	_	AB	AB	POS	12	AA	_	_
 12	mer	_	AB	AB	KOM	10	AA	_	_
-13	obundet	_	PC	PC	PRF|NEU|SIN|IND|NOM	12	HD	_	_
+13	obundet	_	NN	NN	PRF|NEU|SIN|IND|NOM	12	HD	_	_
 14	av	_	PP	PP	_	10	AA	_	_
 15	det	_	DT	DT	NEU|SIN|DEF	17	DT	_	_
 16	existerande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	17	AT	_	_
@@ -18620,7 +18620,7 @@
 10	måste	_	VB	VB	PRS|AKT	6	UA	_	_
 11	se	_	VB	VB	INF|AKT	10	VG	_	_
 12	ut	_	PL	PL	_	11	PL	_	_
-13	som	_	HA	HA	_	11	KA	_	_
+13	som	_	KN	KN	_	11	KA	_	_
 14	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	15	SS	_	_
 15	gör	_	VB	VB	PRS|AKT	13	UA	_	_
 16	:	_	MID	MID	_	15	IQ	_	_
@@ -18678,7 +18678,7 @@
 17	bättre	_	AB	AB	KOM	16	AA	_	_
 18	med	_	PP	PP	_	16	OA	_	_
 19	ett	_	DT	DT	NEU|SIN|IND	22	DT	_	_
-20	mera	_	AB	AB	KOM	21	AA	_	_
+20	mera	_	JJ	JJ	KOM	21	AA	_	_
 21	lättmanövrerat	_	PC	PC	PRF|NEU|SIN|IND|NOM	22	AT	_	_
 22	liv	_	NN	NN	NEU|SIN|IND|NOM	18	PA	_	_
 23	,	_	MID	MID	_	22	IK	_	_
@@ -18693,8 +18693,8 @@
 5	är	_	VB	VB	PRS|AKT	4	MS	_	_
 6	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	5	SS	_	_
 7	ett	_	DT	DT	NEU|SIN|IND	8	DT	_	_
-8	statustänkande	_	NN	NN	NEU|SIN|IND|NOM	5	SP	_	_
-9	?	_	MAD	MAD	_	5	I?	_	_
+8	statustänkande	_	PC	PC	NEU|SIN|IND|NOM	5	SP	_	_
+9	?	_	MID	MID	_	5	I?	_	_
 10	-	_	MID	MID	_	4	JT	_	_
 11	går	_	VB	VB	PRS|AKT	4	MS	_	_
 12	mot	_	PP	PP	_	11	RA	_	_
@@ -18703,7 +18703,7 @@
 15	totalutrustade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	16	AT	_	_
 16	bomaskiner	_	NN	NN	UTR|PLU|IND|NOM	12	PA	_	_
 17	-	_	MID	MID	_	11	IT	_	_
-18	som	_	KN	KN	_	11	KA	_	_
+18	som	_	HP	HP	_	11	KA	_	_
 19	skulle	_	VB	VB	PRT|AKT	18	UA	_	_
 20	varje	_	DT	DT	UTR/NEU|SIN|IND	21	DT	_	_
 21	familj	_	NN	NN	UTR|SIN|IND|NOM	19	SS	_	_
@@ -18713,7 +18713,7 @@
 25	belägring	_	NN	NN	UTR|SIN|IND|NOM	23	OO	_	_
 26	.	_	MAD	MAD	_	1	IP	_	_
 
-1	Egendomligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	0	ROOT	_	_
+1	Egendomligt	_	AB	AB	POS|NEU|SIN|IND|NOM	0	ROOT	_	_
 2	i	_	PP	PP	_	1	RA	_	_
 3	ett	_	DT	DT	NEU|SIN|IND	4	DT	_	_
 4	samhälle	_	NN	NN	NEU|SIN|IND|NOM	2	PA	_	_
@@ -18735,8 +18735,8 @@
 20	konsumtionen	_	NN	NN	UTR|SIN|DEF|NOM	21	SS	_	_
 21	går	_	VB	VB	PRS|AKT	18	CJ	_	_
 22	mot	_	PP	PP	_	21	RA	_	_
-23	allt	_	AB	AB	_	25	DT	_	_
-24	mera	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	23	HD	_	_
+23	allt	_	DT	DT	_	25	DT	_	_
+24	mera	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	23	HD	_	_
 25	bara-att-värma-produkter	_	NN	NN	UTR|PLU|IND|NOM	22	PA	_	_
 26	i	_	PP	PP	_	21	AA	_	_
 27	en	_	DT	DT	UTR|SIN|IND	30	DT	_	_
@@ -18750,7 +18750,7 @@
 3	länge	_	AB	AB	POS	2	HD	_	_
 4	barnen	_	NN	NN	NEU|PLU|DEF|NOM	5	SS	_	_
 5	är	_	VB	VB	PRS|AKT	2	UA	_	_
-6	uteslutande	_	AB	AB	_	5	CA	_	_
+6	uteslutande	_	PC	PC	_	5	CA	_	_
 7	hänvisade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	5	SP	_	_
 8	till	_	PP	PP	_	5	OA	_	_
 9	att	_	IE	IE	_	8	PA	_	_
@@ -18769,9 +18769,9 @@
 22	ska	_	VB	VB	PRS|AKT	20	UA	_	_
 23	inge	_	VB	VB	INF|AKT	22	VG	_	_
 24	sina	_	PS	PS	UTR/NEU|PLU|DEF	25	DT	_	_
-25	bebyggare	_	NN	NN	UTR|PLU|IND|NOM	23	IO	_	_
+25	bebyggare	_	JJ	JJ	UTR|PLU|IND|NOM	23	IO	_	_
 26	hoppet	_	NN	NN	NEU|SIN|DEF|NOM	23	OO	_	_
-27	att	_	SN	SN	_	26	ET	_	_
+27	att	_	IE	IE	_	26	ET	_	_
 28	här	_	AB	AB	_	29	RA	_	_
 29	ska	_	VB	VB	PRS|AKT	27	UA	_	_
 30	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	29	FS	_	_
@@ -18779,7 +18779,7 @@
 32	att	_	IE	IE	_	31	ES	_	_
 33	förverkliga	_	VB	VB	INF|AKT	32	IF	_	_
 34	en	_	DT	DT	UTR|SIN|IND	38	DT	_	_
-35	låt	_	VB	VB	IMP|AKT	37	MA	_	_
+35	låt	_	NN	NN	IMP|AKT	37	MA	_	_
 36	vara	_	VB	VB	INF|AKT	35	HD	_	_
 37	maskinell	_	JJ	JJ	POS|UTR|SIN|IND|NOM	38	AT	_	_
 38	sörgårdsdröm	_	NN	NN	UTR|SIN|IND|NOM	33	OO	_	_
@@ -18813,13 +18813,13 @@
 26	hela	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	27	DT	_	_
 27	bostadsområdet	_	NN	NN	NEU|SIN|DEF|NOM	25	OO	_	_
 28	mer	_	AB	AB	KOM	29	AA	_	_
-29	rationellt	_	AB	AB	POS	33	CJ	_	_
+29	rationellt	_	JJ	JJ	POS	33	CJ	_	_
 30	,	_	MID	MID	_	33	IK	_	_
 31	mer	_	AB	AB	KOM	32	AA	_	_
-32	samhälleligt	_	AB	AB	POS	33	CJ	_	_
+32	samhälleligt	_	JJ	JJ	POS	33	CJ	_	_
 33	,	_	MID	MID	_	25	AA	_	_
 34	mindre	_	AB	AB	KOM	35	AA	_	_
-35	lägenhetslåst	_	AB	AB	POS	33	CJ	_	_
+35	lägenhetslåst	_	NN	NN	POS	33	CJ	_	_
 36	.	_	MAD	MAD	_	21	IP	_	_
 
 1	I	_	PP	PP	_	12	AA	_	_
@@ -18927,7 +18927,7 @@
 2	hus	_	NN	NN	NEU|SIN|IND|NOM	3	OO	_	_
 3	tänker	_	VB	VB	PRS|AKT	0	ROOT	_	_
 4	jag	_	PN	PN	UTR|SIN|DEF|SUB	3	SS	_	_
-5	mej	_	PN	PN	UTR|SIN|DEF|OBJ	3	IO	_	_
+5	mej	_	VB	VB	UTR|SIN|DEF|OBJ	3	IO	_	_
 6	hellre	_	AB	AB	KOM	3	MA	_	_
 7	av	_	PP	PP	_	3	OP	_	_
 8	modell	_	NN	NN	UTR|SIN|IND|NOM	10	DT	_	_
@@ -18978,7 +18978,7 @@
 5	är	_	VB	VB	PRS|AKT	1	MS	_	_
 6	inte	_	AB	AB	_	5	NA	_	_
 7	lokalerna	_	NN	NN	UTR|PLU|DEF|NOM	8	CJ	_	_
-8	utan	_	KN	KN	_	5	SS	_	_
+8	utan	_	PP	PP	_	5	SS	_	_
 9	personalen	_	NN	NN	UTR|SIN|DEF|NOM	8	CJ	_	_
 10	.	_	MAD	MAD	_	1	IP	_	_
 
@@ -18998,7 +18998,7 @@
 14	måste	_	VB	VB	PRS|AKT	12	MS	_	_
 15	rekrytera	_	VB	VB	INF|AKT	18	CJ	_	_
 16	,	_	MID	MID	_	18	IK	_	_
-17	utbilda	_	VB	VB	INF|AKT	18	CJ	_	_
+17	utbilda	_	PC	PC	INF|AKT	18	CJ	_	_
 18	och	_	KN	KN	_	14	VG	_	_
 19	betala	_	VB	VB	INF|AKT	18	CJ	_	_
 20	dem	_	PN	PN	UTR/NEU|PLU|DEF|OBJ	18	OO	_	_
@@ -19018,7 +19018,7 @@
 11	och	_	KN	KN	_	5	OO	_	_
 12	deras	_	PS	PS	UTR/NEU|SIN/PLU|DEF	13	DT	_	_
 13	assistenter	_	NN	NN	UTR|PLU|IND|NOM	11	CJ	_	_
-14	som	_	KN	KN	_	5	OP	_	_
+14	som	_	HP	HP	_	5	OP	_	_
 15	stadiga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	16	AT	_	_
 16	referenser	_	NN	NN	UTR|PLU|IND|NOM	14	UA	_	_
 17	,	_	MID	MID	_	4	IK	_	_
@@ -19068,7 +19068,7 @@
 1	Årsklasskiktningen	_	NN	NN	UTR|SIN|DEF|NOM	20	SS	_	_
 2	som	_	HP	HP	-|-|-	3	SS	_	_
 3	håller	_	VB	VB	PRS|AKT	1	ET	_	_
-4	på	_	PP	PP	_	3	OA	_	_
+4	på	_	PL	PL	_	3	OA	_	_
 5	att	_	IE	IE	_	4	PA	_	_
 6	spalta	_	VB	VB	INF|AKT	5	IF	_	_
 7	upp	_	PL	PL	_	6	PL	_	_
@@ -19097,8 +19097,8 @@
 30	motverkas	_	VB	VB	INF|SFO	29	VG	_	_
 31	genom	_	PP	PP	_	30	AA	_	_
 32	ett	_	DT	DT	NEU|SIN|IND	35	DT	_	_
-33	mindre	_	AB	AB	KOM	34	AA	_	_
-34	strängt	_	AB	AB	POS	35	AT	_	_
+33	mindre	_	JJ	JJ	KOM	34	AA	_	_
+34	strängt	_	JJ	JJ	POS	35	AT	_	_
 35	kategoribyggande	_	NN	NN	NEU|SIN|IND|NOM	31	PA	_	_
 36	.	_	MAD	MAD	_	28	IP	_	_
 
@@ -19134,7 +19134,7 @@
 30	-	_	MID	MID	_	2	IT	_	_
 31	överhuvudtaget	_	AB	AB	_	32	MA	_	_
 32	kan	_	VB	VB	PRS|AKT	2	MS	_	_
-33	de	_	DT	DT	UTR/NEU|PLU|DEF	34	DT	_	_
+33	de	_	PN	PN	UTR/NEU|PLU|DEF	34	DT	_	_
 34	äldres	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|GEN	37	DT	_	_
 35	speciella	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	37	AT	_	_
 36	kunskaper	_	NN	NN	UTR|PLU|IND|NOM	37	CJ	_	_
@@ -19154,7 +19154,7 @@
 6	förmodligen	_	AB	AB	_	4	MA	_	_
 7	inte	_	AB	AB	_	4	NA	_	_
 8	alla	_	PN	PN	UTR/NEU|PLU|IND|SUB/OBJ	4	FP	_	_
-9	att	_	IE	IE	_	4	VG	_	_
+9	att	_	SN	SN	_	4	VG	_	_
 10	översvämma	_	VB	VB	INF|AKT	9	IF	_	_
 11	den	_	DT	DT	UTR|SIN|DEF	13	DT	_	_
 12	fria	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	13	AT	_	_
@@ -19216,7 +19216,7 @@
 30	kännetecknade	_	VB	VB	PRT|AKT	27	ET	_	_
 31	den	_	DT	DT	UTR|SIN|DEF	34	DT	_	_
 32	gamla	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	34	AT	_	_
-33	mångfacetterade	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	34	AT	_	_
+33	mångfacetterade	_	PC	PC	POS|UTR/NEU|SIN|DEF|NOM	34	AT	_	_
 34	familjen	_	NN	NN	UTR|SIN|DEF|NOM	30	OO	_	_
 35	)	_	PAD	PAD	_	6	JR	_	_
 36	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
@@ -19225,10 +19225,10 @@
 39	barn	_	NN	NN	NEU|PLU|IND|NOM	38	CJ	_	_
 40	ett	_	DT	DT	NEU|SIN|IND	42	DT	_	_
 41	ömsesidigt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	42	AT	_	_
-42	oberoende	_	NN	NN	NEU|SIN|IND|NOM	36	OO	_	_
+42	oberoende	_	PC	PC	NEU|SIN|IND|NOM	36	OO	_	_
 43	-	_	MID	MID	_	36	IT	_	_
 44	med	_	PP	PP	_	36	AA	_	_
-45	obeskurna	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	46	AT	_	_
+45	obeskurna	_	JJ	JJ	PRF|UTR/NEU|PLU|IND/DEF|NOM	46	AT	_	_
 46	möjligheter	_	NN	NN	UTR|PLU|IND|NOM	44	PA	_	_
 47	till	_	PP	PP	_	46	ET	_	_
 48	fritidsumgänge	_	NN	NN	NEU|SIN|IND|NOM	47	PA	_	_
@@ -19259,13 +19259,13 @@
 23	föräldrar	_	NN	NN	UTR|PLU|IND|NOM	21	PA	_	_
 24	.	_	MAD	MAD	_	16	IP	_	_
 
-1	Föräldrar	_	NN	NN	UTR|PLU|IND|NOM	2	CJ	_	_
+1	Föräldrar	_	VB	VB	UTR|PLU|IND|NOM	2	CJ	_	_
 2	och	_	KN	KN	_	4	SS	_	_
 3	barn	_	NN	NN	NEU|PLU|IND|NOM	2	CJ	_	_
 4	bör	_	VB	VB	PRS|AKT	17	MS	_	_
 5	med	_	PP	PP	_	4	AA	_	_
 6	föräldrarnas	_	NN	NN	UTR|PLU|DEF|GEN	8	DT	_	_
-7	ökade	_	PC	PC	PRF|UTR/NEU|SIN|DEF|NOM	8	AT	_	_
+7	ökade	_	VB	VB	PRF|UTR/NEU|SIN|DEF|NOM	8	AT	_	_
 8	fritid	_	NN	NN	UTR|SIN|IND|NOM	5	PA	_	_
 9	få	_	VB	VB	INF|AKT	4	VG	_	_
 10	ökade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	11	AT	_	_
@@ -19284,7 +19284,7 @@
 23	andra	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	24	DT	_	_
 24	parten	_	NN	NN	UTR|SIN|DEF|NOM	21	PA	_	_
 25	så	_	AB	AB	_	19	AA	_	_
-26	som	_	KN	KN	_	19	KA	_	_
+26	som	_	HA	HA	_	19	KA	_	_
 27	föräldrar	_	NN	NN	UTR|PLU|IND|NOM	29	SS	_	_
 28	nu	_	AB	AB	_	29	TA	_	_
 29	kan	_	VB	VB	PRS|AKT	26	UA	_	_
@@ -19297,7 +19297,7 @@
 36	krävande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	37	AT	_	_
 37	fostraruppgift	_	NN	NN	UTR|SIN|IND|NOM	33	PA	_	_
 38	-	_	MID	MID	_	19	IT	_	_
-39	liksom	_	SN	SN	_	19	KA	_	_
+39	liksom	_	PP	PP	_	19	KA	_	_
 40	barn	_	NN	NN	NEU|PLU|IND|NOM	41	SS	_	_
 41	är	_	VB	VB	PRS|AKT	39	UA	_	_
 42	totalt	_	AB	AB	POS	43	AA	_	_
@@ -19320,7 +19320,7 @@
 11	garanterad	_	PC	PC	PRF|UTR|SIN|IND|NOM	2	OP	_	_
 12	vad	_	HP	HP	NEU|SIN|IND	15	SS	_	_
 13	som	_	HP	HP	-|-|-	15	XX	_	_
-14	än	_	AB	AB	_	15	+A	_	_
+14	än	_	KN	KN	_	15	+A	_	_
 15	händer	_	VB	VB	PRS|AKT	2	AA	_	_
 16	de	_	DT	DT	UTR/NEU|PLU|DEF	18	DT	_	_
 17	biologiska	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	18	AT	_	_
@@ -19334,7 +19334,7 @@
 5	samma	_	DT	DT	UTR/NEU|SIN/PLU|IND	7	DT	_	_
 6	outjämnbara	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	7	AT	_	_
 7	handikapp	_	NN	NN	NEU|SIN|IND|NOM	3	SP	_	_
-8	som	_	KN	KN	_	7	ET	_	_
+8	som	_	HP	HP	_	7	ET	_	_
 9	nu	_	AB	AB	_	8	UA	_	_
 10	.	_	MAD	MAD	_	3	IP	_	_
 
@@ -19401,7 +19401,7 @@
 3	kommer	_	VB	VB	PRS|AKT	14	MS	_	_
 4	en	_	DT	DT	UTR|SIN|IND	7	DT	_	_
 5	så	_	AB	AB	_	6	AA	_	_
-6	annorlunda	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	7	AT	_	_
+6	annorlunda	_	AB	AB	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	7	AT	_	_
 7	uppfostran	_	NN	NN	UTR|SIN|IND|NOM	3	SS	_	_
 8	att	_	IE	IE	_	3	VG	_	_
 9	skapa	_	VB	VB	INF|AKT	8	IF	_	_
@@ -19422,7 +19422,7 @@
 2	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	bli	_	VB	VB	INF|AKT	2	VG	_	_
 4	en	_	DT	DT	UTR|SIN|IND	8	DT	_	_
-5	öppnare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	6	CJ	_	_
+5	öppnare	_	NN	NN	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	6	CJ	_	_
 6	,	_	MID	MID	_	8	AT	_	_
 7	friare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	6	CJ	_	_
 8	människa	_	NN	NN	UTR|SIN|IND|NOM	3	SP	_	_
@@ -19493,10 +19493,10 @@
 1	Detta	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	SS	_	_
 2	innebär	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	inte	_	AB	AB	_	2	NA	_	_
-4	att	_	SN	SN	_	2	OO	_	_
+4	att	_	IE	IE	_	2	OO	_	_
 5	förhållandena	_	NN	NN	NEU|PLU|DEF|NOM	6	SS	_	_
 6	är	_	VB	VB	PRS|AKT	4	UA	_	_
-7	oförändrade	_	PC	PC	PRF|UTR/NEU|PLU|IND/DEF|NOM	6	SP	_	_
+7	oförändrade	_	JJ	JJ	PRF|UTR/NEU|PLU|IND/DEF|NOM	6	SP	_	_
 8	i	_	PP	PP	_	6	RA	_	_
 9	andra	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	10	DT	_	_
 10	länder	_	NN	NN	NEU|PLU|IND|NOM	8	PA	_	_
@@ -19557,7 +19557,7 @@
 1	Antingen	_	KN	KN	_	2	VA	_	_
 2	är	_	VB	VB	PRS|AKT	7	MS	_	_
 3	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	SS	_	_
-4	fel	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	2	SP	_	_
+4	fel	_	PL	PL	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	2	SP	_	_
 5	på	_	PP	PP	_	2	OA	_	_
 6	äktenskapet	_	NN	NN	NEU|SIN|DEF|NOM	5	PA	_	_
 7	eller	_	KN	KN	_	0	ROOT	_	_
@@ -19578,11 +19578,11 @@
 4	är	_	VB	VB	PRS|AKT	9	MS	_	_
 5	helt	_	AB	AB	POS	6	AA	_	_
 6	säkert	_	AB	AB	POS	4	MA	_	_
-7	riktigt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	4	SP	_	_
+7	riktigt	_	AB	AB	POS|NEU|SIN|IND|NOM	4	SP	_	_
 8	,	_	MID	MID	_	9	IK	_	_
 9	och	_	KN	KN	_	0	ROOT	_	_
 10	om	_	SN	SN	_	15	AA	_	_
-11	någon	_	PN	PN	UTR|SIN|IND|SUB/OBJ	12	SS	_	_
+11	någon	_	DT	DT	UTR|SIN|IND|SUB/OBJ	12	SS	_	_
 12	förnekar	_	VB	VB	PRS|AKT	10	UA	_	_
 13	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	12	OO	_	_
 14	så	_	AB	AB	_	15	DB	_	_
@@ -19597,7 +19597,7 @@
 23	att	_	SN	SN	_	22	PA	_	_
 24	två	_	RG	RG	NOM	25	DT	_	_
 25	ungdomar	_	NN	NN	UTR|PLU|IND|NOM	26	SS	_	_
-26	sammanbor	_	VB	VB	PRS|AKT	23	UA	_	_
+26	sammanbor	_	NN	NN	PRS|AKT	23	UA	_	_
 27	med	_	PP	PP	_	17	OA	_	_
 28	den	_	PN	PN	UTR|SIN|DEF|SUB/OBJ	27	PA	_	_
 29	vi	_	PN	PN	UTR|PLU|DEF|SUB	30	SS	_	_
@@ -19647,7 +19647,7 @@
 5	synen	_	NN	NN	UTR|SIN|DEF|NOM	10	SS	_	_
 6	på	_	PP	PP	_	5	ET	_	_
 7	äktenskapet	_	NN	NN	NEU|SIN|DEF|NOM	6	PA	_	_
-8	som	_	KN	KN	_	7	ET	_	_
+8	som	_	HP	HP	_	7	ET	_	_
 9	samlevnadsform	_	NN	NN	UTR|SIN|IND|NOM	8	UA	_	_
 10	förändras	_	VB	VB	PRS|SFO	4	UA	_	_
 11	i	_	PP	PP	_	10	AA	_	_
@@ -19659,7 +19659,7 @@
 17	av	_	PP	PP	_	16	ET	_	_
 18	familjebildning	_	NN	NN	UTR|SIN|IND|NOM	19	CJ	_	_
 19	och	_	KN	KN	_	17	PA	_	_
-20	ansvarstagande	_	NN	NN	NEU|SIN|IND|NOM	19	CJ	_	_
+20	ansvarstagande	_	PC	PC	NEU|SIN|IND|NOM	19	CJ	_	_
 21	i	_	PP	PP	_	19	ET	_	_
 22	den	_	DT	DT	UTR|SIN|DEF	23	DT	_	_
 23	form	_	NN	NN	UTR|SIN|IND|NOM	21	PA	_	_
@@ -19676,7 +19676,7 @@
 34	rådande	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	32	SP	_	_
 35	.	_	MAD	MAD	_	3	IP	_	_
 
-1	Förutvarande	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	2	DT	_	_
+1	Förutvarande	_	PC	PC	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	2	DT	_	_
 2	justitieminister	_	NN	NN	UTR|SIN|IND|NOM	3	DT	_	_
 3	Kling	_	PM	PM	NOM	4	SS	_	_
 4	tillsatte	_	VB	VB	PRT|AKT	0	ROOT	_	_
@@ -19726,7 +19726,7 @@
 27	själv	_	JJ	JJ	POS|UTR|SIN|IND|NOM	26	PT	_	_
 28	utan	_	PP	PP	_	23	AA	_	_
 29	ekonomiskt	_	AB	AB	POS	30	AT	_	_
-30	beroende	_	NN	NN	NEU|SIN|IND|NOM	28	PA	_	_
+30	beroende	_	PC	PC	NEU|SIN|IND|NOM	28	PA	_	_
 31	av	_	PP	PP	_	30	ET	_	_
 32	anhöriga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	31	PA	_	_
 33	.	_	MAD	MAD	_	3	IP	_	_
@@ -19752,9 +19752,9 @@
 5	ekonomiskt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	6	AT	_	_
 6	avseende	_	NN	NN	NEU|SIN|IND|NOM	4	PA	_	_
 7	,	_	MID	MID	_	2	IK	_	_
-8	var	_	PN	PN	UTR|SIN|IND|SUB/OBJ	11	SS	_	_
+8	var	_	VB	VB	UTR|SIN|IND|SUB/OBJ	11	SS	_	_
 9	och	_	KN	KN	_	8	HD	_	_
-10	en	_	PN	PN	UTR|SIN|IND|SUB/OBJ	8	HD	_	_
+10	en	_	DT	DT	UTR|SIN|IND|SUB/OBJ	8	HD	_	_
 11	skall	_	VB	VB	PRS|AKT	2	MS	_	_
 12	helt	_	AB	AB	POS	11	MA	_	_
 13	enkelt	_	AB	AB	POS	12	HD	_	_
@@ -19774,7 +19774,7 @@
 7	gifta	_	VB	VB	INF|AKT	6	CJ	_	_
 8	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	6	OO	_	_
 9	utan	_	PP	PP	_	6	AA	_	_
-10	närmare	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	11	DT	_	_
+10	närmare	_	AB	AB	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	11	DT	_	_
 11	tanke	_	NN	NN	UTR|SIN|IND|NOM	9	PA	_	_
 12	på	_	PP	PP	_	11	ET	_	_
 13	att	_	SN	SN	_	12	PA	_	_
@@ -19803,7 +19803,7 @@
 16	av	_	PP	PP	_	15	ET	_	_
 17	makarna	_	NN	NN	UTR|PLU|DEF|NOM	16	PA	_	_
 18	avlider	_	VB	VB	PRS|AKT	14	UA	_	_
-19	som	_	HA	HA	_	21	TA	_	_
+19	som	_	KN	KN	_	21	TA	_	_
 20	rättsverkan	_	NN	NN	UTR|SIN|IND|NOM	21	SS	_	_
 21	träder	_	VB	VB	PRS|AKT	8	EF	_	_
 22	i	_	PP	PP	_	21	PL	_	_
@@ -19812,7 +19812,7 @@
 
 1	Lagens	_	NN	NN	UTR|SIN|DEF|GEN	2	DT	_	_
 2	mening	_	NN	NN	UTR|SIN|IND|NOM	25	SS	_	_
-3	att	_	SN	SN	_	13	CJ	_	_
+3	att	_	IE	IE	_	13	CJ	_	_
 4	makarna	_	NN	NN	UTR|PLU|DEF|NOM	8	SS	_	_
 5	under	_	PP	PP	_	8	TA	_	_
 6	äktenskapets	_	NN	NN	NEU|SIN|DEF|GEN	7	DT	_	_
@@ -19820,13 +19820,13 @@
 8	skall	_	VB	VB	PRS|AKT	3	UA	_	_
 9	leva	_	VB	VB	INF|AKT	8	VG	_	_
 10	på	_	PP	PP	_	9	AA	_	_
-11	lika	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	12	DT	_	_
+11	lika	_	AB	AB	POS|UTR/NEU|SIN|DEF|NOM	12	DT	_	_
 12	standard	_	NN	NN	UTR|SIN|IND|NOM	10	PA	_	_
 13	och	_	KN	KN	_	2	ET	_	_
 14	att	_	SN	SN	_	13	CJ	_	_
-15	var	_	PN	PN	UTR|SIN|IND|SUB/OBJ	21	SS	_	_
+15	var	_	VB	VB	UTR|SIN|IND|SUB/OBJ	21	SS	_	_
 16	och	_	KN	KN	_	15	HD	_	_
-17	en	_	PN	PN	UTR|SIN|IND|SUB/OBJ	15	HD	_	_
+17	en	_	DT	DT	UTR|SIN|IND|SUB/OBJ	15	HD	_	_
 18	efter	_	PP	PP	_	21	AA	_	_
 19	sin	_	PS	PS	UTR|SIN|DEF	20	DT	_	_
 20	förmåga	_	NN	NN	UTR|SIN|IND|NOM	18	PA	_	_
@@ -19889,7 +19889,7 @@
 5	måste	_	VB	VB	PRS|AKT	0	ROOT	_	_
 6	räknas	_	VB	VB	INF|SFO	5	VG	_	_
 7	människors	_	NN	NN	UTR|PLU|IND|GEN	8	DT	_	_
-8	vilja	_	NN	NN	UTR|SIN|IND|NOM	5	SS	_	_
+8	vilja	_	VB	VB	UTR|SIN|IND|NOM	5	SS	_	_
 9	att	_	IE	IE	_	14	CJ	_	_
 10	ta	_	VB	VB	INF|AKT	9	IF	_	_
 11	ansvar	_	NN	NN	NEU|SIN|IND|NOM	10	OO	_	_
@@ -19973,7 +19973,7 @@
 12	samman	_	PL	PL	_	11	PL	_	_
 13	'	_	PAD	PAD	_	14	IC	_	_
 14	på	_	PP	PP	_	11	AA	_	_
-15	riktigt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	14	PA	_	_
+15	riktigt	_	AB	AB	POS|NEU|SIN|IND|NOM	14	PA	_	_
 16	'	_	PAD	PAD	_	15	JC	_	_
 17	.	_	MAD	MAD	_	3	IP	_	_
 
@@ -19981,7 +19981,7 @@
 2	och	_	KN	KN	_	0	ROOT	_	_
 3	politik	_	NN	NN	UTR|SIN|IND|NOM	2	CJ	_	_
 
-1	Teol	_	JJ	JJ	AN	2	DT	_	_
+1	Teol	_	NN	NN	AN	2	DT	_	_
 2	dr	_	NN	NN	AN	3	DT	_	_
 3	Tom	_	PM	PM	NOM	5	SS	_	_
 4	Hardt	_	PM	PM	NOM	3	HD	_	_
@@ -19991,7 +19991,7 @@
 8	tidskrift	_	NN	NN	UTR|SIN|IND|NOM	6	PA	_	_
 9	en	_	DT	DT	UTR|SIN|IND	10	DT	_	_
 10	artikel	_	NN	NN	UTR|SIN|IND|NOM	5	OO	_	_
-11	:	_	MAD	MAD	_	10	IQ	_	_
+11	:	_	MID	MID	_	10	IQ	_	_
 12	'	_	PAD	PAD	_	13	IC	_	_
 13	Till	_	PP	PP	_	10	AN	_	_
 14	storms	_	NN	NN	UTR|SIN|IND|GEN	13	HD	_	_
@@ -20022,7 +20022,7 @@
 9	måste	_	VB	VB	PRS|AKT	6	UA	_	_
 10	ses	_	VB	VB	INF|SFO	9	VG	_	_
 11	som	_	KN	KN	_	10	SP	_	_
-12	representativ	_	JJ	JJ	POS|UTR|SIN|IND|NOM	11	UA	_	_
+12	representativ	_	NN	NN	POS|UTR|SIN|IND|NOM	11	UA	_	_
 13	för	_	PP	PP	_	10	OA	_	_
 14	det	_	DT	DT	NEU|SIN|DEF	16	DT	_	_
 15	socialdemokratiska	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	16	AT	_	_
@@ -20038,7 +20038,7 @@
 25	säkert	_	AB	AB	POS	27	MA	_	_
 26	inte	_	AB	AB	_	27	NA	_	_
 27	står	_	VB	VB	PRS|AKT	19	UA	_	_
-28	bakom	_	PL	PL	_	27	PL	_	_
+28	bakom	_	PP	PP	_	27	PL	_	_
 29	de	_	DT	DT	UTR/NEU|PLU|DEF	30	DT	_	_
 30	uppfattningar	_	NN	NN	UTR|PLU|IND|NOM	27	OO	_	_
 31	som	_	HP	HP	-|-|-	32	SS	_	_
@@ -20099,7 +20099,7 @@
 5	på	_	PP	PP	_	2	AA	_	_
 6	samma	_	DT	DT	UTR/NEU|SIN/PLU|IND	7	DT	_	_
 7	sätt	_	NN	NN	NEU|SIN|IND|NOM	5	PA	_	_
-8	som	_	HA	HA	_	7	ET	_	_
+8	som	_	HP	HP	_	7	ET	_	_
 9	kärleken	_	NN	NN	UTR|SIN|DEF|NOM	11	SS	_	_
 10	ofta	_	AB	AB	POS	11	TA	_	_
 11	är	_	VB	VB	PRS|AKT	8	UA	_	_
@@ -20145,7 +20145,7 @@
 14	för	_	PP	PP	_	13	ET	_	_
 15	de	_	DT	DT	UTR/NEU|PLU|DEF	16	DT	_	_
 16	närstående	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	14	PA	_	_
-17	främjar	_	VB	VB	PRS|AKT	9	UA	_	_
+17	främjar	_	JJ	JJ	PRS|AKT	9	UA	_	_
 18	sparande	_	NN	NN	NEU|SIN|IND|NOM	19	CJ	_	_
 19	och	_	KN	KN	_	17	OO	_	_
 20	ägandelust	_	NN	NN	UTR|SIN|IND|NOM	19	CJ	_	_
@@ -20171,18 +20171,18 @@
 
 1	Familjen	_	NN	NN	UTR|SIN|DEF|NOM	2	SS	_	_
 2	blir	_	VB	VB	PRS|AKT	0	ROOT	_	_
-3	lätt	_	AB	AB	POS	2	MA	_	_
+3	lätt	_	JJ	JJ	POS	2	MA	_	_
 4	det	_	DT	DT	NEU|SIN|DEF	5	DT	_	_
 5	primära	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	2	SP	_	_
 6	,	_	MID	MID	_	2	IK	_	_
 7	samhället	_	NN	NN	NEU|SIN|DEF|NOM	8	SS	_	_
 8	kommer	_	VB	VB	PRS|AKT	2	MS	_	_
 9	i	_	PP	PP	_	8	RA	_	_
-10	andra	_	RO	RO	NOM	11	DT	_	_
+10	andra	_	JJ	JJ	NOM	11	DT	_	_
 11	rummet	_	NN	NN	NEU|SIN|DEF|NOM	9	PA	_	_
 12	;	_	MID	MID	_	2	IS	_	_
 13	förhållanden	_	NN	NN	NEU|PLU|IND|NOM	2	MS	_	_
-14	som	_	HP	HP	-|-|-	19	OO	_	_
+14	som	_	KN	KN	-|-|-	19	OO	_	_
 15	ett	_	DT	DT	NEU|SIN|IND	17	DT	_	_
 16	socialistiskt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	17	AT	_	_
 17	parti	_	NN	NN	NEU|SIN|IND|NOM	19	SS	_	_
@@ -20243,7 +20243,7 @@
 11	görs	_	VB	VB	PRS|SFO	0	ROOT	_	_
 12	inte	_	AB	AB	_	11	NA	_	_
 13	enbart	_	AB	AB	_	11	CA	_	_
-14	därför	_	HA	HA	_	11	AA	_	_
+14	därför	_	AB	AB	_	11	AA	_	_
 15	att	_	SN	SN	_	14	HD	_	_
 16	dessa	_	PN	PN	UTR/NEU|PLU|DEF|SUB/OBJ	17	SS	_	_
 17	skulle	_	VB	VB	PRT|AKT	14	UA	_	_
@@ -20253,7 +20253,7 @@
 21	hemmet	_	NN	NN	NEU|SIN|DEF|NOM	20	PA	_	_
 22	.	_	MAD	MAD	_	11	IP	_	_
 
-1	Bakom	_	AB	AB	_	2	RA	_	_
+1	Bakom	_	PP	PP	_	2	RA	_	_
 2	finns	_	VB	VB	PRS|SFO	0	ROOT	_	_
 3	med	_	PP	PP	_	2	MA	_	_
 4	all	_	DT	DT	UTR|SIN|IND/DEF	5	DT	_	_
@@ -20339,7 +20339,7 @@
 7	såväl	_	KN	KN	_	10	VA	_	_
 8	för	_	PP	PP	_	10	CJ	_	_
 9	varandra	_	PN	PN	UTR/NEU|PLU|DEF|OBJ	8	PA	_	_
-10	som	_	KN	KN	_	6	ET	_	_
+10	som	_	HP	HP	_	6	ET	_	_
 11	för	_	PP	PP	_	10	CJ	_	_
 12	barnen	_	NN	NN	NEU|PLU|DEF|NOM	11	PA	_	_
 13	.	_	MAD	MAD	_	2	IP	_	_
@@ -20363,7 +20363,7 @@
 3	är	_	VB	VB	PRS|AKT	13	MS	_	_
 4	av	_	PP	PP	_	3	AG	_	_
 5	Gud	_	PM	PM	NOM	4	PA	_	_
-6	instiftat	_	PC	PC	PRF|NEU|SIN|IND|NOM	3	SP	_	_
+6	instiftat	_	VB	VB	PRF|NEU|SIN|IND|NOM	3	SP	_	_
 7	'	_	PAD	PAD	_	3	JC	_	_
 8	heter	_	VB	VB	PRS|AKT	3	MA	_	_
 9	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	8	SS	_	_
@@ -20377,12 +20377,12 @@
 17	människor	_	NN	NN	UTR|PLU|IND|NOM	14	PA	_	_
 18	innebär	_	VB	VB	PRS|AKT	13	MS	_	_
 19	äktenskapets	_	NN	NN	NEU|SIN|DEF|GEN	20	DT	_	_
-20	ingående	_	NN	NN	NEU|SIN|IND|NOM	18	SS	_	_
+20	ingående	_	PC	PC	NEU|SIN|IND|NOM	18	SS	_	_
 21	ett	_	DT	DT	NEU|SIN|IND	26	DT	_	_
 22	allvarligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	23	CJ	_	_
 23	och	_	KN	KN	_	26	AT	_	_
 24	noga	_	AB	AB	_	25	AA	_	_
-25	övervägt	_	PC	PC	PRF|NEU|SIN|IND|NOM	23	CJ	_	_
+25	övervägt	_	AB	AB	PRF|NEU|SIN|IND|NOM	23	CJ	_	_
 26	ställningstagande	_	NN	NN	NEU|SIN|IND|NOM	18	OO	_	_
 27	.	_	MAD	MAD	_	13	IP	_	_
 
@@ -20402,7 +20402,7 @@
 
 1	Är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 2	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	1	SS	_	_
-3	fel	_	JJ	JJ	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	1	SP	_	_
+3	fel	_	PL	PL	POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	1	SP	_	_
 4	på	_	PP	PP	_	1	OA	_	_
 5	äktenskapet	_	NN	NN	NEU|SIN|DEF|NOM	4	PA	_	_
 6	?	_	MAD	MAD	_	1	I?	_	_
@@ -20498,7 +20498,7 @@
 6	övertygad	_	PC	PC	PRF|UTR|SIN|IND|NOM	4	SP	_	_
 7	om	_	PP	PP	_	4	OA	_	_
 8	att	_	SN	SN	_	7	PA	_	_
-9	den	_	DT	DT	UTR|SIN|DEF	14	DT	_	_
+9	den	_	PN	PN	UTR|SIN|DEF	14	DT	_	_
 10	för	_	PP	PP	_	13	OA	_	_
 11	alla	_	DT	DT	UTR/NEU|PLU|IND/DEF	12	DT	_	_
 12	parter	_	NN	NN	UTR|PLU|IND|NOM	10	PA	_	_
@@ -20563,7 +20563,7 @@
 18	,	_	MID	MID	_	12	IK	_	_
 19	sker	_	VB	VB	PRS|AKT	11	UA	_	_
 20	utan	_	PP	PP	_	19	AA	_	_
-21	att	_	SN	SN	_	20	PA	_	_
+21	att	_	IE	IE	_	20	PA	_	_
 22	parterna	_	NN	NN	UTR|PLU|DEF|NOM	23	SS	_	_
 23	gifter	_	VB	VB	PRS|AKT	21	UA	_	_
 24	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	23	OO	_	_
@@ -20575,7 +20575,7 @@
 4	antaganden	_	NN	NN	NEU|PLU|IND|NOM	3	OO	_	_
 5	.	_	MAD	MAD	_	2	IP	_	_
 
-1	De	_	PN	PN	UTR/NEU|PLU|DEF|SUB	3	DT	_	_
+1	De	_	DT	DT	UTR/NEU|PLU|DEF|SUB	3	DT	_	_
 2	troliga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	3	AT	_	_
 3	orsakerna	_	NN	NN	UTR|PLU|DEF|NOM	4	SS	_	_
 4	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
@@ -20587,7 +20587,7 @@
 
 1	Det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	FS	_	_
 2	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
-3	för	_	AB	AB	_	4	AA	_	_
+3	för	_	PP	PP	_	4	AA	_	_
 4	besvärligt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	2	SP	_	_
 5	att	_	IE	IE	_	2	ES	_	_
 6	gifta	_	VB	VB	INF|AKT	5	IF	_	_
@@ -20611,7 +20611,7 @@
 9	(	_	PAD	PAD	_	5	IR	_	_
 10	ofta	_	AB	AB	POS	13	TA	_	_
 11	bara	_	AB	AB	_	13	CA	_	_
-12	en	_	RG	RG	UTR|SIN|IND|NOM	13	DT	_	_
+12	en	_	DT	DT	UTR|SIN|IND|NOM	13	DT	_	_
 13	part	_	NN	NN	UTR|SIN|IND|NOM	1	AN	_	_
 14	)	_	PAD	PAD	_	5	JR	_	_
 15	.	_	MAD	MAD	_	2	IP	_	_
@@ -20641,7 +20641,7 @@
 7	direktiven	_	NN	NN	NEU|PLU|DEF|NOM	6	SS	_	_
 8	till	_	PP	PP	_	7	ET	_	_
 9	familjelagsakkunniga	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	8	PA	_	_
-10	att	_	SN	SN	_	6	OO	_	_
+10	att	_	IE	IE	_	6	OO	_	_
 11	vigsel	_	NN	NN	UTR|SIN|IND|NOM	14	SS	_	_
 12	icke	_	AB	AB	_	14	NA	_	_
 13	längre	_	AB	AB	KOM	14	TA	_	_
@@ -20667,15 +20667,15 @@
 15	momentet	_	NN	NN	NEU|SIN|DEF|NOM	12	OO	_	_
 16	vid	_	PP	PP	_	15	ET	_	_
 17	äktenskapets	_	NN	NN	NEU|SIN|DEF|GEN	18	DT	_	_
-18	ingående	_	NN	NN	NEU|SIN|IND|NOM	16	PA	_	_
+18	ingående	_	PC	PC	NEU|SIN|IND|NOM	16	PA	_	_
 19	.	_	MAD	MAD	_	3	IP	_	_
 
-1	Givetis	_	AB	AB	_	2	MA	_	_
+1	Givetis	_	PM	PM	_	2	MA	_	_
 2	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	sedan	_	AB	AB	_	2	TA	_	_
-4	var	_	PN	PN	UTR|SIN|IND|SUB/OBJ	2	SS	_	_
+4	var	_	VB	VB	UTR|SIN|IND|SUB/OBJ	2	SS	_	_
 5	och	_	KN	KN	_	4	HD	_	_
-6	en	_	PN	PN	UTR|SIN|IND|SUB/OBJ	4	HD	_	_
+6	en	_	DT	DT	UTR|SIN|IND|SUB/OBJ	4	HD	_	_
 7	efter	_	PP	PP	_	2	AA	_	_
 8	egen	_	JJ	JJ	POS|UTR|SIN|IND/DEF|NOM	9	DT	_	_
 9	vilja	_	NN	NN	UTR|SIN|IND|NOM	7	PA	_	_
@@ -20691,20 +20691,20 @@
 4	glömma	_	VB	VB	INF|AKT	3	VS	_	_
 5	bort	_	PL	PL	_	4	PL	_	_
 6	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
-7	det	_	DT	DT	NEU|SIN|DEF	9	DT	_	_
+7	det	_	PN	PN	NEU|SIN|DEF	9	DT	_	_
 8	personliga	_	JJ	JJ	POS|UTR/NEU|SIN|DEF|NOM	9	AT	_	_
 9	engagemanget	_	NN	NN	NEU|SIN|DEF|NOM	6	SP	_	_
 10	i	_	PP	PP	_	9	ET	_	_
 11	det	_	DT	DT	NEU|SIN|DEF	12	DT	_	_
 12	avtal	_	NN	NN	NEU|SIN|IND|NOM	10	PA	_	_
 13	som	_	HP	HP	-|-|-	16	OO	_	_
-14	äktenskaps	_	NN	NN	UTR|PLU|IND|GEN	15	DT	_	_
-15	ingående	_	NN	NN	NEU|SIN|IND|NOM	16	SS	_	_
+14	äktenskaps	_	PM	PM	UTR|PLU|IND|GEN	15	DT	_	_
+15	ingående	_	PC	PC	NEU|SIN|IND|NOM	16	SS	_	_
 16	medför	_	VB	VB	PRS|AKT	12	ET	_	_
 17	.	_	MAD	MAD	_	6	IP	_	_
 
 1	Om	_	SN	SN	_	20	AA	_	_
-2	någon	_	PN	PN	UTR|SIN|IND|SUB/OBJ	4	SS	_	_
+2	någon	_	DT	DT	UTR|SIN|IND|SUB/OBJ	4	SS	_	_
 3	'	_	PAD	PAD	_	4	IC	_	_
 4	gifter	_	VB	VB	PRS|AKT	1	UA	_	_
 5	sig	_	PN	PN	UTR/NEU|SIN/PLU|DEF|OBJ	4	OO	_	_
@@ -20746,18 +20746,18 @@
 8	vara	_	VB	VB	INF|AKT	6	VG	_	_
 9	en	_	DT	DT	UTR|SIN|IND	10	DT	_	_
 10	orimlighet	_	NN	NN	UTR|SIN|IND|NOM	8	SP	_	_
-11	att	_	SN	SN	_	8	ES	_	_
+11	att	_	IE	IE	_	8	ES	_	_
 12	ur	_	PP	PP	_	14	RA	_	_
 13	vigselformuläret	_	NN	NN	NEU|SIN|DEF|NOM	12	PA	_	_
 14	skulle	_	VB	VB	PRT|AKT	11	UA	_	_
 15	utgå	_	VB	VB	INF|AKT	14	VG	_	_
-16	:	_	MAD	MAD	_	15	IQ	_	_
+16	:	_	MID	MID	_	15	IQ	_	_
 17	'	_	PAD	PAD	_	15	IC	_	_
 18	förklarar	_	VB	VB	PRS|AKT	14	SS	_	_
 19	jag	_	PN	PN	UTR|SIN|DEF|SUB	18	SS	_	_
-20	Eder	_	PN	PN	UTR|PLU|DEF|OBJ	18	OO	_	_
-21	som	_	KN	KN	_	18	OP	_	_
-22	man	_	NN	NN	UTR|SIN|IND|NOM	23	CJ	_	_
+20	Eder	_	NN	NN	UTR|PLU|DEF|OBJ	18	OO	_	_
+21	som	_	HP	HP	_	18	OP	_	_
+22	man	_	PN	PN	UTR|SIN|IND|NOM	23	CJ	_	_
 23	och	_	KN	KN	_	21	UA	_	_
 24	hustru	_	NN	NN	UTR|SIN|IND|NOM	23	CJ	_	_
 25	'	_	PAD	PAD	_	18	IC	_	_
@@ -20771,7 +20771,7 @@
 6	hög	_	JJ	JJ	POS|UTR|SIN|IND|NOM	7	AT	_	_
 7	grad	_	NN	NN	UTR|SIN|IND|NOM	5	PA	_	_
 8	sakna	_	VB	VB	INF|AKT	4	VG	_	_
-9	berättigande	_	NN	NN	NEU|SIN|IND|NOM	8	OO	_	_
+9	berättigande	_	PC	PC	NEU|SIN|IND|NOM	8	OO	_	_
 10	och	_	KN	KN	_	0	ROOT	_	_
 11	bidraga	_	VB	VB	INF|AKT	10	+F	_	_
 12	till	_	PP	PP	_	11	OA	_	_
@@ -20779,7 +20779,7 @@
 14	formen	_	NN	NN	UTR|SIN|DEF|NOM	18	SS	_	_
 15	för	_	PP	PP	_	14	ET	_	_
 16	äktenskapets	_	NN	NN	NEU|SIN|DEF|GEN	17	DT	_	_
-17	ingående	_	NN	NN	NEU|SIN|IND|NOM	15	PA	_	_
+17	ingående	_	PC	PC	NEU|SIN|IND|NOM	15	PA	_	_
 18	reducerades	_	VB	VB	PRT|SFO	13	UA	_	_
 19	till	_	PP	PP	_	18	OA	_	_
 20	postandet	_	NN	NN	NEU|SIN|DEF|NOM	19	PA	_	_
@@ -20793,12 +20793,12 @@
 2	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	2	FS	_	_
 4	vara	_	VB	VB	INF|AKT	2	VG	_	_
-5	riktigt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	4	SP	_	_
+5	riktigt	_	AB	AB	POS|NEU|SIN|IND|NOM	4	SP	_	_
 6	att	_	SN	SN	_	4	ES	_	_
 7	man	_	PN	PN	UTR|SIN|IND|SUB	8	SS	_	_
 8	förenklar	_	VB	VB	PRS|AKT	6	UA	_	_
 9	äktenskapets	_	NN	NN	NEU|SIN|DEF|GEN	10	DT	_	_
-10	ingående	_	NN	NN	NEU|SIN|IND|NOM	8	OO	_	_
+10	ingående	_	PC	PC	NEU|SIN|IND|NOM	8	OO	_	_
 11	till	_	PP	PP	_	8	OA	_	_
 12	en	_	DT	DT	UTR|SIN|IND	15	DT	_	_
 13	juridiskt	_	AB	AB	POS	14	AA	_	_
@@ -20825,9 +20825,9 @@
 34	som	_	HP	HP	-|-|-	35	SS	_	_
 35	önskar	_	VB	VB	PRS|AKT	33	ET	_	_
 36	ett	_	DT	DT	NEU|SIN|IND	39	DT	_	_
-37	mindre	_	AB	AB	KOM	38	AA	_	_
+37	mindre	_	JJ	JJ	KOM	38	AA	_	_
 38	formellt	_	AB	AB	POS	39	AT	_	_
-39	ingående	_	NN	NN	NEU|SIN|IND|NOM	35	OO	_	_
+39	ingående	_	PC	PC	NEU|SIN|IND|NOM	35	OO	_	_
 40	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Ofta	_	AB	AB	POS	2	TA	_	_
@@ -20836,7 +20836,7 @@
 4	från	_	PP	PP	_	2	RA	_	_
 5	moderat	_	JJ	JJ	POS|UTR|SIN|IND|NOM	6	AT	_	_
 6	håll	_	NN	NN	NEU|SIN|IND|NOM	4	PA	_	_
-7	att	_	SN	SN	_	2	OO	_	_
+7	att	_	IE	IE	_	2	OO	_	_
 8	'	_	PAD	PAD	_	10	IC	_	_
 9	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	10	FS	_	_
 10	skall	_	VB	VB	PRS|AKT	7	UA	_	_
@@ -20854,7 +20854,7 @@
 4	heller	_	AB	AB	_	2	+A	_	_
 5	det	_	PN	PN	NEU|SIN|DEF|SUB/OBJ	6	SS	_	_
 6	är	_	VB	VB	PRS|AKT	2	OO	_	_
-7	riktigt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	6	SP	_	_
+7	riktigt	_	AB	AB	POS|NEU|SIN|IND|NOM	6	SP	_	_
 8	.	_	MAD	MAD	_	2	IP	_	_
 
 1	Om	_	SN	SN	_	11	AA	_	_
@@ -20876,7 +20876,7 @@
 17	i	_	PP	PP	_	19	AA	_	_
 18	onödan	_	NN	NN	UTR|SIN|IND|NOM	17	HD	_	_
 19	krångla	_	VB	VB	INF|AKT	15	IF	_	_
-20	till	_	PL	PL	_	19	PL	_	_
+20	till	_	PP	PP	_	19	PL	_	_
 21	proceduren	_	NN	NN	UTR|SIN|DEF|NOM	19	OO	_	_
 22	.	_	MAD	MAD	_	11	IP	_	_
 
@@ -20896,7 +20896,7 @@
 14	.	_	MAD	MAD	_	3	IP	_	_
 
 1	Den	_	DT	DT	UTR|SIN|DEF	3	DT	_	_
-2	andra	_	RO	RO	NOM	3	DT	_	_
+2	andra	_	JJ	JJ	NOM	3	DT	_	_
 3	orsaken	_	NN	NN	UTR|SIN|DEF|NOM	20	OO	_	_
 4	till	_	PP	PP	_	3	ET	_	_
 5	att	_	SN	SN	_	4	PA	_	_
@@ -20915,7 +20915,7 @@
 18	man	_	PN	PN	UTR|SIN|IND|SUB	17	SS	_	_
 19	knappast	_	AB	AB	SUV	17	NA	_	_
 20	komma	_	VB	VB	INF|AKT	17	VG	_	_
-21	åt	_	PL	PL	_	20	PL	_	_
+21	åt	_	PP	PP	_	20	PL	_	_
 22	lagstiftningsvägen	_	NN	NN	UTR|SIN|DEF|NOM	20	AA	_	_
 23	.	_	MAD	MAD	_	17	IP	_	_
 
@@ -21036,7 +21036,7 @@
 16	reglera	_	VB	VB	INF|AKT	15	IF	_	_
 17	förhållandena	_	NN	NN	NEU|PLU|DEF|NOM	16	OO	_	_
 18	familjemedlemmarna	_	NN	NN	UTR|PLU|DEF|NOM	19	PA	_	_
-19	emellan	_	PP	PP	_	17	ET	_	_
+19	emellan	_	AB	AB	_	17	ET	_	_
 20	och	_	KN	KN	_	10	ET	_	_
 21	som	_	HP	HP	-|-|-	23	SS	_	_
 22	juridiskt	_	AB	AB	POS	23	AA	_	_
@@ -21076,8 +21076,8 @@
 5	så	_	AB	AB	_	4	AA	_	_
 6	glömmer	_	VB	VB	PRS|AKT	1	ET	_	_
 7	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
-8	dels	_	KN	KN	_	15	VA	_	_
-9	att	_	SN	SN	_	15	CJ	_	_
+8	dels	_	NN	NN	_	15	VA	_	_
+9	att	_	IE	IE	_	15	CJ	_	_
 10	kärleken	_	NN	NN	UTR|SIN|DEF|NOM	13	SS	_	_
 11	inte	_	AB	AB	_	13	NA	_	_
 12	alltid	_	AB	AB	_	13	TA	_	_
@@ -21126,7 +21126,7 @@
 6	skett	_	VB	VB	SUP|AKT	2	VG	_	_
 7	i	_	PP	PP	_	6	AA	_	_
 8	den	_	DT	DT	UTR|SIN|DEF	9	DT	_	_
-9	avlidnes	_	PC	PC	PRF|MAS|SIN|DEF|GEN	10	DT	_	_
+9	avlidnes	_	JJ	JJ	PRF|MAS|SIN|DEF|GEN	10	DT	_	_
 10	namn	_	NN	NN	NEU|SIN|IND|NOM	7	PA	_	_
 11	,	_	MID	MID	_	12	IK	_	_
 12	och	_	KN	KN	_	0	ROOT	_	_
@@ -21149,10 +21149,10 @@
 29	.	_	MAD	MAD	_	15	IP	_	_
 
 1	Skulle	_	VB	VB	PRT|AKT	7	AA	_	_
-2	modern	_	NN	NN	UTR|SIN|DEF|NOM	1	SS	_	_
+2	modern	_	JJ	JJ	UTR|SIN|DEF|NOM	1	SS	_	_
 3	dö	_	VB	VB	INF|AKT	4	CJ	_	_
 4	och	_	KN	KN	_	1	VG	_	_
-5	efterlämna	_	VB	VB	INF|AKT	4	CJ	_	_
+5	efterlämna	_	JJ	JJ	INF|AKT	4	CJ	_	_
 6	barn	_	NN	NN	NEU|PLU|IND|NOM	5	OO	_	_
 7	har	_	VB	VB	PRS|AKT	0	ROOT	_	_
 8	fadern	_	NN	NN	UTR|SIN|DEF|NOM	7	SS	_	_
@@ -21225,7 +21225,7 @@
 2	är	_	VB	VB	PRS|AKT	0	ROOT	_	_
 3	märkvärdigt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	2	SP	_	_
 4	så	_	AB	AB	_	5	AA	_	_
-5	litet	_	AB	AB	POS	2	ES	_	_
+5	litet	_	JJ	JJ	POS	2	ES	_	_
 6	moderna	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	7	AT	_	_
 7	ungdomar	_	NN	NN	UTR|PLU|IND|NOM	8	SS	_	_
 8	vet	_	VB	VB	PRS|AKT	5	ET	_	_
@@ -21322,7 +21322,7 @@
 17	hon	_	PN	PN	UTR|SIN|DEF|SUB	20	SS	_	_
 18	i	_	PP	PP	_	20	AA	_	_
 19	verkligheten	_	NN	NN	UTR|SIN|DEF|NOM	18	PA	_	_
-20	sammanbor	_	VB	VB	PRS|AKT	15	UA	_	_
+20	sammanbor	_	NN	NN	PRS|AKT	15	UA	_	_
 21	med	_	PP	PP	_	20	OA	_	_
 22	barnets	_	NN	NN	NEU|SIN|DEF|GEN	23	DT	_	_
 23	far	_	NN	NN	UTR|SIN|IND|NOM	21	PA	_	_
@@ -21330,7 +21330,7 @@
 25	.	_	MAD	MAD	_	4	IP	_	_
 
 1	En	_	DT	DT	UTR|SIN|IND	2	DT	_	_
-2	studerandes	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|GEN	3	DT	_	_
+2	studerandes	_	NN	NN	PRS|UTR/NEU|SIN/PLU|IND/DEF|GEN	3	DT	_	_
 3	studiemedel	_	NN	NN	NEU|SIN|IND|NOM	4	SS	_	_
 4	behovsprövas	_	VB	VB	PRS|SFO	0	ROOT	_	_
 5	gentemot	_	PP	PP	_	4	AA	_	_
@@ -21339,7 +21339,7 @@
 8	,	_	MID	MID	_	4	IK	_	_
 9	inte	_	AB	AB	_	10	NA	_	_
 10	gentemot	_	PP	PP	_	4	+F	_	_
-11	sammanboendes	_	PC	PC	PRS|UTR/NEU|SIN/PLU|IND/DEF|GEN	10	PA	_	_
+11	sammanboendes	_	NN	NN	PRS|UTR/NEU|SIN/PLU|IND/DEF|GEN	10	PA	_	_
 12	.	_	MAD	MAD	_	4	IP	_	_
 
 1	Genom	_	PP	PP	_	6	AA	_	_
@@ -21348,9 +21348,9 @@
 4	skicklighet	_	NN	NN	UTR|SIN|IND|NOM	1	PA	_	_
 5	'	_	PAD	PAD	_	4	JC	_	_
 6	kan	_	VB	VB	PRS|AKT	0	ROOT	_	_
-7	de	_	PN	PN	UTR/NEU|PLU|DEF|SUB	6	SS	_	_
+7	de	_	DT	DT	UTR/NEU|PLU|DEF|SUB	6	SS	_	_
 8	få	_	VB	VB	INF|AKT	6	VG	_	_
-9	dubbelt	_	JJ	JJ	POS|NEU|SIN|IND|NOM	10	AT	_	_
+9	dubbelt	_	AB	AB	POS|NEU|SIN|IND|NOM	10	AT	_	_
 10	barntillägg	_	NN	NN	NEU|SIN|IND|NOM	8	OO	_	_
 11	.	_	MAD	MAD	_	6	IP	_	_
 
@@ -21367,7 +21367,7 @@
 11	högre	_	JJ	JJ	KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	12	AT	_	_
 12	grad	_	NN	NN	UTR|SIN|IND|NOM	9	PA	_	_
 13	än	_	KN	KN	_	12	ET	_	_
-14	om	_	SN	SN	_	13	UA	_	_
+14	om	_	PP	PP	_	13	UA	_	_
 15	föräldrarnas	_	NN	NN	UTR|PLU|DEF|GEN	16	DT	_	_
 16	inkomst	_	NN	NN	UTR|SIN|IND|NOM	17	SS	_	_
 17	läggs	_	VB	VB	PRS|SFO	14	UA	_	_
@@ -21407,8 +21407,8 @@
 14	åstadkomma	_	VB	VB	INF|AKT	13	VG	_	_
 15	sådana	_	JJ	JJ	POS|UTR/NEU|PLU|IND|NOM	16	DT	_	_
 16	kontrollmöjligheter	_	NN	NN	UTR|PLU|IND|NOM	14	OO	_	_
-17	att	_	SN	SN	_	16	ET	_	_
-18	ogifta	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	19	AT	_	_
+17	att	_	IE	IE	_	16	ET	_	_
+18	ogifta	_	VB	VB	POS|UTR/NEU|PLU|IND/DEF|NOM	19	AT	_	_
 19	familjer	_	NN	NN	UTR|PLU|IND|NOM	21	SS	_	_
 20	inte	_	AB	AB	_	21	NA	_	_
 21	får	_	VB	VB	PRS|AKT	17	UA	_	_
@@ -21443,7 +21443,7 @@
 10	vi	_	PN	PN	UTR|PLU|DEF|SUB	11	SS	_	_
 11	gör	_	VB	VB	PRS|AKT	9	MS	_	_
 12	dem	_	PN	PN	UTR/NEU|PLU|DEF|OBJ	11	OO	_	_
-13	urarva	_	JJ	JJ	POS|UTR/NEU|PLU|IND/DEF|NOM	11	OP	_	_
+13	urarva	_	VB	VB	POS|UTR/NEU|PLU|IND/DEF|NOM	11	OP	_	_
 14	.	_	MAD	MAD	_	9	IP	_	_
 
 1	Vi	_	PN	PN	UTR|PLU|DEF|SUB	2	SS	_	_
@@ -21454,7 +21454,7 @@
 6	skapa	_	VB	VB	INF|AKT	5	OO	_	_
 7	ett	_	DT	DT	NEU|SIN|IND	8	DT	_	_
 8	samhälle	_	NN	NN	NEU|SIN|IND|NOM	6	OO	_	_
-9	byggt	_	PC	PC	PRF|NEU|SIN|IND|NOM	8	PT	_	_
+9	byggt	_	VB	VB	PRF|NEU|SIN|IND|NOM	8	PT	_	_
 10	på	_	PP	PP	_	9	OA	_	_
 11	gemenskap	_	NN	NN	UTR|SIN|IND|NOM	10	PA	_	_
 12	människor	_	NN	NN	UTR|PLU|IND|NOM	13	PA	_	_
